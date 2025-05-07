@@ -82,5 +82,14 @@ _For more detailed policies, check with your university, funders, and specific j
 ___
 ## Sources
 
-
+*Funding OA FAQs | Open science | Springer Nature. url: https://www.springernature.com/gp/open-science/funding/faqs (Retrieved April 11, 2025).*
+*Funding open access checklist | Open science | Springer Nature. url:https://www.springernature.com/gp/open-science/funding/checklist (Retrieved April 11, 2025).*
+*Leeds Library. Open access explained. en. url: https://library.leeds.ac.uk/info/14061/open_access/8/open_access_explained/3 (Retrieved April 11, 2025).*
+*Open Access checklist - Leiden University. url: https://www.library.universiteitleiden.nl/researchers/open-access/oa-checklist (Retrieved April 11, 2025).*
+*Open Access checklist for UoE authors. en. Aug. 2024. url: https://library.ed.ac.uk/research-support/publish-research/open-access/open-access-checklist-for-uoe-authors (Retrieved April 11, 2025).*
+*Open Access Monitor | Open Access. url: https://www.openaccess.nl/en/about-open-access/open-access-monitor (Retrieved April 11, 2025).*
+*Open science - Uppsala University. en. text. May 2024. url: https://www.uu.se/en/library/publish/open-science (Retrieved April 11, 2025).*
+*Publish open access. en-GB. url: https://www.kth.se/en/biblioteket/publicera-analysera/vagledning-for-publicering/publicera-open-access-1.859196 (Retrieved April 11, 2025).*
+*Publishing support - Medarbetarwebben. en. text. url: https://medarbetare.su.se/en/research/your-research/publishing-support (Retrieved April 11, 2025).*
+*What is open access? | Open Access. url: https://www.openaccess.nl/en/about-open-access/what-is-open-access (Retrieved April 11, 2025).*
 
