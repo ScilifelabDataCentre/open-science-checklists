@@ -77,7 +77,7 @@ ___
 
 _For more detailed policies, check with your university, funders, and specific journals. Avoid predatory publishers by verifying journals through trusted sources. Always ensure that your publishing choices align with funder and institutional requirements. Remember that open access is one aspect of open science - ensure early integration of data management plans, persistent identifiers, responsible authorship, and sharing of data, code, and protocols to support compliance, transparency, and to make your publication process easier._
 
-**Examples and links in this checklist have been used as references and sources of inspiration to guide best practices in open access publishing. This checklist was developed using recognised open science policy guidelines and tools, and was reviewed in collaboration with SciLifeLab’s member universities to ensure relevance and accuracy. Full sources and acknowledgements are provided on the following page.**
+**Examples and links in this checklist have been used as references and sources of inspiration to guide best practices in open access publishing. This checklist was developed using recognised open science policy guidelines and tools, and is under review by SciLifeLab’s member universities to ensure relevance and accuracy. Full sources and acknowledgements are provided on the following page.**
 
 ___
 ## Sources
