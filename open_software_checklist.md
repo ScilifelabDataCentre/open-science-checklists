@@ -38,7 +38,7 @@ ___
 
 - [ ] **Use Version Control:** Manage releases using version control tools, preferably [Git](https://git-scm.com/), using clear version tags (e.g. v1.0, v2.1)
  
-- [ ] **Include Example Use Cases:** Provide example use cases via sample scripts or [Jupyter notebooks](https://jupyter.org/) (see n[otebook guidance](https://zenodo.org/records/5651648) on documenting your workflow). Include small  example datasets with your software to ensure others can test and reproduce your results. 
+- [ ] **Include Example Use Cases:** Provide example use cases via sample scripts or [Jupyter notebooks](https://jupyter.org/) (see [notebook guidance](https://zenodo.org/records/5651648) on documenting your workflow). Include small  example datasets with your software to ensure others can test and reproduce your results. 
 ___
 ## IMPROVE COMMUNITY ENGAGEMENT AND RECOGNITION 
 - [ ] **Add Repository Badges:** Include badges for citation (e.g., Zenodo DOI), license, build status, and community standards. 
@@ -57,7 +57,7 @@ ___
 ___
 
 ## SOURCES
-The Turing Way Community. (2022). The Turing Way: A handbook for reproducible, ethical and collaborative research. Zenodo. doi: 10.5281/zenodo.3233853 (Retrieved April 11, 2025).
+The Turing Way Community. (2022). The Turing Way: A handbook for reproducible, ethical and collaborative research. Zenodo. doi: [10.5281/zenodo.3233853](https://zenodo.org/records/7625728) (Retrieved April 11, 2025).
 
 Guides for researchers. Software Sustainability Institute. url: https://www.software.ac.uk/guide/guides-researchers (Retrieved April 11, 2025).
 
