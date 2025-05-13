@@ -7,7 +7,7 @@ ___
 ## FOLLOW DEVELOPMENT BEST PRACTICES
 - [ ] **Follow Code Formatting Standards:** Use linters and formatters to maintain clean, consistent code. Common examples include Black and Pylint (Python). For more, see The Turing Way’s [overview of static analysis tools](https://ttw-rtd.readthedocs.io/en/latest/reproducible-research/code-quality.html) by language.
 - [ ] **Write Modular & Documented Code:** Ensure usability and maintainability by following open standards and providing clear documentation.See language specific standards summarised in the [Netherlands eScience Center Guide](https://guide.esciencecenter.nl/#/), and documentation conventions in [The Turing Ways Code Documentation](https://book.the-turing-way.org/reproducible-research/code-documentation/code-documentation-code).
-- [ ] **Implement and Automate Software Testing:** Include unit tests, integration tests, and continuous testing to improve software reliability, using frameworks like [PyTest](https://docs.pytest.org/en/stable/), [Jest](https://jestjs.io/), or [Mocha](https://mochajs.org/). Use CI/CD tools like GitHub Actions and GitLab CI to streamline testing and deployment.
+- [ ] **Implement and Automate Software Testing:** Include unit tests and integration tests to improve software reliability, using frameworks like [PyTest](https://docs.pytest.org/en/stable/), [Jest](https://jestjs.io/), or [Mocha](https://mochajs.org/). Use CI/CD tools like GitHub Actions and GitLab CI to streamline testing and deployment.
 - [ ] **Manage Dependencies Wisely:** Use well-maintained libraries and avoid obsolete and redundant dependencies for long-term software sustainability. 
 ___
 ## MAKE YOUR SOFTWARE FINDABLE
