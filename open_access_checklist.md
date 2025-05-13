@@ -50,7 +50,7 @@ ___
 
 - [ ] **Enhance the discoverability** of your preprint by adding keywords, DOIs (via [Crossref](https://www.crossref.org/) or [DataCite](https://datacite.org/)), and links to help others find your work. 
 
-- [ ] **Use persistent identifiers** like ORCID (authors), ROR (affiliations), DOIs (publications, datasets, software), RRIDs (research resources, and protocols) to improve tracking and impact. 
+- [ ] **Use persistent identifiers** like [ORCID](https://orcid.org/) (authors), [ROR](https://ror.org/) (affiliations), [DOIs](https://www.doi.org/) (publications, datasets, software), [RRIDs](https://www.rrids.org/) (research resources, and protocols) to improve tracking and impact. 
 ___
 
 ## ENGAGE WITH OPEN PEER REVIEW AND THE COMMUNITY 
