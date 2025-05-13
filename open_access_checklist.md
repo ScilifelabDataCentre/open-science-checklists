@@ -82,7 +82,7 @@ _For more detailed policies, check with your university, funders, and specific j
 ___
 ## Sources
 
-*Funding OA FAQs | Open science | Springer Nature. url: https://www.springernature.com/gp/open-science/funding/faqs (Retrieved April 11, 2025).*
+*Funding OA FAQs | Open science | Springer Nature. url: https://www.springernature.com/gp/open-science/funding/faqs (Retrieved April 11, 2025).* 
 *Funding open access checklist | Open science | Springer Nature. url:https://www.springernature.com/gp/open-science/funding/checklist (Retrieved April 11, 2025).* 
 *Leeds Library. Open access explained. en. url: https://library.leeds.ac.uk/info/14061/open_access/8/open_access_explained/3 (Retrieved April 11, 2025).* 
 *Open Access checklist - Leiden University. url: https://www.library.universiteitleiden.nl/researchers/open-access/oa-checklist (Retrieved April 11, 2025).* 
