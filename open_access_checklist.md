@@ -12,7 +12,7 @@ This checklist is designed to guide you in making informed decisions about publi
 * **Diamond Open Access:** Journals and platforms are free for both authors and readers, removing financial barriers to access and publication, often supported by institutions or non-profits. 
 * **Hybrid Open Access:** Subscription-based journals offering an option for authors to pay an APC to make individual articles open access. 
 * **Bronze Open Access:** Articles are freely available but lack an open license, limiting reuse rights.
-* **Preprint:** A manuscript shared publicly before peer review, typically in repositories like arXiv or bioRxiv. 
+* **Preprint:** A manuscript shared publicly before peer review, typically in repositories like [arXiv](https://arxiv.org/) or [bioRxiv](https://www.biorxiv.org/). 
 * **Postprint (Author Accepted Manuscript, AAM):** The peer-reviewed version before publisher formatting, often deposited in repositories under Green OA. 
 ___
 
