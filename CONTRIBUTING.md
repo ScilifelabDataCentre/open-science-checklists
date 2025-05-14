@@ -7,9 +7,9 @@ Thanks for your interest in improving these checklists!
 ### 1. Open an Issue 
 For suggestions, errors, or comments, please [open an issue](https://github.com/ScilifelabDataCentre/open-science-checklists/issues).
 
-For example using one of the following tags:
+For example using one of the following labels:
 - `spelling` for typos or grammar
-- `factual` for scientific inaccuracies
+- `invalid` for scientific inaccuracies
 - `structure` for formatting or checklist logic
 - `enhancement` for suggesting new features
 
