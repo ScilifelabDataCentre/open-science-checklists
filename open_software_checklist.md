@@ -2,7 +2,7 @@
 This checklist provides essential steps for sharing and citing your research software. It covers everything from planning your software to ensuring others can find, understand, reuse, and contribute to your software, and how to ensure your work is credited.
 ---
 ## PLAN YOUR SOFTWARE
-- [ ] **Develop a Software Management Plan (SMP):** Outline contributors, project name, versioning, coding standards, dependencies, testing, and sustainability. Use the Software Sustainability Institute’s [SMP guide and template](https://www.software.ac.uk/news/software-management-plans), Netherlands eScience Centers [Practical Guide to SMPs](https://zenodo.org/records/7589725) or the [Data Stewardship Wizard](https://ds-wizard.org/) to create one.
+- [ ] **Develop a Software Management Plan (SMP):** Outline contributors, project name, versioning, coding standards, dependencies, testing, and sustainability. Use the Software Sustainability Institute’s [SMP guide and template](https://www.software.ac.uk/news/software-management-plans), Netherlands eScience Centers [Practical Guide to SMPs](https://zenodo.org/records/7589725) or the Data Stewardship Wizard ([SciLifeLab DSW](https://dsw.scilifelab.se/), [DSW](https://ds-wizard.org/)) to create one.
 ___
 ## FOLLOW DEVELOPMENT BEST PRACTICES
 - [ ] **Follow Code Formatting Standards:** Use linters and formatters to maintain clean, consistent code. Common examples include Black and Pylint (Python). For more, see The Turing Way’s [overview of static analysis tools](https://ttw-rtd.readthedocs.io/en/latest/reproducible-research/code-quality.html) by language.
