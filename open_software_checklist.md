@@ -57,17 +57,19 @@ ___
 ___
 
 ## SOURCES
-The Turing Way Community. (2022). The Turing Way: A handbook for reproducible, ethical and collaborative research. Zenodo. doi: [10.5281/zenodo.3233853](https://zenodo.org/records/7625728) (Retrieved April 11, 2025).
 
-Guides for researchers. Software Sustainability Institute. url: https://www.software.ac.uk/guide/guides-researchers (Retrieved April 11, 2025).
+*The Turing Way Community. (2022). The Turing Way: A handbook for reproducible, ethical and collaborative research. Zenodo. doi: [10.5281/zenodo.3233853](https://zenodo.org/records/7625728) (Retrieved April 11, 2025).*
 
-Jurriaan H. Spaaks and Jason Maassen. Netherlands Escience Center Soft-
-ware Sustainability Protocol. en. Oct. 2018. doi: 10.5281/ZENODO.1451750.
-url: https://zenodo.org/record/1451750 (Retrieved April 11, 2025).
+*Netherlands eScience Center, DANS. FAIR Research Software. url: [https://fair-software.nl/home](https://fair-software.nl/home) (Retrieved May 28, 2025).*
 
-Data and Code Availability Statements - Sample text – Social Science Data
-Editors Guidance. url: https://social-science-data-editors.github.io/guidance/Guidance/Requested_information_dcas.html (Retrieved April 11, 2025).
+*Spaaks, Jurriaan H. FAIR software checklist. en. url: [https://fairsoftwarechecklist.net/](https://fairsoftwarechecklist.net/) (Retrieved May 28, 2025).*
 
-Software Citation Principles (Published 2016) – FORCE11. url: https://force11.org/info/software-citation-principles-published-2016/ (Retrieved April 11, 2025).
+*Jurriaan H. Spaaks and Jason Maassen. Netherlands Escience Center Soft-ware Sustainability Protocol. en. Oct. 2018. doi: 10.5281/ZENODO.1451750. url: https://zenodo.org/record/1451750 (Retrieved April 11, 2025).*
 
-Data and Software for Authors. en. url: https://www.agu.org/publications/authors/journals/data-software-for-authors (Retrieved April 11, 2025).
+*Data and Code Availability Statements - Sample text – Social Science Data Editors Guidance. url: https://social-science-data-editors.github.io/guidance/Guidance/Requested_information_dcas.html (Retrieved April 11, 2025).*
+
+*Software Citation Principles (Published 2016) – FORCE11. url: https://force11.org/info/software-citation-principles-published-2016/ (Retrieved April 11, 2025).*
+
+*Guides for researchers. Software Sustainability Institute. url: https://www.software.ac.uk/guide/guides-researchers (Retrieved April 11, 2025).*
+
+*Data and Software for Authors. en. url: https://www.agu.org/publications/authors/journals/data-software-for-authors (Retrieved April 11, 2025).*
