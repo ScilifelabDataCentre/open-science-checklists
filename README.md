@@ -1,4 +1,6 @@
 
+<img src="assets/SciLifeLab_symbol_green.png" alt="SciLifeLab Symbol" width="60" align="right">
+
 # SciLifeLab Open Science Checklists
 These checklists are developed by the Open Science Team at SciLifeLab Sweden, in collaboration with partner universities and subject matter experts (internal and external)*, to support compliance with the FAIR principles when publishing articles and software.
 
