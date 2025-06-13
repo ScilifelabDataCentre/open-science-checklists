@@ -69,7 +69,14 @@
 - [ ] **Use Issue Tracking & Discussions:** Enable GitHub Issues, forums, or mailing lists to gather community feedback and improve software.
   > For further reading on best practices in open-source software, see The Turing Way. For a self-assessment tool, refer to fair-software.nl’s [Self-assessment for FAIR research software](https://fairsoftwarechecklist.net/v0.2/) interactive checklists.
 
-<CHECKABOVE FAIR SOFTWARE LINK THING>
+<!-- CHECK ABOVE FAIR SOFTWARE LINK THING -->
+
+## Contact and Contributions
+
+For questions about the SciLifeLab open science checklists, please contact [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se) with "Open Science" in the subject line.
+
+To contribute or suggest improvements, see our [Contributing Guide](https://github.com/ScilifelabDataCentre/open-science-checklists/blob/main/CONTRIBUTING.md).
+
 
 ---
 
