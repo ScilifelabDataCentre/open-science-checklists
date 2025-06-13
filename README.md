@@ -25,3 +25,9 @@ DOI: https://doi.org/10.17044/scilifelab.29086706
 DOI: https://doi.org/10.17044/scilifelab.29086775
 
 IFF referencing the development version on GitHub, you may also cite this repository using the included `CITATION.cff` file.
+
+## Contact
+
+For questions not covered by GitHub Issues or Discussions, please email [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se) 
+with "Open Science" in the subject line.
+
