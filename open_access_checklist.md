@@ -78,6 +78,7 @@ It covers key steps for choosing the right Open Access route, applying appropria
 - [ ] **Upload your preprint** to a preprint repository such as [bioRxiv](https://www.biorxiv.org/) or [arXiv](https://arxiv.org/). See a full [list of preprint servers](https://asapbio.org/preprint-servers) from [ASAPbio](https://asapbio.org/).
 
 - [ ] **Deposit your accepted manuscript** in a university or disciplinary repository (e.g., [Europe PMC](https://europepmc.org/)). Or if you do not have one, try [shareyourpaper.org](http://shareyourpaper.org/).
+- [ ] **Link all your research outputs to ORCiD** to increase the discoverability of your research. 
 
 ---
 
