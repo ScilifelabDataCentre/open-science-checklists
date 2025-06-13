@@ -1,15 +1,16 @@
 # Open Access Checklist
 
-This checklist is designed to guide you in making informed decisions about publishing your research Open Access. It covers key steps for choosing the right Open Access route, applying appropriate licenses, and ensuring compliance with institutional and funder policies.
+This checklist is designed to guide you in making informed decisions about publishing your research as openly as possible. 
+It covers key steps for choosing the right Open Access route, applying appropriate licenses, and ensuring compliance with institutional and funder policies.
 ---
 
 ## CHOOSE AN OPEN ACCESS ROUTE 
 
 - [ ] **Know the different open access publishing models and types:** 
 
-* **Green Open Access:** Authors deposit a version of their work in a repository, making it freely accessible, often after an embargo period (delayed access before your work can be openly published). 
-* **Gold Open Access:** Articles are published in open access journals or monographs, typically for a fee, Article Processing Charge (APC), and made immediately available. 
 * **Diamond Open Access:** Journals and platforms are free for both authors and readers, removing financial barriers to access and publication, often supported by institutions or non-profits. 
+* **Gold Open Access:** Articles are published in open access journals or monographs, typically for a fee, Article Processing Charge (APC), and made immediately available. 
+* **Green Open Access:** Authors deposit a version of their work in a repository, making it freely accessible, often after an embargo period (delayed access before your work can be openly published). 
 * **Hybrid Open Access:** Subscription-based journals offering an option for authors to pay an APC to make individual articles open access. 
 * **Bronze Open Access:** Articles are freely available but lack an open license, limiting reuse rights.
 * **Preprint:** A manuscript shared publicly before peer review, typically in repositories like [arXiv](https://arxiv.org/) or [bioRxiv](https://www.biorxiv.org/). 
