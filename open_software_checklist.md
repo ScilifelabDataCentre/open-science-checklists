@@ -1,4 +1,4 @@
-# Open Science Software Checklist
+# Open Software Checklist
 This checklist provides essential steps for sharing and citing your research software. It covers everything from planning your software to ensuring others can find, understand, reuse, and contribute to your software, and how to ensure your work is credited.
 ---
 ## PLAN YOUR SOFTWARE

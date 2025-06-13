@@ -21,7 +21,7 @@ These Checklists are licenced under [CC BY 4.0](https://creativecommons.org/lice
 * **SciLifeLab Open Access Checklist**  
 DOI: https://doi.org/10.17044/scilifelab.29086706
 
-* **SciLifeLab Open Science Software Checklist**  
+* **SciLifeLab Open Software Checklist**  
 DOI: https://doi.org/10.17044/scilifelab.29086775
 
 IFF referencing the development version on GitHub, you may also cite this repository using the included `CITATION.cff` file.
