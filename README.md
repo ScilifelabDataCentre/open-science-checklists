@@ -8,6 +8,16 @@ Please note that these checklists are in development and are <ins>intended to be
 
 <sub>*Checklists have been reviewed and contributed to by the SciLifeLab _Seshat_, _Berserkers_, _RDM_, and _Freya_ teams, as well as Stockholm University and the Netherlands eScience Center.</sub>
 
+## How to Use It 
+You can copy the checklist into your repository and check off each item as you address it:
+
+```md
+- [x] Example of a completed item  
+- [ ] Example of an incomplete item
+```
+
+Remember, you do not need to complete every item to benefit from it!
+
 ## Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
