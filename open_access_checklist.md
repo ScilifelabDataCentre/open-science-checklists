@@ -17,12 +17,11 @@ It covers key steps for choosing the right Open Access route, applying appropria
 * **Preprint:** A manuscript shared publicly before peer review, typically in repositories like [arXiv](https://arxiv.org/) or [bioRxiv](https://www.biorxiv.org/).
 * **Postprint (Author Accepted Manuscript, AAM):** The peer-reviewed version before publisher formatting, often deposited in repositories under Green OA.
 
----
 
-## DETERMINE A JOURNAL’S OPEN ACCESS POLICY
+>***To evaluate open access journals, use policy evaluation tools such as the [DOAJ](https://doaj.org/), [Journal Checker](https://journalcheckertool.org/), or the [Open Policy Finder](https://openpolicyfinder.jisc.ac.uk/). 
+For information about open access publishing agreements available to researchers affiliated with Swedish institutions, consult the [Open Access in Bibsam Agre­e­ments page](https://www.kb.se/samverkan-och-utveckling/oppen-tillgang-och-bibsamkonsortiet/open-access-and-bibsam-consortium/bibsam-consortium/open-access-in-bibsam-agreements.html) produced by the National Library of Sweden. 
+For guidance on how to manually assess journal policies, you can refer to resources such as the checklist available on Emory Libraries’ Evaluating the Quality of Open Access Journals page.***
 
-- [ ] **Use policy evaluation tools** such as the [DOAJ](https://doaj.org/), [Journal Checker](https://journalcheckertool.org/), or the [Open Policy Finder](https://openpolicyfinder.jisc.ac.uk/) to find or evaluate open access journals.
-- [ ] **Or manually check journal policies** using resources like [Emory University Libraries’ Open Access Journals checklist](https://libraries.emory.edu/research/open-access-publishing/understanding-oa/evaluating-oa-journals).
 
 ---
 
