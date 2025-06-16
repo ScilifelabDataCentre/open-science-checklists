@@ -101,7 +101,7 @@ To contribute or suggest improvements, see our [Contributing Guide](https://gith
 
 ---
 
-## Sources
+## SOURCES
 
 _Funding OA FAQs | Open science | Springer Nature. url: https://www.springernature.com/gp/open-science/funding/faqs (Retrieved April 11, 2025)._
 _Funding open access checklist | Open science | Springer Nature. url:https://www.springernature.com/gp/open-science/funding/checklist (Retrieved April 11, 2025)._
