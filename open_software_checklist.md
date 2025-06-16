@@ -66,7 +66,7 @@
 
 ## IMPROVE COMMUNITY ENGAGEMENT AND RECOGNITION
 
-- [ ] **Add Repository Badges:** Include badges for citation (e.g., Zenodo DOI), licence, build status, and community standards.
+- [ ] **Add Repository Badges:** Include badges for citation (e.g., Zenodo DOI), licence, build status, and community standards. You can create and customise badges via [shields.io](https://shields.io/).
 
 - [ ] **Establish a Code of Conduct:** Define expectations for community interactions using a CODE_OF_CONDUCT.md file (e.g., [Contributor Covenant](https://www.contributor-covenant.org/)), and include a contact method for reporting violations.
 
