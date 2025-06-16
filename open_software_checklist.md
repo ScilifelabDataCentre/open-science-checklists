@@ -22,7 +22,7 @@
 
 ## MAKE YOUR SOFTWARE FINDABLE
 
-- [ ] **Host Code in a Public Repository:** Host your code on [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.org/), or [CodeBerg](https://codeberg.org/) to improve reusability and collaboration.
+- [ ] **Host Code in a Public Repository:** Host your code on version-controlled platforms like [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.org/), or [CodeBerg](https://codeberg.org/) to improve reusability and collaboration.
 
 - [ ] **Assign a Persistent Identifier:** Ensure Long-Term Preservation and deposit software in repositories which provide permanent, citable links such as [Zenodo](https://zenodo.org/), [Software Heritage](https://www.softwareheritage.org/), or your local institutional repository (e.g., [SciLifeLab Data Repository](https://figshare.scilifelab.se/)).
 
@@ -58,7 +58,8 @@
 
 - [ ] **Choose an Open-Source Licence:** Select an appropriate licence ([MIT License](https://choosealicense.com/licenses/mit/), [Apache License](https://choosealicense.com/licenses/apache-2.0/), or [GPL License](https://choosealicense.com/licenses/gpl-3.0/)), e.g., using [Choose a License](https://choosealicense.com/).
 
-- [ ] **Use Version Control:** Manage releases using version control tools, preferably [Git](https://git-scm.com/), using clear version tags (e.g. v1.0, v2.1)
+- [ ] **Use a Clear Versioning Scheme:**  
+  Label official releases of software using a consistent versioning system, such as [Semantic Versioning (SemVer)](https://semver.org/): `major.minor.patch`
 
 - [ ] **Include Example Use Cases:** Provide example use cases via sample scripts or [Jupyter notebooks](https://jupyter.org/) (see [notebook guidance](https://zenodo.org/records/5651648) on documenting your workflow). Include small example datasets with your software to ensure others can test and reproduce your results.
 
