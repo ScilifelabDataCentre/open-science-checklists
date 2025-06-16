@@ -11,8 +11,11 @@
 ## FOLLOW DEVELOPMENT BEST PRACTICES
 
 - [ ] **Follow Code Formatting Standards:** Use linters and formatters to maintain clean, consistent code. Common examples include Black and Pylint (Python). For more, see The Turing Way’s [overview of static analysis tools](https://ttw-rtd.readthedocs.io/en/latest/reproducible-research/code-quality.html) by language.
+
 - [ ] **Write Modular & Documented Code:** Ensure usability and maintainability by following open standards and providing clear documentation.See language specific standards summarised in the [Netherlands eScience Center Guide](https://guide.esciencecenter.nl/#/), and documentation conventions in [The Turing Ways Code Documentation](https://book.the-turing-way.org/reproducible-research/code-documentation/code-documentation-code).
+
 - [ ] **Implement and Automate Software Testing:** Include unit tests and integration tests to improve software reliability, using frameworks like [PyTest](https://docs.pytest.org/en/stable/), [Jest](https://jestjs.io/), or [Mocha](https://mochajs.org/). Use CI/CD tools like GitHub Actions and GitLab CI to streamline testing and deployment.
+
 - [ ] **Manage Dependencies Wisely:** Use well-maintained libraries and avoid obsolete and redundant dependencies for long-term software sustainability.
 
 ---
@@ -20,22 +23,27 @@
 ## MAKE YOUR SOFTWARE FINDABLE
 
 - [ ] **Host Code in a Public Repository:** Host your code on [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.org/), or [CodeBerg](https://codeberg.org/) to improve reusability and collaboration.
+
 - [ ] **Assign a Persistent Identifier:** Ensure Long-Term Preservation and deposit software in repositories which provide permanent, citable links such as [Zenodo](https://zenodo.org/), [Software Heritage](https://www.softwareheritage.org/), or your local institutional repository (e.g., [SciLifeLab Data Repository](https://figshare.scilifelab.se/)).
+
 - [ ] **Provide Descriptive Metadata:** Include essential details such as title, authors, version, license, and DOI. You can generate a codemeta.json file using tools like the [CodeMeta generator](https://codemeta.github.io/codemeta-generator/), which can then be added to public and preservation repositories (e.g. GitHub, Zenodo). One such file can be seen [here](https://github.com/cboettig/codemeta/blob/master/codemeta.json).
+
 - [ ] **Cite Your Software in Publications:** Include a formal citation in the references section of the publication. For example using the following template inspired by [AGUs Software Citation Examples](https://www.agu.org/publications/authors/journals/data-software-for-authors):  
        _&lt;Author(s)/contributor(s) or project name(s)&gt;. (< Date published >). <Descriptive title / name of software>. <Software release/version> <Bracketed description type (e.g., [Software], [Collection], [ComputationalNotebook])>. <Repository name / Publication venue>. < DOI >._
       Note: The bracketed description allows the publishers/indexers to appropriately tag the citation so that it is indexed and counted.
+
 - [ ] **Mention Your Software in Publications:** Include a software availability statement in the body of the publication, describing where and how the software can be accessed. For example using the following adapted [AGUs Template](https://www.agu.org/publications/authors/journals/data-software-for-authors):  
        _&lt;Version number&gt; of the <software name> used for <brief context, description of what the software was used for> is preserved at <DOI, persistent identifier link>, available via <license type, access conditions> and developed openly at <software development platform link>. [Citation in References section]_
 
 - [ ] **Ensure Proper Credit:** Structure and collect contributor information early in a CITATION.cff file, and optionally using tools like [The Turing Way's Contributors Table](https://book.the-turing-way.org/community-handbook/acknowledgement/acknowledgement-record) in the README and a contributors.md file, or frameworks like [All Contributors](https://allcontributors.org/). Link each contributor to their [ORCID iD](https://orcid.org/). [Connect your ORCID to DataCite](https://transportation.libguides.com/persistent_identifiers/automatically_populate_orcid) and GitHub to automatically add your software to your ORCID record upon publication.
+
   > **_Unsure about this process? You can walk through the depositing, describing, and citing your software using Zenodo’s Sandbox (testing environment). You can follow the steps outlined on the [Documentation](https://help.zenodo.org/docs/deposit/create-new-upload/) page, which guides you through producing metadata for your project._**
 
 ---
 
 ## MAKE YOUR SOFTWARE ACCESSIBLE AND INTEROPERABLE
 
-- [ ] **Provide Documentation:** Create a README.md (e.g. using [readme.so](https://readme.so/)) with installation instructions, usage examples, required dependencies, contribution guidelines, and license information.
+- [ ] **Provide Documentation:** Create a README.md (e.g. using [readme.so](https://readme.so/)) with installation instructions, usage examples, required prerequisites, contribution guidelines, and license information.
 
 - [ ] **Use Package Managers:** Specify dependencies via [package managers](https://en.wikipedia.org/wiki/List_of_software_package_management_systems) (e.g., pip, npm, mamba) for better compatibility and reproducibility. Include a dependency file (e.g. requirements.txt, environment.yml, or package.json) to allow others to easily install the necessary packages. Consider adding a lock file to ensure exact versions are used across environments.
 
