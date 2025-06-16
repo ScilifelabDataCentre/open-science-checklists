@@ -1,7 +1,7 @@
 # Open Access Checklist
 
 This checklist is designed to guide you in making informed decisions about publishing your research as openly as possible.
-It covers key steps for choosing the right Open Access route, applying appropriate licenses, and ensuring compliance with institutional and funder policies.
+It covers key steps for choosing the right Open Access route, applying appropriate licences, and ensuring compliance with institutional and funder policies.
 
 ---
 
@@ -13,7 +13,7 @@ It covers key steps for choosing the right Open Access route, applying appropria
 * **Gold Open Access:** Articles are published in open access journals or monographs, typically for a fee, Article Processing Charge (APC), and made immediately available.
 * **Green Open Access:** Authors deposit a version of their work in a repository, making it freely accessible, often after an embargo period (delayed access before your work can be openly published).
 * **Hybrid Open Access:** Subscription-based journals offering an option for authors to pay an APC to make individual articles open access.
-* **Bronze Open Access:** Articles are freely available but lack an open license, limiting reuse rights.
+* **Bronze Open Access:** Articles are freely available but lack an open licence, limiting reuse rights.
 * **Preprint:** A manuscript shared publicly before peer review, typically in repositories like [arXiv](https://arxiv.org/) or [bioRxiv](https://www.biorxiv.org/).
 * **Postprint (Author Accepted Manuscript, AAM):** The peer-reviewed version before publisher formatting, often deposited in repositories under Green OA.
 
@@ -33,9 +33,9 @@ For guidance on how to manually assess journal policies, you can refer to resour
 
 ---
 
-## RETAIN YOUR RIGHTS AND SELECT A LICENSE
+## RETAIN YOUR RIGHTS AND SELECT A LICENCE
 **For all publishing routes:**
-- [ ] **Publish under a Creative Commons Attribution 4.0 Generic License** ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)) license to comply with most funder requirements and maximise reuse while ensuring attribution. CC BY 4.0 is among the most permissive licenses, unlike CC0, which does not require attribution. If you need a different license, use the Creative Commons [Choose a License](https://chooser-beta.creativecommons.org/) to find the best fit for your work.
+- [ ] **Publish under a Creative Commons Attribution 4.0 Generic License** ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)) to comply with most funder requirements and maximise reuse while ensuring attribution. CC BY 4.0 is among the most permissive licences, unlike CC0, which does not require attribution. If you need a different licence, use the Creative Commons [Choose a License](https://chooser-beta.creativecommons.org/) to find the best fit for your work.
 
 **For Green, Bronze and Hybrid publishing routes:**
 
@@ -93,7 +93,7 @@ _For more detailed policies, check with your university, funders, and specific j
 ---
 
 ## CONTACT AND CONTRIBUTIONS
-This checklist is licenced under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). DOI: https://doi.org/10.17044/scilifelab.29086775
+This checklist is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). DOI: https://doi.org/10.17044/scilifelab.29086775
 
 For questions about the SciLifeLab open science checklists, please contact [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se) with "Open Science" in the subject line.
 
