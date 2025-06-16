@@ -83,7 +83,7 @@
 
 ## CONTACT AND CONTRIBUTIONS
 
-This checklist is licenced under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). DOI: https://doi.org/10.17044/scilifelab.29086775
+This checklist is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). DOI: https://doi.org/10.17044/scilifelab.29086775
 
 For questions about the SciLifeLab open science checklists, please contact [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se) with "Open Science" in the subject line.
 

@@ -24,7 +24,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ## How to Cite this Resource
 
-These Checklists are licenced under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). 
+These Checklists are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). 
 
 **Official versions are archived on Figshare.** These may not reflect the most current updates due to the evolving nature of this resource. Please cite the specific checklist you used:
 
