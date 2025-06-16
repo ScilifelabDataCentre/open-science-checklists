@@ -60,7 +60,7 @@
 
 - [ ] **Use a Clear Versioning Scheme:** Label official releases of software using a consistent versioning system, such as [Semantic Versioning (SemVer)](https://semver.org/): `major.minor.patch`
 
-- [ ] **Include Example Use Cases:** Provide example use cases via sample scripts or [Jupyter notebooks](https://jupyter.org/) (see [notebook guidance](https://zenodo.org/records/5651648) on documenting your workflow). Include small example datasets with your software to ensure others can test and reproduce your results.
+- [ ] **Include Example Use Cases:** Provide example use cases via sample scripts or [Jupyter notebooks](https://jupyter.org/) (see [notebook guidance](https://zenodo.org/records/5651648) on documenting your workflow). Include small example datasets with your software to ensure others can test and reproduce your results. If including data in the repository is not feasible (e.g. due to size limits or policies), share it via platforms like [Zenodo](https://zenodo.org/) or reuse existing publicly available datasets.
 
 ---
 
