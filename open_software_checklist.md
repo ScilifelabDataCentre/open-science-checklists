@@ -26,14 +26,14 @@
 
 - [ ] **Assign a Persistent Identifier:** Ensure Long-Term Preservation and deposit software in repositories which provide permanent, citable links such as [Zenodo](https://zenodo.org/), [Software Heritage](https://www.softwareheritage.org/), or your local institutional repository (e.g., [SciLifeLab Data Repository](https://figshare.scilifelab.se/)).
 
-- [ ] **Provide Descriptive Metadata:** Include essential details such as title, authors, version, license, and DOI. You can generate a codemeta.json file using tools like the [CodeMeta generator](https://codemeta.github.io/codemeta-generator/), which can then be added to public and preservation repositories (e.g. GitHub, Zenodo). One such file can be seen [here](https://github.com/cboettig/codemeta/blob/master/codemeta.json).
+- [ ] **Provide Descriptive Metadata:** Include essential details such as title, authors, version, licence, and DOI. You can generate a codemeta.json file using tools like the [CodeMeta generator](https://codemeta.github.io/codemeta-generator/), which can then be added to public and preservation repositories (e.g. GitHub, Zenodo). One such file can be seen [here](https://github.com/cboettig/codemeta/blob/master/codemeta.json).
 
 - [ ] **Cite Your Software in Publications:** Include a formal citation in the References section of the publication. For example using the following template inspired by [AGUs Software Citation Examples](https://www.agu.org/publications/authors/journals/data-software-for-authors):  
        _< Author(s)/contributor(s) or project name(s) >. (< Date published >). < Descriptive title / name of software >. < Software release/version > < Bracketed description type (e.g., [Software], [Collection], [ComputationalNotebook]) >. < Repository name / Publication venue >. < DOI >._
       Note: The bracketed description allows the publishers/indexers to appropriately tag the citation so that it is indexed and counted.
 
 - [ ] **Mention Your Software in Publications:** Include a software availability statement in the body of the publication, describing where and how the software can be accessed. For example using the following adapted [AGUs Template](https://www.agu.org/publications/authors/journals/data-software-for-authors):  
-       _< Version number > of the < software name > used for < brief context, description of what the software was used for > is preserved at < DOI, persistent identifier link >, available via < license type, access conditions > and developed openly at < software development platform link >. [< Link to formal citation in References section >]_
+       _< Version number > of the < software name > used for < brief context, description of what the software was used for > is preserved at < DOI, persistent identifier link >, available via < licence type, access conditions > and developed openly at < software development platform link >. [< Link to formal citation in References section >]_
 
 - [ ] **Ensure Proper Credit:** Structure and collect contributor information early in a CITATION.cff file, and optionally using tools like [The Turing Way's Contributors Table](https://book.the-turing-way.org/community-handbook/acknowledgement/acknowledgement-record) in the README and a contributors.md file, or frameworks like [All Contributors](https://allcontributors.org/). Link each contributor to their [ORCID iD](https://orcid.org/). [Connect your ORCID to DataCite](https://transportation.libguides.com/persistent_identifiers/automatically_populate_orcid) and GitHub to automatically add your software to your ORCID record upon publication.
 
@@ -43,7 +43,7 @@
 
 ## MAKE YOUR SOFTWARE ACCESSIBLE AND INTEROPERABLE
 
-- [ ] **Provide Documentation:** Create a README.md (e.g. using [readme.so](https://readme.so/)) with installation instructions, usage examples, required prerequisites, contribution guidelines, and license information.
+- [ ] **Provide Documentation:** Create a README.md (e.g. using [readme.so](https://readme.so/)) with installation instructions, usage examples, required prerequisites, contribution guidelines, and licence information.
 
 - [ ] **Use Package Managers:** Specify dependencies via [package managers](https://en.wikipedia.org/wiki/List_of_software_package_management_systems) (e.g., pip, npm, mamba) for better compatibility and reproducibility. Include a dependency file (e.g. requirements.txt, environment.yml, or package.json) to allow others to easily install the necessary packages. Consider adding a lock file to ensure exact versions are used across environments.
 
@@ -56,7 +56,7 @@
 
 ## MAKE YOUR SOFTWARE REUSABLE
 
-- [ ] **Choose an Open-Source License:** Select an appropriate license ([MIT License](https://choosealicense.com/licenses/mit/), [Apache License](https://choosealicense.com/licenses/apache-2.0/), or [GPL License](https://choosealicense.com/licenses/gpl-3.0/)), e.g., using [Choose a License](https://choosealicense.com/).
+- [ ] **Choose an Open-Source Licence:** Select an appropriate licence ([MIT License](https://choosealicense.com/licenses/mit/), [Apache License](https://choosealicense.com/licenses/apache-2.0/), or [GPL License](https://choosealicense.com/licenses/gpl-3.0/)), e.g., using [Choose a License](https://choosealicense.com/).
 
 - [ ] **Use Version Control:** Manage releases using version control tools, preferably [Git](https://git-scm.com/), using clear version tags (e.g. v1.0, v2.1)
 
@@ -66,7 +66,7 @@
 
 ## IMPROVE COMMUNITY ENGAGEMENT AND RECOGNITION
 
-- [ ] **Add Repository Badges:** Include badges for citation (e.g., Zenodo DOI), license, build status, and community standards.
+- [ ] **Add Repository Badges:** Include badges for citation (e.g., Zenodo DOI), licence, build status, and community standards.
 
 - [ ] **Establish a Code of Conduct:** Define expectations for community interactions using a CODE_OF_CONDUCT.md file (e.g., [Contributor Covenant](https://www.contributor-covenant.org/)), and include a contact method for reporting violations.
 
