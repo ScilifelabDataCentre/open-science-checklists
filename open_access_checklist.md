@@ -55,7 +55,7 @@ For guidance on how to manually assess journal policies, you can refer to resour
 
 ## SHARE DATA/SOFTWARE, IMPROVE DISCOVERABILITY AND MEET COMPLIANCE
 
-- [ ] **Deposit underlying data and code in open repositories** (e.g., [SciLifeLab Data Repository](https://figshare.scilifelab.se/), [Zenodo](https://zenodo.org/)). See our open data and software checklists for guidance.
+- [ ] **Deposit underlying data and code in open repositories** (e.g., [SciLifeLab Data Repository](https://figshare.scilifelab.se/), [Zenodo](https://zenodo.org/)). See our [SciLifeLab Open Science Software Checklist](https://doi.org/10.17044/scilifelab.29086775.v1) for guidance.
 
 - [ ] **Enhance the discoverability** of your preprint by adding keywords, DOIs (via [Crossref](https://www.crossref.org/) or [DataCite](https://datacite.org/)), and links to help others find your work.
 
