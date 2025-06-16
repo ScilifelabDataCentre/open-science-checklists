@@ -58,8 +58,7 @@
 
 - [ ] **Choose an Open-Source Licence:** Select an appropriate licence ([MIT License](https://choosealicense.com/licenses/mit/), [Apache License](https://choosealicense.com/licenses/apache-2.0/), or [GPL License](https://choosealicense.com/licenses/gpl-3.0/)), e.g., using [Choose a License](https://choosealicense.com/).
 
-- [ ] **Use a Clear Versioning Scheme:**  
-  Label official releases of software using a consistent versioning system, such as [Semantic Versioning (SemVer)](https://semver.org/): `major.minor.patch`
+- [ ] **Use a Clear Versioning Scheme:** Label official releases of software using a consistent versioning system, such as [Semantic Versioning (SemVer)](https://semver.org/): `major.minor.patch`
 
 - [ ] **Include Example Use Cases:** Provide example use cases via sample scripts or [Jupyter notebooks](https://jupyter.org/) (see [notebook guidance](https://zenodo.org/records/5651648) on documenting your workflow). Include small example datasets with your software to ensure others can test and reproduce your results.
 
