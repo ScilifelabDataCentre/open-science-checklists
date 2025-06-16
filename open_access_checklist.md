@@ -43,8 +43,7 @@ For guidance on how to manually assess journal policies, you can refer to resour
 
 ## ALIGN OPEN ACCESS PLANS WITH CO-AUTHORS
 
-- [ ] **Agree on open access routes and APC funding** with all co-authors early to align on
-      publishing strategy and comply with funder and institutional policies.
+- [ ] **Agree on open access routes and APC funding** with all co-authors early to align on publishing strategy and comply with funder and institutional policies.
 
 ---
 
