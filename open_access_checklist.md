@@ -19,8 +19,7 @@ In addition to your peer-reviewed final publication, you can also share a prepri
 
 
 >***To evaluate open access journals, use policy evaluation tools such as the [DOAJ](https://doaj.org/), [Journal Checker](https://journalcheckertool.org/), or the [Open Policy Finder](https://openpolicyfinder.jisc.ac.uk/). 
-For information about open access publishing agreements available to researchers affiliated with Swedish institutions, consult the [Open Access in Bibsam Agre­e­ments page](https://www.kb.se/samverkan-och-utveckling/oppen-tillgang-och-bibsamkonsortiet/open-access-and-bibsam-consortium/bibsam-consortium/open-access-in-bibsam-agreements.html) produced by the National Library of Sweden. 
-For guidance on how to manually assess journal policies, you can refer to resources such as the checklist available on Emory Libraries’ Evaluating the Quality of Open Access Journals page.***
+For information about open access publishing agreements available to researchers affiliated with Swedish institutions, consult the [Open Access in Bibsam Agre­e­ments page](https://www.kb.se/samverkan-och-utveckling/oppen-tillgang-och-bibsamkonsortiet/open-access-and-bibsam-consortium/bibsam-consortium/open-access-in-bibsam-agreements.html) produced by the National Library of Sweden.***
 
 
 ---
