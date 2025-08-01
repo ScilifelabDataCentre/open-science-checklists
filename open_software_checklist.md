@@ -24,7 +24,7 @@
 
 ## MAKE YOUR SOFTWARE FINDABLE
 
-- [ ] **Host Code in a Public Repository:** Host your code on version-controlled platforms like [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.org/), or [CodeBerg](https://codeberg.org/) to track development, improve reusability and collaboration.
+- [ ] **Host Code in a Public Version-Controlled Repository:** Host your code on platforms like [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.org/), or [CodeBerg](https://codeberg.org/) to track development history, enable tagged versioned releases, improve reusability, and support collaboration.
 
 - [ ] **Archive and Assign a Persistent Identifier:**  Ensure long-term preservation by depositing a snapshot of a specific software release (e.g., v1.0.0) in repositories that assign a PID such as [Zenodo](https://zenodo.org/), [Software Heritage](https://www.softwareheritage.org/), or your local institutional repository (e.g., [SciLifeLab Data Repository](https://figshare.scilifelab.se/)). This complements hosting code in a public repository by providing a fixed reference that can be cited in publications and matched to data and results.
 
