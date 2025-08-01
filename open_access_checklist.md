@@ -27,7 +27,7 @@ For information about open access publishing agreements available to researchers
 ## CHECK INSTITUTIONAL AND FUNDER’S OPEN ACCESS POLICIES
 
 - [ ] **Check OA policies from funders and institutions** (e.g., [Swedish Research Council Horizon Europe](https://www.vr.se/english/applying-for-funding/requirements-terms-and-conditions/publishing-open-access.html)), as they may have specific requirements for OA publishing and the related costs. Tools like [Open Policy Finder](https://openpolicyfinder.jisc.ac.uk/) and [Journal Checker tool](https://journalcheckertool.org/) can be used for gathering information on publisher, institution and funder policies. Alternatively, find specific policies on your funder's and institution's websites. Find a summary of policies for SciLifeLab affiliated universities on the SciLifeLab RDM Guidelines webpage: [University RDM resources](https://data-guidelines.scilifelab.se/topics/university-rdm-resources/).
-- [ ] **Investigate APC funding**: Determine whether your local university provides funding for APCs or has agreements with journals that enable a better OA route. (Example: Uppsala University provides a [tool to search for the journals](https://search.scifree.se/uu) included in their open access agreements).
+- [ ] **Investigate APC funding**: Determine whether your local university provides funding for APCs or has agreements with journals that reduce, or remove APC costs. (Example: Uppsala University provides a [tool to search for the journals](https://search.scifree.se/uu) included in their open access agreements).
 - [ ] **Check if your university has an institutional repository** (e.g., [DiVA](https://www.diva-portal.org/)) for Green OA deposits.
 
 ---
@@ -77,14 +77,14 @@ For information about open access publishing agreements available to researchers
 
 ## CHECK SHARING CONDITIONS AND SHARE YOUR WORK
 
-- [ ] **Verify which version of your paper can be shared** (preprint, accepted manuscript, or published version).
+- [ ] **Check which version of your paper you can share**, such as the preprint, the accepted manuscript (Author Accepted Manuscript), or the final published version.
 
-- [ ] **Check for any embargo periods** (e.g., 6–24 months) before self-archiving.
+- [ ] **Check embargo periods** (e.g., 6–24 months) before uploading your article to a repository.
 
-- [ ] **Upload your preprint** to a preprint repository such as [bioRxiv](https://www.biorxiv.org/) or [arXiv](https://arxiv.org/). See a full [list of preprint servers](https://asapbio.org/preprint-servers) from [ASAPbio](https://asapbio.org/).
+- [ ] **Upload your preprint** to a preprint repository such as [bioRxiv](https://www.biorxiv.org/) or [arXiv](https://arxiv.org/). See a full [list of preprint servers from ASAPbio](https://asapbio.org/preprint-servers).
 
-- [ ] **Deposit your accepted manuscript** in a university or disciplinary repository (e.g., [Europe PMC](https://europepmc.org/)). Or if you do not have one, try [shareyourpaper.org](http://shareyourpaper.org/).
-- [ ] **Link all your research outputs to ORCiD** to increase the discoverability of your research. 
+- [ ] **Deposit your accepted manuscript** in a university or disciplinary repository (e.g., [Europe PMC](https://europepmc.org/)). If your institution doesn't have one, try [shareyourpaper.org](http://shareyourpaper.org/).
+- [ ] **Link all your research outputs to your ORCiD** to increase the discoverability of your research. 
 
 ---
 
