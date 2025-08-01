@@ -16,7 +16,6 @@
 
 - [ ] **Implement and Automate Software Testing:** Include unit tests and integration tests to improve software reliability, using frameworks like [PyTest](https://docs.pytest.org/en/stable/), [Jest](https://jestjs.io/), or [Mocha](https://mochajs.org/). Use CI/CD tools like GitHub Actions and GitLab CI to streamline testing and deployment.
 
-- [ ] **Manage Dependencies Wisely:** Use well-maintained libraries and avoid obsolete and redundant dependencies for long-term software sustainability.
 
 ---
 
@@ -50,7 +49,10 @@
 - [ ] **Containerise Your Software:** Use [Docker](https://www.docker.com/) or [Singularity](https://github.com/apptainer/singularity) to create consistent, portable environments. This ensures your software runs reliably across different systems thus improving reproducibility and simplifying deployment.
 
 - [ ] **Use Standard Open File Formats:** Use open formats and standards to enable compatibility with other tools. See [DANS’s File Formats Overview](https://dans.knaw.nl/en/file-formats/) for recommended formats for long-term access.
+
 - [ ] **Define Input/Output Schemas:** Use formats like [JSON Schema](https://json-schema.org/) to clearly describe the structure of your software’s inputs and outputs.
+
+- [ ] **Manage Dependencies Wisely:** Use well-maintained libraries and avoid obsolete and redundant dependencies for long-term software sustainability.
 
 ---
 
