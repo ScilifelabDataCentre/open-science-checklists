@@ -48,7 +48,7 @@ For information about open access publishing agreements available to researchers
 
 ## ALIGN OPEN ACCESS PLANS WITH CO-AUTHORS
 
-- [ ] **Agree on open access routes and APC funding** with all co-authors early to align on publishing strategy and comply with funder and institutional policies.
+- [ ] **Agree on open access routes and APC funding** with all co-authors early to align on a publishing strategy and comply with funder and institutional policies.
 - [ ] **Credit all authors and collaborators** and include clear citation information, such as a Cite-as file or citation statement.
 
 ---
