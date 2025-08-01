@@ -37,7 +37,7 @@
 - [ ] **Mention Your Software in Publications:** Include a software availability statement in the body of the publication, describing where and how the software can be accessed. For example using the following adapted [AGUs Template](https://www.agu.org/publications/authors/journals/data-software-for-authors):  
        _< Version number > of the < software name > used for < brief context, description of what the software was used for > is preserved at < DOI, persistent identifier link >, available via < licence type, access conditions > and developed openly at < software development platform link >. [< Link to formal citation in References section >]_
 
-- [ ] **Ensure Proper Credit:** Structure and collect contributor information early in a CITATION.cff file, and optionally using tools like [The Turing Way's Contributors Table](https://book.the-turing-way.org/community-handbook/acknowledgement/acknowledgement-record) in the README and a contributors.md file, or frameworks like [All Contributors](https://allcontributors.org/). Link each contributor to their [ORCID iD](https://orcid.org/). [Connect your ORCID to DataCite](https://transportation.libguides.com/persistent_identifiers/automatically_populate_orcid) and GitHub to automatically add your software to your ORCID record upon publication.
+- [ ] **Ensure Proper Credit:** Structure and collect contributor information early in a CITATION.cff file, and optionally using tools like [The Turing Way's Contributors Table](https://book.the-turing-way.org/community-handbook/acknowledgement/acknowledgement-record) in the `README.md` and a `contributors.md` file, or frameworks like [All Contributors](https://allcontributors.org/). Link each contributor to their [ORCID iD](https://orcid.org/). [Connect your ORCID to DataCite](https://transportation.libguides.com/persistent_identifiers/automatically_populate_orcid) and GitHub to automatically add your software to your ORCID record upon publication.
 
   > **_Unsure about this process? You can walk through the depositing, describing, and citing your software using Zenodo’s Sandbox (testing environment). You can follow the steps outlined on the [Documentation](https://help.zenodo.org/docs/deposit/create-new-upload/) page, which guides you through producing metadata for your project._**
 
@@ -45,9 +45,9 @@
 
 ## MAKE YOUR SOFTWARE ACCESSIBLE AND INTEROPERABLE
 
-- [ ] **Provide Documentation:** Create a README.md (e.g. using [readme.so](https://readme.so/)) with installation instructions, usage examples, required prerequisites, contribution guidelines, and licence information.
+- [ ] **Provide Documentation:** Create a `README.md` (e.g. using [readme.so](https://readme.so/)) with installation instructions, usage examples, required prerequisites, contribution guidelines, and licence information.
 
-- [ ] **Use Package Managers:** Specify dependencies via [package managers](https://en.wikipedia.org/wiki/List_of_software_package_management_systems) (e.g., pip, npm, mamba) for better compatibility and reproducibility. Include a dependency file (e.g. requirements.txt, environment.yml, or package.json) to allow others to easily install the necessary packages. Consider adding a lock file to ensure exact versions are used across environments.
+- [ ] **Use Package Managers:** Specify dependencies via [package managers](https://en.wikipedia.org/wiki/List_of_software_package_management_systems) (e.g., pip, npm, mamba) for better compatibility and reproducibility. Include a dependency file (e.g. `requirements.txt`, `environment.yml`, or `package.json`) to allow others to easily install the necessary packages. Consider adding a lock file to ensure exact versions are used across environments.
 
 - [ ] **Containerise Your Software:** Use [Docker](https://www.docker.com/) or [Singularity](https://github.com/apptainer/singularity) to create consistent, portable environments. This ensures your software runs reliably across different systems thus improving reproducibility and simplifying deployment.
 
@@ -73,9 +73,9 @@
 
 - [ ] **Add Repository Badges:** Include badges for citation (e.g., Zenodo DOI), licence, build status, and community standards. You can create and customise badges via [shields.io](https://shields.io/).
 
-- [ ] **Establish a Code of Conduct:** Define expectations for community interactions using a CODE_OF_CONDUCT.md file (e.g., [Contributor Covenant](https://www.contributor-covenant.org/)), and include a contact method for reporting violations.
+- [ ] **Establish a Code of Conduct:** Define expectations for community interactions using a `CODE_OF_CONDUCT.md` file (e.g., [Contributor Covenant](https://www.contributor-covenant.org/)), and include a contact method for reporting violations.
 
-- [ ] **Set Up Contributing Guidelines:** Create a CONTRIBUTING.md file to guide community contributions. Credit them according to “Ensure Proper Credit” above.
+- [ ] **Set Up Contributing Guidelines:** Create a `CONTRIBUTING.md` file to guide community contributions. Credit them according to “Ensure Proper Credit” above.
 
 - [ ] **Define Governance for Long-Term Maintenance:** Outline roles, responsibilities, and decision-making processes for sustaining your software project over time.
 
