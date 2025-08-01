@@ -9,13 +9,13 @@ It covers key steps for choosing the right Open Access route, applying appropria
 
 Publishing open access means your paper is freely accessible, but there are several routes with differing degrees of openness. Below is a summary of the main publishing models, ordered from most to least aligned with open science principles:
 
-* **Diamond Open Access:** Journals and platforms are free for both authors and readers, removing financial barriers to access and publication, often supported by institutions or non-profits.
-* **Gold Open Access:** Articles are published in open access journals or monographs, typically for a fee, Article Processing Charge (APC), and made immediately available.
-* **Green Open Access:** Authors deposit a version of their work in a repository, making it freely accessible, often after an embargo period (delayed access before your work can be openly published).
-* **Hybrid Open Access:** Subscription-based journals offering an option for authors to pay an APC to make individual articles open access.
-* **Bronze Open Access:** Articles are freely available but lack an open licence, limiting reuse rights.
-* **Preprint:** A manuscript shared publicly before peer review, typically in repositories like [arXiv](https://arxiv.org/) or [bioRxiv](https://www.biorxiv.org/).
-* **Postprint (Author Accepted Manuscript, AAM):** The peer-reviewed version before publisher formatting, often deposited in repositories under Green OA.
+* **Diamond Open Access:** Articles are published fully open with no fees for authors or readers, funded by institutions or public organisations.
+* **Gold Open Access:** Articles are published open immediately, with a reuse licence, usually funded by the author or organisation through a publication fee.
+* **Green Open Access:** Authors deposit a version of their work in a repository, making it freely accessible, often after an embargo period (a waiting time set by the publisher or journal before the article can be shared openly).
+* **Hybrid Open Access:** Subscription-based journals offering an option for authors to pay an article processing charge (APC) to make individual articles open access.
+
+In addition to your peer-reviewed final publication, you can also share a preprint, which is a version of your manuscript made publicly available before peer review, typically in repositories like [arXiv](https://arxiv.org/) or [bioRxiv](https://www.biorxiv.org/).
+
 
 
 >***To evaluate open access journals, use policy evaluation tools such as the [DOAJ](https://doaj.org/), [Journal Checker](https://journalcheckertool.org/), or the [Open Policy Finder](https://openpolicyfinder.jisc.ac.uk/). 
