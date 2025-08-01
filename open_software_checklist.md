@@ -24,9 +24,9 @@
 
 ## MAKE YOUR SOFTWARE FINDABLE
 
-- [ ] **Host Code in a Public Repository:** Host your code on version-controlled platforms like [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.org/), or [CodeBerg](https://codeberg.org/) to improve reusability and collaboration.
+- [ ] **Host Code in a Public Repository:** Host your code on version-controlled platforms like [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.org/), or [CodeBerg](https://codeberg.org/) to track development, improve reusability and collaboration.
 
-- [ ] **Assign a Persistent Identifier:** Ensure Long-Term Preservation and deposit software in repositories which provide permanent, citable links such as [Zenodo](https://zenodo.org/), [Software Heritage](https://www.softwareheritage.org/), or your local institutional repository (e.g., [SciLifeLab Data Repository](https://figshare.scilifelab.se/)).
+- [ ] **Archive and Assign a Persistent Identifier:**  Ensure long-term preservation by depositing a snapshot of a specific software release (e.g., v1.0.0) in repositories that assign a PID such as [Zenodo](https://zenodo.org/), [Software Heritage](https://www.softwareheritage.org/), or your local institutional repository (e.g., [SciLifeLab Data Repository](https://figshare.scilifelab.se/)). This complements hosting code in a public repository by providing a fixed reference that can be cited in publications and matched to data and results.
 
 - [ ] **Provide Descriptive Metadata:** Include essential details such as title, authors, version, licence, and DOI. You can generate a codemeta.json file using tools like the [CodeMeta generator](https://codemeta.github.io/codemeta-generator/), which can then be added to public and preservation repositories (e.g. GitHub, Zenodo). One such file can be seen [here](https://github.com/cboettig/codemeta/blob/master/codemeta.json).
 
