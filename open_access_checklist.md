@@ -63,18 +63,6 @@ For information about open access publishing agreements available to researchers
 
 ---
 
-## ENGAGE WITH OPEN PEER REVIEW AND THE COMMUNITY
-
-- [ ] **Choose open peer review**, if possible and the journal allows (e.g., [eLife](https://elifesciences.org/), [PREreview](https://prereview.org/)), to increase transparency in the review process.
-
-- [ ] **Engage in post-publication discussions** (e.g., [Medium](https://medium.com/), [PubPeer](https://pubpeer.com/)) to share insights and respond to feedback.
-
-
-
-- [ ] **Promote your work** via [social media](https://www.pnas.org/post/update/promoting-your-scholarly-research-social-media) preprint communities, and research networks.
-
----
-
 ## CHECK SHARING CONDITIONS AND SHARE YOUR WORK
 
 - [ ] **Check which version of your paper you can share**, such as the preprint, the accepted manuscript (Author Accepted Manuscript), or the final published version.
@@ -87,6 +75,16 @@ For information about open access publishing agreements available to researchers
 - [ ] **Link all your research outputs to your ORCiD** to increase the discoverability of your research. 
 
 ---
+## ENGAGE WITH OPEN PEER REVIEW AND THE COMMUNITY
+
+- [ ] **Choose open peer review**, if possible and the journal allows (e.g., [eLife](https://elifesciences.org/), [PREreview](https://prereview.org/)), to increase transparency in the review process.
+
+- [ ] **Engage in post-publication discussions** (e.g., [Medium](https://medium.com/), [PubPeer](https://pubpeer.com/)) to share insights and respond to feedback.
+
+- [ ] **Promote your work** via [social media](https://www.pnas.org/post/update/promoting-your-scholarly-research-social-media) preprint communities, and research networks.
+
+---
+
 
 _For more detailed policies, check with your university, funders, and specific journals. Avoid predatory publishers by verifying journals through trusted sources. Always ensure that your publishing choices align with funder and institutional requirements. Remember that open access is one aspect of open science - ensure early integration of data management plans, persistent identifiers, responsible authorship, and sharing of data, code, and protocols to support compliance, transparency, and to make your publication process easier._
 
