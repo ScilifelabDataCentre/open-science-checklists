@@ -9,10 +9,10 @@ It covers key steps for choosing the right Open Access route, applying appropria
 
 Publishing open access means your paper is freely accessible, but there are several routes with differing degrees of openness. Below is a summary of the main publishing models, ordered from most to least aligned with open science principles:
 
-* **Diamond Open Access:** Articles are published fully open with no fees for authors or readers, funded by institutions or public organisations.
-* **Gold Open Access:** Articles are published open immediately, with a reuse licence, usually funded by the author or organisation through a publication fee.
+* **Diamond Open Access:** Articles are made freely available immediately, with no fees for authors or readers. Costs are covered by institutions, libraries, or public organisations.
+* **Gold Open Access:** Articles are made freely available immediately upon publication. A publication fee, known as an Article Processing Charge (APC), is usually paid by the author, their institution, or funder to cover publishing costs.
 * **Green Open Access:** Authors deposit a version of their work in a repository, making it freely accessible, often after an embargo period (a waiting time set by the publisher or journal before the article can be shared openly).
-* **Hybrid Open Access:** Subscription-based journals offering an option for authors to pay an article processing charge (APC) to make individual articles open access.
+* **Hybrid Open Access:** Articles are published in subscription-based journals, but authors can choose to pay an APC to make their individual article open access.
 
 In addition to your peer-reviewed final publication, you can also share a preprint, which is a version of your manuscript made publicly available before peer review, typically in repositories like [arXiv](https://arxiv.org/) or [bioRxiv](https://www.biorxiv.org/).
 
@@ -103,6 +103,7 @@ To contribute or suggest improvements, see our [Contributing Guide](https://gith
 
 ## SOURCES
 
+_Data.europa.eu eLearning. “Module 4: Licensing data for reuse.” https://data.europa.eu/elearning/en/module4/#/id/co-01 (Retrieved August 1, 2025)._
 _Funding OA FAQs | Open science | Springer Nature. url: https://www.springernature.com/gp/open-science/funding/faqs (Retrieved April 11, 2025)._
 _Funding open access checklist | Open science | Springer Nature. url:https://www.springernature.com/gp/open-science/funding/checklist (Retrieved April 11, 2025)._
 _Leeds Library. Open access explained. en. url: https://library.leeds.ac.uk/info/14061/open_access/8/open_access_explained/3 (Retrieved April 11, 2025)._
