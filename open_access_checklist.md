@@ -7,7 +7,7 @@ It covers key steps for choosing the right Open Access route, applying appropria
 
 ## CHOOSE AN OPEN ACCESS ROUTE
 
-- [ ] **Know the different open access publishing models and types:**
+Publishing open access means your paper is freely accessible, but there are several routes with differing degrees of openness. Below is a summary of the main publishing models, ordered from most to least aligned with open science principles:
 
 * **Diamond Open Access:** Journals and platforms are free for both authors and readers, removing financial barriers to access and publication, often supported by institutions or non-profits.
 * **Gold Open Access:** Articles are published in open access journals or monographs, typically for a fee, Article Processing Charge (APC), and made immediately available.
