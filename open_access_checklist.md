@@ -55,7 +55,7 @@ For information about open access publishing agreements available to researchers
 
 ## SHARE DATA/SOFTWARE, IMPROVE DISCOVERABILITY AND MEET COMPLIANCE
 
-- [ ] **Deposit underlying data and code in open repositories** (e.g., [SciLifeLab Data Repository](https://figshare.scilifelab.se/), [Zenodo](https://zenodo.org/)). See our [SciLifeLab Open Science Software Checklist](https://doi.org/10.17044/scilifelab.29086775.v1) for guidance.
+- [ ] **Deposit  data and code in open repositories** (e.g., [SciLifeLab Data Repository](https://figshare.scilifelab.se/), [Zenodo](https://zenodo.org/)). See our [SciLifeLab Open Science Software Checklist](https://doi.org/10.17044/scilifelab.29086775.v1) for guidance.
 
 - [ ] **Enhance the discoverability** of your preprint by adding keywords, DOIs (via [Crossref](https://www.crossref.org/) or [DataCite](https://datacite.org/)), and links to help others find your work.
 
@@ -65,9 +65,11 @@ For information about open access publishing agreements available to researchers
 
 ## ENGAGE WITH OPEN PEER REVIEW AND THE COMMUNITY
 
-- [ ] **Opt for open peer review**, if possible and the journal allows (e.g., [eLife](https://elifesciences.org/), [PREreview](https://prereview.org/)).
+- [ ] **Choose open peer review**, if possible and the journal allows (e.g., [eLife](https://elifesciences.org/), [PREreview](https://prereview.org/)), to increase transparency in the review process.
 
-- [ ] **Engage in post-publication discussions** (e.g., [Medium](https://medium.com/), [PubPeer](https://pubpeer.com/)) to enhance transparency and impact.
+- [ ] **Engage in post-publication discussions** (e.g., [Medium](https://medium.com/), [PubPeer](https://pubpeer.com/)) to share insights and respond to feedback.
+
+
 
 - [ ] **Promote your work** via [social media](https://www.pnas.org/post/update/promoting-your-scholarly-research-social-media) preprint communities, and research networks.
 
