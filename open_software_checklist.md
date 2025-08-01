@@ -51,7 +51,7 @@
 
 - [ ] **Use Package Managers:** Specify dependencies via [package managers](https://en.wikipedia.org/wiki/List_of_software_package_management_systems) (e.g., pip, npm, mamba) for better compatibility and reproducibility. Include a dependency file (e.g. `requirements.txt`, `environment.yml`, or `package.json`) to allow others to easily install the necessary packages. Consider adding a lock file to ensure exact versions are used across environments.
 
-- [ ] **Containerise Your Software:** Use [Docker](https://www.docker.com/) or [Singularity](https://github.com/apptainer/singularity) to create consistent, portable environments. This ensures your software runs reliably across different systems thus improving reproducibility and simplifying deployment.
+- [ ] **Containerise Your Software:** Provide instructions to create consistent, portable environments using [Docker](https://www.docker.com/) or [Singularity](https://github.com/apptainer/singularity), by including a Dockerfile or equivalent build instructions. This improves transparency and ensures your software runs reliably across different systems, thus enhancing reproducibility and simplifying deployment.
 
 - [ ] **Use Standard Open File Formats:** Use open formats and standards to enable compatibility with other tools. See [DANS’s File Formats Overview](https://dans.knaw.nl/en/file-formats/) for recommended formats for long-term access.
 
