@@ -28,7 +28,7 @@ For information about open access publishing agreements available to researchers
 
 - [ ] **Check OA policies from funders and institutions** (e.g., [Swedish Research Council Horizon Europe](https://www.vr.se/english/applying-for-funding/requirements-terms-and-conditions/publishing-open-access.html)), as they may have specific requirements for OA publishing and the related costs. Tools like [Open Policy Finder](https://openpolicyfinder.jisc.ac.uk/) and [Journal Checker tool](https://journalcheckertool.org/) can be used for gathering information on publisher, institution and funder policies. Alternatively, find specific policies on your funder's and institution's websites. Find a summary of policies for SciLifeLab affiliated universities on the SciLifeLab RDM Guidelines webpage: [University RDM resources](https://data-guidelines.scilifelab.se/topics/university-rdm-resources/).
 - [ ] **Investigate APC funding**: Determine whether your local university provides funding for APCs or has agreements with journals that enable a better OA route. (Example: Uppsala University provides a [tool to search for the journals](https://search.scifree.se/uu) included in their open access agreements).
-- [ ] **Check if your university has an institutional repository** (e.g., [DiVA](https://www.diva-portal.org/smash/search.jsf?dswid=6909)) for Green OA deposits.
+- [ ] **Check if your university has an institutional repository** (e.g., [DiVA](https://www.diva-portal.org/)) for Green OA deposits.
 
 ---
 
