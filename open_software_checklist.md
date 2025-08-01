@@ -81,8 +81,9 @@
 
 - [ ] **Define Governance for Long-Term Maintenance:** Outline roles, responsibilities, and decision-making processes for sustaining your software project over time.
 
-- [ ] **Use Issue Tracking & Discussions:** Enable GitHub Issues, forums, or mailing lists to gather community feedback and improve software.
-  > For further reading on best practices in open-source software, see The Turing Way. For a self-assessment tool, refer to fair-software.nl’s [Self-assessment for FAIR research software](https://fairsoftwarechecklist.net/v0.2/) interactive checklists.
+- [ ] **Use Issue Tracking & Discussions:** Enable GitHub Issues, forums, or mailing lists to gather community feedback and improve software. Consider building a backlog with clearly identified “Starter Issues” to help new contributors find small, manageable issues to start on.
+
+> For further reading on best practices in open-source software, see The Turing Way. For a self-assessment tool, refer to fair-software.nl’s [Self-assessment for FAIR research software](https://fairsoftwarechecklist.net/v0.2/) interactive checklists.
 
 <!-- CHECK ABOVE FAIR SOFTWARE LINK THING -->
 
