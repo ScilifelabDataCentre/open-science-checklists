@@ -33,15 +33,15 @@ For information about open access publishing agreements available to researchers
 ---
 
 ## RETAIN YOUR RIGHTS AND SELECT A LICENCE
-**For all publishing routes:**
-- [ ] **Publish under a Creative Commons Attribution 4.0 Generic License** ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)) to comply with most funder requirements and maximise reuse while ensuring attribution. CC BY 4.0 is among the most permissive licences, unlike CC0, which does not require attribution. If you need a different licence, use the Creative Commons [Choose a License](https://chooser-beta.creativecommons.org/) to find the best fit for your work.
+- [ ] **Choose a license for your publications, data, and creative works** using the [Creative Commons 'Choose a License'](https://chooser-beta.creativecommons.org/) tool.
+- [ ] **Choose a license for your software or code** using the [Choose an open source license](https://choosealicense.com/) tool to select a suitable open source license such as MIT, Apache, or GPL.
 
 **For publishing routes other than Diamond or Gold, and for collaborations with organisations outside Sweden:**
 
 - [ ] **Add a Rights Retention Statement (RRS) to your manuscript** to retain the right to share your peer-reviewed research openly without embargo and to comply with funder or institutional open access policies. See an [example RRS from the University of Melbourne Library](https://library.unimelb.edu.au/open-scholarship/rights-retention).
 
 
-- [ ] **If needed, use an author addendum**. In most cases within Sweden/Europe, an RRS is sufficient due to funder policies. However, if the publisher’s agreement is restrictive, or you are collaborating with authors outside of these regions, consider attaching an author addendum (e.g., [SPARC Author Addendum](https://sparcopen.org/our-work/author-rights/)) to ensure you retain your rights. Contact your university library for assistance.
+- [ ] **Use an author addendum, if needed**. In most cases within Sweden/Europe, an RRS is sufficient due to funder policies. However, if the publisher’s agreement is restrictive, or you are collaborating with authors outside of these regions, consider attaching an author addendum (e.g., [SPARC Author Addendum](https://sparcopen.org/our-work/author-rights/)) to ensure you retain your rights. Contact your university library for assistance.
 
 
 ---
