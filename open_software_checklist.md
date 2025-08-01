@@ -39,6 +39,8 @@
 
 - [ ] **Ensure Proper Credit:** Identify all contributors early, record their roles, and link their [ORCID iDs](https://orcid.org/) to ensure they are properly credited in citations and records. Use formats such as a `CITATION.cff`, a contributors table in your `README.md` (e.g., [The Turing Way's Contributors Table](https://book.the-turing-way.org/community-handbook/acknowledgement/acknowledgement-record)), or frameworks like [All Contributors](https://allcontributors.org/) to structure this information.
 
+- [ ] **Link ORCID to DataCite and GitHub:** [Connect your ORCID to DataCite](https://transportation.libguides.com/persistent_identifiers/automatically_populate_orcid) and GitHub to automatically add your software to your ORCID record upon publication.
+
   > **_Unsure about this process? You can walk through the depositing, describing, and citing your software using Zenodo’s Sandbox (testing environment). You can follow the steps outlined on the [Documentation](https://help.zenodo.org/docs/deposit/create-new-upload/) page, which guides you through producing metadata for your project._**
 
 ---
