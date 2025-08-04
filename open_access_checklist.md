@@ -52,6 +52,14 @@ For information about open access publishing agreements available to researchers
 
 ---
 
+## SHARE DATA AND SOFTWARE
+- [ ] **Create a Data Management Plan (DMP)** to outline how data will be collected, stored, shared, and preserved. 
+- [ ] **Create a Software Management Plan (SMP)** which outlines contributors, project name, versioning, coding standards, dependencies, testing, and sustainability. Use the Software Sustainability Institute's [SMP guide and template](https://www.software.ac.uk/news/software-management-plans), Netherlands eScience Centers [Practical Guide to SMPs](https://zenodo.org/records/7589725) or the [Software Management Wizard (SMW)](https://smw.dsw.elixir-europe.org/wizard/) to create one. See our [SciLifeLab Open Science Software Checklist](https://doi.org/10.17044/scilifelab.29086775.v1) for guidance.
+- [ ] **Deposit  data and code in open repositories** (e.g., [SciLifeLab Data Repository](https://figshare.scilifelab.se/), [Zenodo](https://zenodo.org/)).  If you are publishing data or creative works on the SciLifeLab Data Repository, follow the [SciLifeLab Data Repository Submission Guidelines](https://www.scilifelab.se/data/repository/submission/#authors).
+- [ ] **Reference your data and software** with a clear data availability statement so others can find, access, and reuse it. The [AGU Templates](https://www.agu.org/publications/authors/journals/data-software-for-authors) provide a resource of what should be included in an availability statement.
+
+---
+
 ## CHECK SHARING CONDITIONS AND SHARE YOUR WORK
 
 - [ ] **Check which version of your paper you can share**, such as the preprint, the accepted manuscript (Author Accepted Manuscript), or the final published version.
