@@ -45,20 +45,9 @@ For information about open access publishing agreements available to researchers
 
 
 ---
-
-## ALIGN OPEN ACCESS PLANS WITH CO-AUTHORS
-
-- [ ] **Agree on open access routes and APC funding** with all co-authors early to align on a publishing strategy and comply with funder and institutional policies.
-- [ ] **Credit all authors and collaborators** and include clear citation information, such as a Cite-as file or citation statement.
-
----
-
-## SHARE DATA/SOFTWARE, IMPROVE DISCOVERABILITY AND MEET COMPLIANCE
-
-- [ ] **Deposit  data and code in open repositories** (e.g., [SciLifeLab Data Repository](https://figshare.scilifelab.se/), [Zenodo](https://zenodo.org/)). See our [SciLifeLab Open Science Software Checklist](https://doi.org/10.17044/scilifelab.29086775.v1) for guidance.
-
-- [ ] **Enhance the discoverability** of your preprint by adding keywords, DOIs (via [Crossref](https://www.crossref.org/) or [DataCite](https://datacite.org/)), and links to help others find your work.
-
+## ENSURE YOUR WORK IS CITABLE AND FINDABLE 
+- [ ] **Provide descriptive metadata** which includes essential details such as title, authors, version, licence, keywords and DOI.
+- [ ] **Ensure proper credit** by identifying all contributors early, record their roles, and link their [ORCID iDs](https://orcid.org/) to ensure they are properly credited in citations and records. Use formats such as a `CITATION.cff`, a contributors table in your `README.md` (e.g., [The Turing Way's Contributors Table](https://book.the-turing-way.org/community-handbook/acknowledgement/acknowledgement-record)), or frameworks like [All Contributors](https://allcontributors.org/) to structure this information.
 - [ ] **Use persistent identifiers** like [ORCID](https://orcid.org/) (authors), [ROR](https://ror.org/) (affiliations), [DOIs](https://www.doi.org/) (publications, datasets, software), [RRIDs](https://www.rrids.org/) (research resources, and protocols) to improve tracking and impact.
 
 ---
