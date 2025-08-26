@@ -20,7 +20,7 @@
        _< Author(s)/contributor(s) or project name(s) >. (< Date published >). < Descriptive title / name of software >. < Software release/version > < Bracketed description type (e.g., [Software], [Collection], [ComputationalNotebook]) >. < Repository name / Publication venue >. < DOI >._
       Note: The bracketed description allows the publishers/indexers to appropriately tag the citation so that it is indexed and counted. 
 
-- [ ] **Mention Your Software in Publications:** Include a software availability statement in the body of the publication, describing where and how the software can be accessed. For example using the following adapted [AGUs Template](https://www.agu.org/publications/authors/journals/data-software-for-authors):  
+- [ ] **Declare Software Availability in Publications:** Include a software availability statement in the body of the publication, describing where and how the software can be accessed. For example using the following adapted [AGUs Template](https://www.agu.org/publications/authors/journals/data-software-for-authors):  
        _< Version number > of the < software name > used for < brief context, description of what the software was used for > is preserved at < DOI, persistent identifier link >, available via < licence type, access conditions > and developed openly at < software development platform link >. [< Link to formal citation in References section >]_
 
   > **_Unsure about this process? You can walk through the depositing, describing, and citing your software using Zenodo’s Sandbox (testing environment). You can follow the steps outlined on the [Documentation](https://help.zenodo.org/docs/deposit/create-new-upload/) page, which guides you through producing metadata for your project._**
