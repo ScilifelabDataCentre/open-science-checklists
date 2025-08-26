@@ -8,21 +8,7 @@
 
 ---
 
-## FOLLOW DEVELOPMENT BEST PRACTICES
-
-- [ ] **Use Descriptive Names:** Choose consistent and descriptive names for variables, functions to make code easy to read and understand. See [The Turing Way Guidelines for Code Styling](https://book.the-turing-way.org/project-design/info-management/code-styling/code-styling-guidelines) 
-
-- [ ] **Follow Code Formatting Standards:** Use recognised open standards, style guides, linters, and formatters to keep code clean and consistent. Common examples include Black and Pylint (Python). See the [Netherlands eScience Center Guide](https://guide.esciencecenter.nl/#/) for language-specific examples and [The Turing Way’s overview of static analysis tools](https://book.the-turing-way.org/reproducible-research/code-quality) for formatter options.
-
-- [ ] **Write Clear Documentation:** Provide concise instructions, usage examples, and inline comments to help others understand and use the code. See [CodeRefinerys Modular Code Development lesson](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md/#1) for more information.
-
-- [ ] **Write Modular Code:** Logically break up code into functions and modules to make it easier to read, avoid repetition, simplify testing, and improve long-term maintainability. Avoid hardcoding details like file paths or settings by passing them as inputs instead. See [The Turing Ways Detailed Recommendations for Code Reuse](https://book.the-turing-way.org/reproducible-research/code-reuse/code-reuse-details#re-runnable-recommendations) for more information.
-
-- [ ] **Implement and Automate Software Testing:** Include unit tests and integration tests to improve software reliability, using frameworks like [PyTest](https://docs.pytest.org/en/stable/), [Jest](https://jestjs.io/), or [Mocha](https://mochajs.org/). Use CI/CD tools like GitHub Actions and GitLab CI to streamline testing and deployment.
-
----
-
-## MAKE YOUR SOFTWARE FINDABLE
+## MAKE YOUR SOFTWARE FINDABLE AND ACCESSIBLE
 
 - [ ] **Host Code in a Public Version-Controlled Repository:** Host your code on platforms like [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/), or [CodeBerg](https://codeberg.org/) to track development history, enable tagged versioned releases, improve reusability, and support collaboration.
 
@@ -32,30 +18,31 @@
 
 - [ ] **Cite Your Software in Publications:** Include a formal citation in the References section of the publication. For example using the following template inspired by [AGUs Software Citation Examples](https://www.agu.org/publications/authors/journals/data-software-for-authors):  
        _< Author(s)/contributor(s) or project name(s) >. (< Date published >). < Descriptive title / name of software >. < Software release/version > < Bracketed description type (e.g., [Software], [Collection], [ComputationalNotebook]) >. < Repository name / Publication venue >. < DOI >._
-      Note: The bracketed description allows the publishers/indexers to appropriately tag the citation so that it is indexed and counted.
+      Note: The bracketed description allows the publishers/indexers to appropriately tag the citation so that it is indexed and counted. 
 
 - [ ] **Mention Your Software in Publications:** Include a software availability statement in the body of the publication, describing where and how the software can be accessed. For example using the following adapted [AGUs Template](https://www.agu.org/publications/authors/journals/data-software-for-authors):  
        _< Version number > of the < software name > used for < brief context, description of what the software was used for > is preserved at < DOI, persistent identifier link >, available via < licence type, access conditions > and developed openly at < software development platform link >. [< Link to formal citation in References section >]_
 
-- [ ] **Ensure Proper Credit:** Identify all contributors early, record their roles, and link their [ORCID iDs](https://orcid.org/) to ensure they are properly credited in citations and records. Use formats such as a `CITATION.cff`, a contributors table in your `README.md` (e.g., [The Turing Way's Contributors Table](https://book.the-turing-way.org/community-handbook/acknowledgement/acknowledgement-record)), or frameworks like [All Contributors](https://allcontributors.org/) to structure this information.
-
   > **_Unsure about this process? You can walk through the depositing, describing, and citing your software using Zenodo’s Sandbox (testing environment). You can follow the steps outlined on the [Documentation](https://help.zenodo.org/docs/deposit/create-new-upload/) page, which guides you through producing metadata for your project._**
+
 
 ---
 
-## MAKE YOUR SOFTWARE ACCESSIBLE AND INTEROPERABLE
-
-- [ ] **Write a Structured README:** Create a machine-readable `README.md` (e.g. using [readme.so](https://readme.so/)) with installation instructions, usage examples, required prerequisites, contribution guidelines, and licence information. Machine-readable means structured in a way that allows automated tools to identify and extract information, for the README for example by using plain text Markdown section titles.
-
-- [ ] **Use Package Managers:** Specify dependencies via [package managers](https://en.wikipedia.org/wiki/List_of_software_package_management_systems) (e.g., pip, npm, mamba) for better compatibility and reproducibility. Include a dependency file (e.g. `requirements.txt`, `environment.yml`, or `package.json`) to allow others to easily install the necessary packages. Consider adding a lock file to ensure exact versions are used across environments.
-
-- [ ] **Containerise Your Software:** Provide instructions to create consistent, portable environments using [Docker](https://www.docker.com/) or [Singularity](https://github.com/apptainer/singularity), by including a Dockerfile or equivalent build instructions. This improves transparency and ensures your software runs reliably across different systems, thus enhancing reproducibility and simplifying deployment.
+## MAKE YOUR SOFTWARE INTEROPERABLE
 
 - [ ] **Use Standard Open File Formats:** Use open formats and standards to enable compatibility with other tools. See [DANS’s File Formats Overview](https://dans.knaw.nl/en/file-formats/) for recommended formats for long-term access.
 
+- [ ] **Follow Code Formatting Standards:** Use recognised open standards, style guides, linters, and formatters to keep code clean and consistent. Common examples include Black and Pylint (Python). See the [Netherlands eScience Center Guide](https://guide.esciencecenter.nl/#/) for language-specific examples and [The Turing Way’s overview of static analysis tools](https://book.the-turing-way.org/reproducible-research/code-quality) for formatter options.
+
+- [ ] **Containerise Your Software:** Provide instructions to create consistent, portable environments using [Docker](https://www.docker.com/) or [Singularity](https://github.com/apptainer/singularity), by including a Dockerfile or equivalent build instructions. This improves transparency and ensures your software runs reliably across different systems, thus enhancing reproducibility and simplifying deployment.
+
 - [ ] **Define Input/Output Schemas:** Use formats like [JSON Schema](https://json-schema.org/) to clearly describe the structure of your software’s inputs and outputs.
 
-- [ ] **Manage Dependencies Wisely:** Use well-maintained libraries and avoid obsolete and redundant dependencies for long-term software sustainability.
+- [ ] **Use Package Managers:** Specify dependencies via [package managers](https://en.wikipedia.org/wiki/List_of_software_package_management_systems) (e.g., pip, npm, mamba) for better compatibility and reproducibility. Include a dependency file (e.g. `requirements.txt`, `environment.yml`, or `package.json`) to allow others to easily install the necessary packages. Consider adding a lock file to ensure exact versions are used across environments.
+
+- [ ] **Manage Dependencies Wisely:** Use well-maintained libraries and avoid obsolete and redundant dependencies  so the software continues to work as intended over time.
+
+- [ ] **Implement and Automate Software Testing:** Include unit tests and integration tests so the software continues to work as intended over time, using frameworks like [PyTest](https://docs.pytest.org/en/stable/), [Jest](https://jestjs.io/), or [Mocha](https://mochajs.org/). Use CI/CD tools like GitHub Actions and GitLab CI to streamline testing and deployment.
 
 ---
 
@@ -63,13 +50,23 @@
 
 - [ ] **Choose an Open-Source Licence:** Select an appropriate licence ([MIT License](https://choosealicense.com/licenses/mit/), [Apache License](https://choosealicense.com/licenses/apache-2.0/), or [GPL License](https://choosealicense.com/licenses/gpl-3.0/)), e.g., using [Choose a License](https://choosealicense.com/). If your repository also contains non-software content (e.g., website text or documentation), consider adding a separate licence for that, such as [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Note that code or content without a licence can not legally be reused, even if it is publicly available.
 
-- [ ] **Use a Clear Versioning Scheme:** Label official releases of software using a consistent versioning system, such as [Semantic Versioning (SemVer)](https://semver.org/) (`major.minor.patch`), tagging the exact commit related to each release.
+- [ ] **Write Clear Documentation:** Provide concise instructions, usage examples, and inline comments to help others understand and use the code. See [CodeRefinerys Modular Code Development lesson](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md/#1) for more information.
 
 - [ ] **Include Example Use Cases:** Provide example use cases via sample scripts or [Jupyter notebooks](https://jupyter.org/) (see [notebook guidance](https://zenodo.org/records/5651648) on documenting your workflow). Include small example datasets with your software to ensure others can test and reproduce your results. If including data in the repository is not feasible (e.g. due to size limits or policies), share it via platforms like [Zenodo](https://zenodo.org/) or reuse existing publicly available datasets.
+
+- [ ] **Write Modular Code:** Logically break up code into functions and modules to make it easier to read, avoid repetition, simplify testing, and improve long-term maintainability. Avoid hardcoding details like file paths or settings by passing them as inputs instead. See [The Turing Ways Detailed Recommendations for Code Reuse](https://book.the-turing-way.org/reproducible-research/code-reuse/code-reuse-details#re-runnable-recommendations) for more information.
+
+- [ ] **Use Descriptive Names:** Choose consistent and descriptive names for variables, functions to make code easy to read and understand. See [The Turing Way Guidelines for Code Styling](https://book.the-turing-way.org/project-design/info-management/code-styling/code-styling-guidelines) 
+
+- [ ] **Write a Structured README:** Create a machine-readable `README.md` (e.g. using [readme.so](https://readme.so/)) with installation instructions, usage examples, required prerequisites, contribution guidelines, and licence information. Machine-readable means structured in a way that allows automated tools to identify and extract information, for the README for example by using plain text Markdown section titles.
+
+- [ ] **Use a Clear Versioning Scheme:** Label official releases of software using a consistent versioning system, such as [Semantic Versioning (SemVer)](https://semver.org/) (`major.minor.patch`), tagging the exact commit related to each release. This makes each version unambiguously citable and reusable.
 
 ---
 
 ## IMPROVE COMMUNITY ENGAGEMENT AND RECOGNITION
+
+- [ ] **Ensure Proper Credit:** Identify all contributors early, record their roles, and link their [ORCID iDs](https://orcid.org/) to ensure they are properly credited in citations and records. Use formats such as a `CITATION.cff`, a contributors table in your `README.md` (e.g., [The Turing Way's Contributors Table](https://book.the-turing-way.org/community-handbook/acknowledgement/acknowledgement-record)), or frameworks like [All Contributors](https://allcontributors.org/) to structure this information.
 
 - [ ] **Add Repository Badges:** Include badges for citation (e.g., Zenodo DOI), licence, build status, and community standards. You can create and customise badges via [shields.io](https://shields.io/).
 
