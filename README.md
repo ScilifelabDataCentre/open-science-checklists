@@ -8,36 +8,20 @@ Please note that these checklists are in development and are <ins>intended to be
 
 <sub>*Checklists have been reviewed and contributed to by the SciLifeLab _Seshat_, _Berserkers_, _RDM_, and _Freya_ teams, as well as Stockholm University and the Netherlands eScience Center.</sub>
 
-## How to Use It 
-You can copy the checklist into your repository and check off each item as you address it:
-
-```md
-- [x] Example of a completed item  
-- [ ] Example of an incomplete item
-```
-
-Remember, you do not need to complete every item to benefit from it!
-
 ## Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
 ## How to Cite this Resource
 
-These Checklists are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). 
+These Checklists are licenced under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). 
 
 **Official versions are archived on Figshare.** These may not reflect the most current updates due to the evolving nature of this resource. Please cite the specific checklist you used:
 
 * **SciLifeLab Open Access Checklist**  
 DOI: https://doi.org/10.17044/scilifelab.29086706
 
-* **SciLifeLab Open Software Checklist**  
+* **SciLifeLab Open Science Software Checklist**  
 DOI: https://doi.org/10.17044/scilifelab.29086775
 
 IFF referencing the development version on GitHub, you may also cite this repository using the included `CITATION.cff` file.
-
-## Contact
-
-For questions not covered by GitHub Issues or Discussions, please email [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se) 
-with "Open Science" in the subject line.
-
