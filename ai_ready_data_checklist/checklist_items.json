@@ -6,9 +6,43 @@
     [
         {
         "title": "Create a Data Management Plan (DMP)",
-        "description": "Before starting data collection, outline how data will be collected or produced, stored, maintained, shared, and preserved in a DMP.",
+        "description": "Before starting data collection, outline how data will be collected or produced, stored, maintained, shared, and preserved in a DMP that is continuously maintained throughout the project.",
         "category": "Planning",
-        "tags": [],
+        "rating": 1,
+        "note": ""
+        },
+        {
+        "title": "Document contextual metadata from the start",
+        "description": "Maintain a README with descriptions of datasets (size, bias), variables (types, ranges), methods, and quality dimensions (completeness, bias, etc.).",
+        "category": "Reusable",
+        "rating": 1,
+        "note": ""
+        },
+        {
+        "title": "Provide machine-readable metadata for discovery",
+        "description": "Describe your data in a way that supports automatic indexing and searching. Include metadata such as content, author, persistent identifier (PID), collection period, subject area, and keywords. Metadata should be stored with the dataset and should remain accessible even if the data is restricted or removed.",
+        "category": "Findable",
+        "rating": 1,
+        "note": ""
+        },
+        {
+        "title": "Use a standard metadata schema",
+        "description": "Apply a recognised metadata schema (e.g., [Dublin Core](https://www.dublincore.org/), [DataCite](https://schema.datacite.org/), or field-specific standards such as those managed by [EMBL-EBI](https://www.ebi.ac.uk/).",
+        "category": "Findable",
+        "rating": 2,
+        "note": ""
+        },
+        {
+        "title": "Share data in a repository that assigns a DOI",
+        "description": "Deposit your data in a trusted repository with a persistent identifier (PID), e.g. DOI, to ensure long-term access and citation.  If the data can not be hosted fully openly due to security reasons, the procedure for accessing it should be described clearly. Review the Finding a suitable repository section of the RDM Guidelines to choose the repository type best suited to your data.",
+        "category": "Findable",
+        "rating": 1,
+        "note": ""
+        },
+        {
+        "title": "",
+        "description": "",
+        "category": "",
         "rating": 1,
         "note": ""
         }
