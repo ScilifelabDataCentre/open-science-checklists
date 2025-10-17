@@ -1,0 +1,27 @@
+{   
+    "title": "FAIR AI Ready Data Checklist",  
+    "description": "These checklists are developed by the Open Science Team at SciLifeLab Sweden, in collaboration with blabla",
+    "doi": "https://doi.org/exampleeample",
+    "items": 
+    [
+        {
+        "title": "Create a Data Management Plan (DMP)",
+        "description": "Before starting data collection, outline how data will be collected or produced, stored, maintained, shared, and preserved in a DMP.",
+        "category": "Planning",
+        "tags": [],
+        "rating": 1,
+        "note": ""
+        }
+    ],
+    "sources":
+    [
+        {
+        "authors": "The Turing Way Community",
+        "year": 2022,
+        "title": "The Turing Way: A handbook for reproducible, ethical and collaborative research",
+        "publisher": "Zenodo",
+        "doi": "10.5281/zenodo.3233853",
+        "retrieved": "2025-04-11"
+        }
+    ]
+}
