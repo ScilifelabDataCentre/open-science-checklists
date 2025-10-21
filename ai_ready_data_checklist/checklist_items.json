@@ -40,6 +40,55 @@
         "note": ""
         },
         {
+        "title": "Include a data availability statement in your publication",
+        "description": "Reference your data with a clear data availability statement, for example using the [template provided by AGU](https://www.agu.org/publications/authors/journals/data-software-for-authors#needed#availability-statement), so others can find, access, and reuse it. If access is restricted, specify who can access it and how to request access.",
+        "category": "Findable",
+        "rating": 2,
+        "note": ""
+        },
+        {
+        "title": "Use a self assessment checklist",
+        "description": "Use a self assessment checklist  such as [ImmPorts AI-Readiness Assessment](https://doi.org/10.21430/qvk1-nn87) to make sure and communicate that you are following best practices.",
+        "category": "??",
+        "rating": 3,
+        "note": ""
+        },
+        {
+        "title": "Choose an appropriate open licence",
+        "description": "Select a suitable licence for your data. The SciLifeLab standard for data and creative works (e.g. training materials, illustrations) is [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Content without a licence cannot legally be reused, even if it is publicly available.",
+        "category": "Reusable",
+        "rating": 1,
+        "note": ""
+        },
+        {
+        "title": "Use open machine-readable file formats",
+        "description": "Use open machine-readable file formats for your resources (e.g., CSV, TXT, PNG, WAV), as opposed to proprietary formats (XLSX, PSD), so the permissions granted by your licence can be applied. ",
+        "category": "Interoperable",
+        "rating": 2,
+        "note": ""
+        },
+        {
+        "title": "Include Example Use Cases",
+        "description": "Include practical examples, like Jupyter notebooks, to illustrate how to work with the data.",
+        "category": "Reusable",
+        "rating": 3,
+        "note": "Reusable"
+        },
+        {
+        "title": "Automate and share processing steps",
+        "description": "Sharing only the data and its description may not be sufficient to explain how it was produced. Use notebooks, scripts, or workflow tools to automate and record data collection, processing, and analysis to ensure it is consistent, reproducible and traceable. Make relevant software, workflows, or code openly available alongside the data. See the [open software checklist](https://doi.org/10.17044/scilifelab.29086775) for guidance.",
+        "category": "Reusable",
+        "rating": 3,
+        "note": ""
+        },
+        {
+        "title": "",
+        "description": "",
+        "category": "",
+        "rating": 1,
+        "note": ""
+        },
+        {
         "title": "",
         "description": "",
         "category": "",
