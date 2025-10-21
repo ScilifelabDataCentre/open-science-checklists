@@ -73,6 +73,8 @@ def generate_itemlist(items):
         for item in grouped[category]:
             md_list += f"- [ ] **{item['title']}:** {item['description']}\n"
         md_list += "\n"
+    
+    # TODO: implement the note thing
 
     return md_list
 
