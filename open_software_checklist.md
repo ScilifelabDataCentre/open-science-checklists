@@ -62,6 +62,8 @@
 
 - [ ] **Use a Clear Versioning Scheme:** Label official releases of software using a consistent versioning system, such as [Semantic Versioning (SemVer)](https://semver.org/) (`major.minor.patch`), tagging the exact commit related to each release. This makes each version unambiguously citable and reusable.
 
+- [ ] **Use a Clear Directory Structure:**  Organise files into meaningful folders, for example by separating source code and input or output data into `src/` and `data/` respectively, to make the project easier to navigate and understand.
+
 ---
 
 ## IMPROVE COMMUNITY ENGAGEMENT AND RECOGNITION
