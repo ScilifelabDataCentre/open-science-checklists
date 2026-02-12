@@ -12,9 +12,9 @@
 
 - [ ] **Host Code in a Public Version-Controlled Repository:** Host your code on platforms like [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/), or [CodeBerg](https://codeberg.org/) to track development history, enable tagged versioned releases, improve reusability, and support collaboration.
 
-- [ ] **Archive and Assign a Persistent Identifier:**  Ensure long-term preservation by depositing a snapshot of a specific software release (e.g., v1.0.0) in repositories that assign a PID such as [Zenodo](https://zenodo.org/), [Software Heritage](https://www.softwareheritage.org/), or your local institutional repository (e.g., [SciLifeLab Data Repository](https://figshare.scilifelab.se/)). This complements hosting code in a public repository by providing a fixed reference that can be cited in publications and matched to data and results.
+- [ ] **Archive and Assign a Persistent Identifier:**  Ensure long-term preservation by depositing a snapshot of a specific software release (e.g., v1.0.0) in repositories that assign a PID such as [Zenodo](https://zenodo.org/), [Software Heritage](https://www.softwareheritage.org/), or your local institutional repository (e.g., [SciLifeLab Data Repository](https://figshare.scilifelab.se/)). This complements hosting code in a public development repository by providing a fixed reference that can be cited in publications and matched to data and results.
 
-- [ ] **Provide Descriptive Metadata:** Include essential details such as title, authors, version, licence, and DOI. You can generate a codemeta.json file using tools like the [CodeMeta generator](https://codemeta.github.io/codemeta-generator/), which can then be added to public and preservation repositories (e.g. GitHub, Zenodo). One such file can be seen [here](https://github.com/cboettig/codemeta/blob/master/codemeta.json).
+- [ ] **Provide Descriptive Metadata:** Include essential details such as title, authors, version, licence, DOI and keywords. This can be done in a `CITATION.cff` file. For more extensive metadata, you can also create a `codemeta.json` file using tools like the [CodeMeta generator](https://codemeta.github.io/codemeta-generator/), which can then be added to public and preservation repositories (e.g. GitHub, Zenodo). One such file can be seen [here](https://github.com/cboettig/codemeta/blob/master/codemeta.json).
 
 - [ ] **Cite Your Software in Publications:** Include a formal citation in the References section of the publication. For example using the following template inspired by [AGUs Software Citation Examples](https://www.agu.org/publications/authors/journals/data-software-for-authors):  
        _< Author(s)/contributor(s) or project name(s) >. (< Date published >). < Descriptive title / name of software >. < Software release/version > < Bracketed description type (e.g., [Software], [Collection], [ComputationalNotebook]) >. < Repository name / Publication venue >. < DOI >._
@@ -38,7 +38,7 @@
 
 - [ ] **Define Input/Output Schemas:** Use formats like [JSON Schema](https://json-schema.org/) to clearly describe the structure of your software’s inputs and outputs.
 
-- [ ] **Use Package Managers:** Specify dependencies via [package managers](https://en.wikipedia.org/wiki/List_of_software_package_management_systems) (e.g., pip, npm, mamba) for better compatibility and reproducibility. Include a dependency file (e.g. `requirements.txt`, `environment.yml`, or `package.json`) to allow others to easily install the necessary packages. Consider adding a lock file to ensure exact versions are used across environments.
+- [ ] **Use Package Managers:** Specify dependencies via [package managers](https://en.wikipedia.org/wiki/List_of_software_package_management_systems) (e.g., pip, mamba) for better compatibility and reproducibility. Include a dependency file (e.g. `requirements.txt`, `environment.yml`) to allow others to easily install the necessary packages, and specify package versions to ensure the same versions are used across environments.
 
 - [ ] **Manage Dependencies Wisely:** Use well-maintained libraries and avoid obsolete and redundant dependencies  so the software continues to work as intended over time.
 
@@ -56,7 +56,7 @@
 
 - [ ] **Write Modular Code:** Logically break up code into functions and modules to make it easier to read, avoid repetition, simplify testing, and improve long-term maintainability. Avoid hardcoding details like file paths or settings by passing them as inputs instead. See [The Turing Ways Detailed Recommendations for Code Reuse](https://book.the-turing-way.org/reproducible-research/code-reuse/code-reuse-details#re-runnable-recommendations) for more information.
 
-- [ ] **Use Descriptive Names:** Choose consistent and descriptive names for variables, functions to make code easy to read and understand. See [The Turing Way Guidelines for Code Styling](https://book.the-turing-way.org/project-design/info-management/code-styling/code-styling-guidelines) 
+- [ ] **Use Descriptive Names:** Choose consistent and descriptive names for variables, functions, files and directories to make code easy to read and understand. See [The Turing Way Guidelines for Code Styling](https://book.the-turing-way.org/project-design/info-management/code-styling/code-styling-guidelines).
 
 - [ ] **Write a Structured README:** Create a machine-readable `README.md` (e.g. using [readme.so](https://readme.so/)) with installation instructions, usage examples, required prerequisites, contribution guidelines, and licence information. Machine-readable means structured in a way that allows automated tools to identify and extract information, for the README for example by using plain text Markdown section titles.
 
