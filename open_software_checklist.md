@@ -64,6 +64,8 @@
 
 - [ ] **Use a Clear Directory Structure:**  Organise files into meaningful folders, for example by separating source code and input or output data into `src/` and `data/` respectively, to make the project easier to navigate and understand.
 
+- [ ] **Define How to Run the Code:** Document which script to execute and what inputs are required, or provide a clear interface, for example a command line interface (CLI), to make the code easier to use and integrate into workflows.
+
 ---
 
 ## IMPROVE COMMUNITY ENGAGEMENT AND RECOGNITION
