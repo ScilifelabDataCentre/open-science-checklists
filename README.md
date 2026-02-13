@@ -25,3 +25,49 @@ DOI: https://doi.org/10.17044/scilifelab.29086706
 DOI: https://doi.org/10.17044/scilifelab.29086775
 
 IFF referencing the development version on GitHub, you may also cite this repository using the included `CITATION.cff` file.
+
+## Generating Markdown and PDF Checklists
+
+To generate the MArkdown version of a checklist from a `.json` file, we use the Python scripts in the `scripts/` folder.
+
+From the root of the repo run:
+
+```bash
+python scripts/generate_md.py <checklist folder>
+```
+This will generate a Markdown file named `<checklist folder>.md` inside the same folder. To specify a custom output filename instead, use:
+
+```bash
+python scripts/generate_md.py <checklist folder> --output <filename>.md
+```
+
+### JSON Format
+
+Checklists are defined in `.json` files using the following structure, which is expected for generation to work:
+
+```json
+{
+  "title": string,                // Title of the checklist
+  "description": string,          // Checklist description/introduction
+  "doi": string,                  // DOI of the published version of the checklist
+  "items": [
+    {
+      "title": string,            // Bolded "prompt" part of checkloist item
+      "description": string,      // Explanation or guidance for the item
+      "category": string,         // Section in which it will be displayed (e.g. "Findable", "Accessible" etc)
+      "rating": integer,          // Priority level (1 = highest, 3 = lowest)
+      "note": string              // Optional note, rendered as a blockquote under the item
+    }
+  ],
+  "sources": [
+  {
+    "authors": string,         // Author(s) or organisation
+    "year": integer,           // Year of publication
+    "title": string,           // Title of the source
+    "publisher": string,       // Publisher or platform
+    "doi": string,             // DOI of the source
+    "retrieved": string        // Date retrieved (YYYY-MM-DD)
+  }
+]
+}
+```
