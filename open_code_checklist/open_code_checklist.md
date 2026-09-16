@@ -49,7 +49,7 @@ This checklist provides essential steps for sharing and citing research code. It
 
   **Why:** Without metadata, your code is harder to find, cite, and attribute correctly.
 
-  **Action:** Add a `CITATION.cff` file to your repository with at least: title, authors, version, licence, and keywords. Add the your persistant identifier (such as a DOI) once you have one.
+  **Action:** Add a `CITATION.cff` file to your repository with at least: title, authors, contributor roles and ORCID iDs, version, licence, and keywords. Add the your persistant identifier (such as a DOI) once you have one.
 
   </details>
 
@@ -115,6 +115,18 @@ This checklist provides essential steps for sharing and citing research code. It
 
   </details>
 
+- [ ] **Use open file formats** *Interoperable*
+  <details>
+  <summary>Read more</summary>
+
+  Store your data and outputs in open, widely used formats so others can open them without proprietary or specialist software. See [DANS's File Formats Overview](https://dans.knaw.nl/en/file-formats/) for recommended formats for long term access.
+
+  **Why:** Proprietary formats (like .xlsx or .mat) may not be readable by everyone, and can become inaccessible if the software is no longer available.
+
+  **Action:** Check [DANS's File Formats Overview](https://dans.knaw.nl/en/file-formats/) and convert your files to recommended open formats where possible (e.g. `.csv` instead of `.xlsx`, `.txt` instead of `.docx`).
+
+  </details>
+
 - [ ] **Document your code** *Reusable*
   <details>
   <summary>Read more</summary>
@@ -148,6 +160,18 @@ This checklist provides essential steps for sharing and citing research code. It
   **Why:** Unclear or inconsistent names make code hard to read and maintain, for you and for anyone else working with it.
 
   **Action:** Use short but descriptive names that reflect what a variable or function does. Pick a naming style (e.g. `snake_case` in Python or `camelCase` in JavaScript) and stick to it throughout.
+
+  </details>
+
+- [ ] **Use a clear folder structure** *Best practice*
+  <details>
+  <summary>Read more</summary>
+
+  Organise your files into clearly named folders so others can find their way around your project. A common approach is to separate source code and data into folders like `src/` and `data/`.
+
+  **Why:** A messy or flat file structure makes it hard to navigate and understand what a project contains.
+
+  **Action:** Organise your repository into named folders by type, for example `src/` for code, `data/` for input data, and `results/` for outputs. Add a short note about the structure to your `README.md`.
 
   </details>
 
