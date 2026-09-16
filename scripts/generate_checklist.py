@@ -42,7 +42,7 @@ def generate_item(item: dict) -> str:
     fair_category = item["fair_category"].strip()
 
     return (
-        f"- [ ] **{title}** *{fair_category}*\n"
+        f"- [ ] **{title}** `{fair_category}`\n"
         f"  <details>\n"
         f"  <summary>Read more</summary>\n\n"
         f"  {description}\n\n"
@@ -58,11 +58,16 @@ def generate_itemlist(items: list) -> str:
  
     parts = []
     previous_priority = None
- 
+    priority_counts = {}
+    for item in sorted_items:
+        p = item.get("priority", "")
+        priority_counts[p] = priority_counts.get(p, 0) + 1
+
     for item in sorted_items:
         priority = item.get("priority", "")
         if priority != previous_priority:
-            parts.append(f"## {priority}\n")
+            count = priority_counts[priority]
+            parts.append(f"---\n\n## {priority} ({count} items)\n")
             previous_priority = priority
         parts.append(generate_item(item))
         
@@ -73,15 +78,20 @@ def generate_markdown(json_path: Path, output_path: Path) -> None:
     """
     data = json.loads(Path(json_path).read_text(encoding="utf-8"))
 
-    # Title and intro
-    md = f"# {data['title']}\n\n"
-    md += f"DOI: {data['doi']} | Version: {data['version']}\n\n"
+    doi_bare = data['doi'].replace("https://doi.org/", "")
+    version = data['version']
+
+    # Badges
+    md  = f"# {data['title']}\n\n"
+    md += f"[![DOI](https://img.shields.io/badge/DOI-{doi_bare.replace('-', '--')}-blue)](https://doi.org/{doi_bare}) "
+    md += f"![Version](https://img.shields.io/badge/version-{version}-lightgrey) "
+    md += f"![Licence](https://img.shields.io/badge/licence-CC%20BY%204.0-green)\n\n"
+
+    # Description and disclaimer
     md += f"{data['description']}\n\n"
-    md += f">[!TIP]\n>{data['disclaimer']}\n\n"
+    md += f"> [!TIP]\n> {data['disclaimer']}\n\n"
 
     # intro links
-    # {"label": "SciLifeLab Data Stewardship Wizard", "url": "https://dsw.scilifelab.se/wizard"},
-
     links = data['links']
     for link in links:
         md += f"[→ {link['label']}]({link['url']})\n\n"
@@ -94,17 +104,14 @@ def generate_markdown(json_path: Path, output_path: Path) -> None:
 
 
     # Items
-    # Sorting and rendering is done in generate_itemlist - make changes
-    # there if the sort order or item format should be updated.
     md += generate_itemlist(data["items"])
 
     Path(output_path).write_text(md, encoding="utf-8")
     print(f"Wrote {len(data['items'])} items to {output_path}")
 
 
-
 if __name__ == "__main__":
-    #get input and putput path from user
+    #get input and output path from user
     parser = argparse.ArgumentParser()
     parser.add_argument("folder_path", help="Path to the checklist folder (must contain checklist_items.json)")
     parser.add_argument("--output", help="(Optional) Name for the output .md file (without folder path)")
