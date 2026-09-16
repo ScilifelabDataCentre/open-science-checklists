@@ -228,6 +228,26 @@
       "explanation": "Many journals require this, and it helps readers find your code without having to search for it.",
       "action": "Add a short statement to your paper using this template (inspired by AGU's Software Citation Examples): _< Version number > of the < software name > used for < brief context, description of what the software was used for > is preserved at < DOI, persistent identifier link >, available via < licence type, access conditions > and developed openly at < software development platform link >. [< Link to formal citation in References section >]_",
       "project_size": ["small", "big"]
+    },
+    {
+      "id": 23,
+      "title": "Use open file formats",
+      "fair_category": "Interoperable",
+      "priority": "Recommended",
+      "description": "Store your data and outputs in open, widely used formats so others can open them without proprietary or specialist software. See [DANS's File Formats Overview](https://dans.knaw.nl/en/file-formats/) for recommended formats for long term access.",
+      "explanation": "Proprietary formats (like .xlsx or .mat) may not be readable by everyone, and can become inaccessible if the software is no longer available.",
+      "action": "Check [DANS's File Formats Overview](https://dans.knaw.nl/en/file-formats/) and convert your files to recommended open formats where possible (e.g. `.csv` instead of `.xlsx`, `.txt` instead of `.docx`).",
+      "project_size": ["small", "big"]
+    },
+    {
+      "id": 24,
+      "title": "Use a clear folder structure",
+      "fair_category": "Best practice",
+      "priority": "Recommended",
+      "description": "Organise your files into clearly named folders so others can find their way around your project. A common approach is to separate source code and data into folders like `src/` and `data/`.",
+      "explanation": "A messy or flat file structure makes it hard to navigate and understand what a project contains.",
+      "action": "Organise your repository into named folders by type, for example `src/` for code, `data/` for input data, and `results/` for outputs. Add a short note about the structure to your `README.md`.",
+      "project_size": ["small", "big"]
     }
   ]
 }
