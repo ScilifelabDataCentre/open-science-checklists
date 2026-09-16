@@ -62,7 +62,7 @@ def generate_itemlist(items: list) -> str:
     for item in sorted_items:
         priority = item.get("priority", "")
         if priority != previous_priority:
-            parts.append(f"---\n## {priority}\n")
+            parts.append(f"## {priority}\n")
             previous_priority = priority
         parts.append(generate_item(item))
         

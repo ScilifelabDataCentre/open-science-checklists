@@ -15,7 +15,6 @@ This checklist provides essential steps for sharing and citing research code. It
 - [Essential](#essential)
 - [Recommended](#recommended)
 - [Advanced](#advanced)
----
 ## Essential
 
 - [ ] **Choose an Open-Source Licence** *Findable*
@@ -78,7 +77,6 @@ This checklist provides essential steps for sharing and citing research code. It
 
   </details>
 
----
 ## Recommended
 
 - [ ] **Cite Your Software in Publications** *Findable*
@@ -153,7 +151,6 @@ This checklist provides essential steps for sharing and citing research code. It
 
   </details>
 
----
 ## Advanced
 
 - [ ] **Declare Software Availability in Publications** *Findable*
