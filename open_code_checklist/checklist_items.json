@@ -174,9 +174,9 @@
       "title": "Use version tags",
       "fair_category": "Best practice",
       "priority": "Advanced",
-      "description": "Label official releases of software using a consistent versioning system, such as [Semantic Versioning (SemVer)](https://semver.org/) (`major.minor.patch`), tagging the exact commit related to each release. This makes each version unambiguously citable and reusable.",
-      "explanation": "Users can not tell which version of the software they are using or citing. This can make it harder to track changes, reproduce results, or identify when updates introduce issues.",
-      "action": "Use a clear versioning system such as Semantic Versioning (major.minor.patch). Tag each release (via command line or the GitHub interface) in your repository. For smaller projects, deposits in archival repositories provide sufficient versioning.",
+      "description": "Tag your releases with a version number so people can refer to and cite a specific version of your code. A common system is [Semantic Versioning](https://semver.org/): `major.minor.patch` (e.g. `v1.2.0`).",
+      "explanation": "Without version tags, users cannot tell which version they are using or cite a specific version in a paper.",
+      "action": "Tag each release in your repository using a consistent version number. You can do this via the GitHub interface or the command line. For smaller projects, uploading to Zenodo for each new version is enough.",
       "project_size": ["big"]
     },
     {
@@ -184,9 +184,9 @@
       "title": "Add a code of conduct",
       "fair_category": "Best practice",
       "priority": "Advanced",
-      "description": "Define expectations for community interactions using a `CODE_OF_CONDUCT.md` file (e.g., [Contributor Covenant](https://www.contributor-covenant.org/)), and include a contact method for reporting violations.",
-      "explanation": "Misunderstandings or conflicts may arise, and contributors may feel unsure how to, or if they should, report issues.",
-      "action": "Add a `CODE_OF_CONDUCT.md` file using a standard template such as the [Contributor Covenant](https://www.contributor-covenant.org/). Include a contact email or form for reporting violations or concerns.",
+      "description": "A code of conduct communicates how people should interact in your project and what to do if something goes wrong.",
+      "explanation": "Without a code of conduct, contributors may not know how to report issues or what behaviour is expected.",
+      "action": "Add a `CODE_OF_CONDUCT.md` file using a template like the [Contributor Covenant](https://www.contributor-covenant.org/). Include a contact email or form for reporting violations or concerns.",
       "project_size": ["big"]
     },
     {
@@ -194,9 +194,9 @@
       "title": "Add badges to your README",
       "fair_category": "Reusable",
       "priority": "Advanced",
-      "description": "Include badges for citation (e.g., Zenodo DOI), licence, build status, and community standards. You can create and customise badges via [shields.io](https://shields.io/).",
-      "explanation": "Users can see key information quickly which can contribute to, for example, more accurate citation.",
-      "action": "Create and customise badges using shields.io or get them from the platforms they represent (GitHub Actions, Zenodo, or licence metadata). Add them as linked images to your `README.md`.",
+      "description": "Badges are small indicators you can add to your `README.md` to show things like your licence, DOI, and whether your tests are passing. You can create custom badges via [shields.io](https://shields.io/).",
+      "explanation": "Badges give users a quick overview of key information.",
+      "action": "Add badges for your licence and persistent identifier (and more) to your `README.md`. Get them from platforms (GitHub, Zenodo) or create custom ones via [shields.io](https://shields.io/).",
       "project_size": ["small", "big"]
     },
     {
@@ -204,9 +204,9 @@
       "title": "Containerise your code",
       "fair_category": "Best practice",
       "priority": "Advanced",
-      "description": "Provide instructions to create consistent, portable environments using [Docker](https://www.docker.com/) or [Singularity](https://github.com/apptainer/singularity), by including a Dockerfile or equivalent build instructions. This improves transparency and ensures your software runs reliably across different systems, thus enhancing reproducibility and simplifying deployment.",
-      "explanation": "The software may behave differently across systems.",
-      "action": "Add a Dockerfile or equivalent environment setup.",
+      "description": "A container (e.g. using [Docker](https://www.docker.com/) or [Singularity](https://github.com/apptainer/singularity)) packages your code together with everything it needs to run, so it works the same way on any computer.",
+      "explanation": "Code that works on your machine can behave differently on other systems.",
+      "action": "Add a Dockerfile or equivalent to your repository.",
       "project_size": ["big"]
     },
     {
@@ -214,9 +214,9 @@
       "title": "Cite your code in publications",
       "fair_category": "Findable",
       "priority": "Recommended",
-      "description": "Include a formal citation in the References section of the publication.",
-      "explanation": "A formal citation ensures people know exactly where to go to find the software when reading the publication.",
-      "action": "Follow the template inspired by AGUs Software Citation Examples: _< Author(s)/contributor(s) or project name(s) >. (< Date published >). < Descriptive title / name of software >. < Software release/version > < Bracketed description type (e.g., [Software], [Collection], [ComputationalNotebook]) >. < Repository name / Publication venue >. < DOI >._",
+      "description": "When you publish a paper that uses your code, include a formal citation in the references section so readers can find it.",
+      "explanation": "A citation in the references section means the reader know exactly where to go to find the software when reading the paper.",
+      "action": "Add a citation to your references section using this template (inspired by AGU's Software Citation Examples): _< Author(s)/contributor(s) or project name(s) >. (< Date published >). < Descriptive title / name of software >. < Software release/version > < Bracketed description type (e.g., [Software], [Collection], [ComputationalNotebook]) >. < Repository name / Publication venue >. < DOI >._",
       "project_size": ["small", "big"]
     },
     {
@@ -224,9 +224,9 @@
       "title": "Add a software availability statement",
       "fair_category": "Findable",
       "priority": "Advanced",
-      "description": "Include a software availability statement in the body of the publication, describing where and how the software can be accessed. ",
-      "explanation": "A software availability statement ensures people know exactly where to go to find the software when reading the publication.",
-      "action": "Follow the template inspired by AGUs Software Citation Examples: _< Version number > of the < software name > used for < brief context, description of what the software was used for > is preserved at < DOI, persistent identifier link >, available via < licence type, access conditions > and developed openly at < software development platform link >. [< Link to formal citation in References section >]_",
+      "description": "A software availability statement is a short paragraph in the body of your paper that tells readers where to find your code and under what conditions.",
+      "explanation": "Many journals require this, and it helps readers find your code without having to search for it.",
+      "action": "Add a short statement to your paper using this template (inspired by AGU's Software Citation Examples): _< Version number > of the < software name > used for < brief context, description of what the software was used for > is preserved at < DOI, persistent identifier link >, available via < licence type, access conditions > and developed openly at < software development platform link >. [< Link to formal citation in References section >]_",
       "project_size": ["small", "big"]
     }
   ]
