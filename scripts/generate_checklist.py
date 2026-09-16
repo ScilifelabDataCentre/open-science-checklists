@@ -17,11 +17,20 @@ priority_order = ["Essential", "Recommended", "Advanced"]
 # FAIR categories, in the order items should appear within a priority
 fair_order = ["Findable", "Accessible", "Interoperable", "Reusable", "Best practice"]
 
+priority_descriptions = {
+    "Essential": "Start here. These steps are the minimum needed to share your code properly.",
+    "Recommended": "These steps make your code easier to use, understand, and build on.",
+    "Advanced": "Most useful for larger projects, or code that others will actively contribute to or maintain.",
+}
+
 def sort_key(item: dict) -> tuple:
-    """Build the sort key for one item: (priority_rank, category_rank).
+    """
+    Build the sort key for one item:
+    (priority_rank, category_rank, title).
     """
     priority = item.get("priority", "")
     category = item.get("fair_category", "")
+    title = item.get("title", "")
 
     priority_rank = (
         priority_order.index(priority) if priority in priority_order else len(priority_order)
@@ -29,7 +38,7 @@ def sort_key(item: dict) -> tuple:
     category_rank = (
         fair_order.index(category) if category in fair_order else len(fair_order)
     )
-    return (priority_rank, category_rank)
+    return (priority_rank, category_rank, title.lower())
 
 
 def generate_item(item: dict) -> str:
@@ -42,12 +51,14 @@ def generate_item(item: dict) -> str:
     fair_category = item["fair_category"].strip()
 
     return (
-        f"- [ ] **{title}** `{fair_category}`\n"
+        f"- [ ] **{title}** `{fair_category}`\n\n"
         f"  <details>\n"
         f"  <summary>Read more</summary>\n\n"
         f"  {description}\n\n"
-        f"  **Why:** {explanation}\n\n"
-        f"  **Action:** {action}\n\n"
+        f"  #### Why it matters\n\n"
+        f"  {explanation}\n\n"
+        f"  #### What to do\n\n"
+        f"  {action}\n\n"
         f"  </details>\n"
     )
 
@@ -67,7 +78,10 @@ def generate_itemlist(items: list) -> str:
         priority = item.get("priority", "")
         if priority != previous_priority:
             count = priority_counts[priority]
-            parts.append(f"---\n\n## {priority} ({count} items)\n")
+            parts.append(f"## {priority} ({count} items)\n")
+            description = priority_descriptions.get(priority)
+            if description:
+                parts.append(f"*{description}*\n")
             previous_priority = priority
         parts.append(generate_item(item))
         
@@ -96,16 +110,16 @@ def generate_markdown(json_path: Path, output_path: Path) -> None:
     for link in links:
         md += f"[→ {link['label']}]({link['url']})\n\n"
 
-    # table of contents
-    
+    # table of contents  
     md += f"## Contents\n"
     for priority in priority_order:
         md += f"- [{priority}](#{priority.lower()})\n"
-
+    md += f"---\n"
 
     # Items
     md += generate_itemlist(data["items"])
 
+    # Write output
     Path(output_path).write_text(md, encoding="utf-8")
     print(f"Wrote {len(data['items'])} items to {output_path}")
 
