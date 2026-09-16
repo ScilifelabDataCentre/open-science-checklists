@@ -34,9 +34,9 @@
       "title": "Write a README",
       "fair_category": "Reusable",
       "priority": "Essential",
-      "description": "Create a machine-readable `README.md` (e.g. using [readme.so](https://readme.so/)) with installation instructions, usage examples, required prerequisites, contribution guidelines, and licence information. Machine-readable means structured in a way that allows automated tools to identify and extract information, for the README for example by using plain text Markdown section titles.",
-      "explanation": "Without a structured `README.md`, it is hard to understand what the code does, how to install or use it, or how to contribute. ",
-      "action": "Add a `README.md` file to the repository. Include at least a title and description, and the sections 'Installation', 'Licence' and 'Citing this resource'. You can create the file by clicking pre-made sections in [readme.so](https://readme.so/) and filling in the relevant information.",
+      "description": "A `README.md` explains what the code does, how to install and run it, and how to cite it. Use plain Markdown section headings so the file is easy to read both by humans and automated tools.",
+      "explanation": "Without a README, it is hard for anyone (including you, later) to understand what the code does or how to use it.",
+      "action": "Add a `README.md` to your repository. At minimum include a title, a short description, and sections for 'Installation', 'Licence', and 'Citing this resource'. You can use [readme.so](https://readme.so/) to build one by filling in pre-made sections.",
       "project_size": ["small", "big"]
     },
     {
