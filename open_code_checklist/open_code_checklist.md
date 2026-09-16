@@ -1,6 +1,6 @@
 # SciLifeLab Open Code Checklist
 
-[![DOI](https://img.shields.io/badge/DOI-10.17044/scilifelab.29086775.v2-blue)](https://doi.org/10.17044/scilifelab.29086775.v2) ![Version](https://img.shields.io/badge/version-v2-lightgrey) ![Licence](https://img.shields.io/badge/licence-CC%20BY%204.0-green)
+[![DOI](https://img.shields.io/badge/DOI-10.17044/scilifelab.29086775.v3-blue)](https://doi.org/10.17044/scilifelab.29086775.v3) ![Version](https://img.shields.io/badge/version-v3-lightgrey) ![Licence](https://img.shields.io/badge/licence-CC%20BY%204.0-green)
 
 This checklist provides essential steps for sharing and citing research code. It covers planning your code, ensuring others can find, understand, reuse, and contribute to it, and enabling your work to be credited. Click each box to read about what should be done, why it matters, and how to implement it.
 
