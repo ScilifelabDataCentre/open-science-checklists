@@ -11,7 +11,7 @@
   "items": [
     {
       "id": 1,
-      "title": "Host Code in a Public Version-Controlled Repository",
+      "title": "Put code in a public repository with version control",
       "fair_category": "Accessible",
       "priority": "Essential",
       "description": "Host your code on platforms like GitHub, GitLab, or CodeBerg to track development history, enable tagged versioned releases, improve reusability, and support collaboration.",
@@ -21,7 +21,7 @@
     },
     {
       "id": 2,
-      "title": "Choose an Open-Source Licence",
+      "title": "Add an open licence",
       "fair_category": "Findable",
       "priority": "Essential",
       "description": "Select an appropriate licence ([MIT License](https://choosealicense.com/licenses/mit/), [Apache License](https://choosealicense.com/licenses/apache-2.0/), or [GPL License](https://choosealicense.com/licenses/gpl-3.0/)), e.g., using [Choose a License](https://choosealicense.com/). If your repository also contains non-software content (e.g., website text or documentation), consider adding a separate licence for that, such as [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Note that code or content without a licence can not legally be reused, even if it is publicly available.",
@@ -31,7 +31,7 @@
     },
     {
       "id": 3,
-      "title": "Write a Structured README",
+      "title": "Write a README",
       "fair_category": "Reusable",
       "priority": "Essential",
       "description": "Create a machine-readable `README.md` (e.g. using [readme.so](https://readme.so/)) with installation instructions, usage examples, required prerequisites, contribution guidelines, and licence information. Machine-readable means structured in a way that allows automated tools to identify and extract information, for the README for example by using plain text Markdown section titles.",
@@ -41,7 +41,7 @@
     },
     {
       "id": 4,
-      "title": "Archive and Assign a Persistent Identifier",
+      "title": "Get a persistent identifier",
       "fair_category": "Findable",
       "priority": "Essential",
       "description": "Ensure long-term preservation by depositing a snapshot of a specific software release (e.g., v1.0.0) in repositories that assign a PID such as [Zenodo](https://zenodo.org/), [Software Heritage](https://www.softwareheritage.org/), or your local institutional repository (e.g., [SciLifeLab Data Repository](https://figshare.scilifelab.se/)). This complements hosting code in a public development repository by providing a fixed reference that can be cited in publications and matched to data and results.",
@@ -51,7 +51,7 @@
     },
     {
       "id": 5,
-      "title": "Provide Descriptive Metadata",
+      "title": "Add metadata",
       "fair_category": "Findable",
       "priority": "Essential",
       "description": "Include essential details such as title, authors, version, licence, DOI and keywords. This can be done in a `CITATION.cff` file. For more extensive metadata, you can also create a `codemeta.json` file using tools like the [CodeMeta generator](https://codemeta.github.io/codemeta-generator/), which can then be added to public and preservation repositories (e.g. GitHub, Zenodo). One such file can be seen [here](https://github.com/cboettig/codemeta/blob/master/codemeta.json). Optionally, include a contributors table in your `README.md` (e.g., [The Turing Way's Contributors Table](https://book.the-turing-way.org/community-handbook/acknowledgement/acknowledgement-record)), or frameworks like [All Contributors](https://allcontributors.org/) to make roles and credit visible.",
@@ -61,7 +61,7 @@
     },
     {
       "id": 6,
-      "title": "Use Package Managers and Manage Them Wisely",
+      "title": "List your dependencies",
       "fair_category": "Interoperable",
       "priority": "Recommended",
       "description": "Specify dependencies via [package managers](https://en.wikipedia.org/wiki/List_of_software_package_management_systems) (e.g., pip, mamba) for better compatibility and reproducibility. Include a dependency file (e.g. `requirements.txt`, `environment.yml`) to allow others to easily install the necessary packages, and specify package versions to ensure the same versions are used across environments. Use well-maintained libraries and avoid obsolete and redundant dependencies so the software continues to work as intended over time.",
@@ -71,7 +71,7 @@
     },
     {
       "id": 7,
-      "title": "Use Descriptive Names",
+      "title": "Use clear and consistent names",
       "fair_category": "Best practice",
       "priority": "Recommended",
       "description": "Choose consistent and descriptive names for variables, functions and files to make code easy to read and understand. See [The Turing Way Guidelines for Code Styling](https://book.the-turing-way.org/project-design/info-management/code-styling/code-styling-guidelines) ",
@@ -81,7 +81,7 @@
     },
     {
       "id": 8,
-      "title": "Write Clear Documentation ",
+      "title": "Document your code",
       "fair_category": "Reusable",
       "priority": "Recommended",
       "description": "Provide concise instructions, usage examples, and inline comments to help others understand and use the code. See [CodeRefinerys Modular Code Development lesson](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md/#1) for more information.",
@@ -91,7 +91,7 @@
     },
     {
       "id": 9,
-      "title": "Include Example Use Cases",
+      "title": "Add a usage examples",
       "fair_category": "Reusable",
       "priority": "Recommended",
       "description": "Provide example use cases via sample scripts or [Jupyter notebooks](https://jupyter.org/) (see [notebook guidance](https://zenodo.org/records/5651648) on documenting your workflow). Include small example datasets with your software to ensure others can test and reproduce your results. If including data in the repository is not feasible (e.g. due to size limits or policies), share it via platforms like [Zenodo](https://zenodo.org/) or reuse existing publicly available datasets.",
@@ -101,7 +101,7 @@
     },
     {
       "id": 10,
-      "title": "Follow Code Formatting Standards ",
+      "title": "Format your code according to standards",
       "fair_category": "Interoperable",
       "priority": "Recommended",
       "description": "Use recognised open standards, style guides, linters, and formatters to keep code clean and consistent. Common examples include Black and Pylint (Python). See the [Netherlands eScience Center Guide](https://guide.esciencecenter.nl/#/) for language-specific examples and [The Turing Way's overview of static analysis tools](https://book.the-turing-way.org/reproducible-research/code-quality) for formatter options.",
@@ -111,7 +111,7 @@
     },
     {
       "id": 11,
-      "title": "Use Issue Tracking & Discussions",
+      "title": "Use issue tracking",
       "fair_category": "Best practice",
       "priority": "Advanced",
       "description": "Enable GitHub Issues, forums, or mailing lists to gather community feedback and improve software. Consider building a backlog with clearly identified “Starter Issues” to help new contributors find small, manageable issues to start on.",
@@ -121,7 +121,7 @@
     },
     {
       "id": 12,
-      "title": "Set Up Contributing Guidelines",
+      "title": "Add contributing guidelines",
       "fair_category": "Best practice",
       "priority": "Advanced",
       "description": "Create a `CONTRIBUTING.md` file to guide community contributions.",
@@ -131,7 +131,7 @@
     },
     {
       "id": 13,
-      "title": "Write Modular Code",
+      "title": "Write modular code",
       "fair_category": "Best practice",
       "priority": "Advanced",
       "description": "Logically break up code into functions and modules to make it easier to read, avoid repetition, simplify testing, and improve long-term maintainability. Avoid hardcoding details like file paths or settings by passing them as inputs instead. See [The Turing Ways Detailed Recommendations for Code Reuse](https://book.the-turing-way.org/reproducible-research/code-reuse/code-reuse-details#re-runnable-recommendations) for more information.",
@@ -141,7 +141,7 @@
     },
     {
       "id": 14,
-      "title": "Define Input/Output Schemas ",
+      "title": "Describe your inputs and outputs",
       "fair_category": "Interoperable",
       "priority": "Advanced",
       "description": "Use formats like [JSON Schema](https://json-schema.org/) to clearly describe the structure of your software's inputs and outputs.",
@@ -151,7 +151,7 @@
     },
     {
       "id": 15,
-      "title": "Implement and Automate Software Testing ",
+      "title": "Add tests",
       "fair_category": "Best practice",
       "priority": "Advanced",
       "description": "Include unit tests and integration tests so the software continues to work as intended over time, using frameworks like [PyTest](https://docs.pytest.org/en/stable/), [Jest](https://jestjs.io/), or [Mocha](https://mochajs.org/). Use CI/CD tools like GitHub Actions and GitLab CI to streamline testing and deployment.",
@@ -161,7 +161,7 @@
     },
     {
       "id": 16,
-      "title": "Define Governance for Long-Term Maintenance",
+      "title": "State whether and by whom the code will be maintained",
       "fair_category": "Best practice",
       "priority": "Advanced",
       "description": "Outline roles, responsibilities, and decision-making processes for sustaining your software project over time.",
@@ -171,7 +171,7 @@
     },
     {
       "id": 17,
-      "title": "Use a Clear Versioning Scheme",
+      "title": "Use version tags",
       "fair_category": "Best practice",
       "priority": "Advanced",
       "description": "Label official releases of software using a consistent versioning system, such as [Semantic Versioning (SemVer)](https://semver.org/) (`major.minor.patch`), tagging the exact commit related to each release. This makes each version unambiguously citable and reusable.",
@@ -181,7 +181,7 @@
     },
     {
       "id": 18,
-      "title": "Establish a Code of Conduct",
+      "title": "Add a code of conduct",
       "fair_category": "Best practice",
       "priority": "Advanced",
       "description": "Define expectations for community interactions using a `CODE_OF_CONDUCT.md` file (e.g., [Contributor Covenant](https://www.contributor-covenant.org/)), and include a contact method for reporting violations.",
@@ -191,7 +191,7 @@
     },
     {
       "id": 19,
-      "title": "Add Repository Badges",
+      "title": "Add badges to your README",
       "fair_category": "Reusable",
       "priority": "Advanced",
       "description": "Include badges for citation (e.g., Zenodo DOI), licence, build status, and community standards. You can create and customise badges via [shields.io](https://shields.io/).",
@@ -201,7 +201,7 @@
     },
     {
       "id": 20,
-      "title": "Containerise Your Software ",
+      "title": "Containerise your code",
       "fair_category": "Best practice",
       "priority": "Advanced",
       "description": "Provide instructions to create consistent, portable environments using [Docker](https://www.docker.com/) or [Singularity](https://github.com/apptainer/singularity), by including a Dockerfile or equivalent build instructions. This improves transparency and ensures your software runs reliably across different systems, thus enhancing reproducibility and simplifying deployment.",
@@ -211,7 +211,7 @@
     },
     {
       "id": 21,
-      "title": "Cite Your Software in Publications",
+      "title": "Cite your code in publications",
       "fair_category": "Findable",
       "priority": "Recommended",
       "description": "Include a formal citation in the References section of the publication.",
@@ -221,7 +221,7 @@
     },
     {
       "id": 22,
-      "title": "Declare Software Availability in Publications",
+      "title": "Add a software availability statement",
       "fair_category": "Findable",
       "priority": "Advanced",
       "description": "Include a software availability statement in the body of the publication, describing where and how the software can be accessed. ",

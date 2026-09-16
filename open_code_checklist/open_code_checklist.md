@@ -17,7 +17,7 @@ This checklist provides essential steps for sharing and citing research code. It
 - [Advanced](#advanced)
 ## Essential
 
-- [ ] **Choose an Open-Source Licence** *Findable*
+- [ ] **Add an open licence** *Findable*
   <details>
   <summary>Read more</summary>
 
@@ -29,7 +29,7 @@ This checklist provides essential steps for sharing and citing research code. It
 
   </details>
 
-- [ ] **Archive and Assign a Persistent Identifier** *Findable*
+- [ ] **Get a persistent identifier** *Findable*
   <details>
   <summary>Read more</summary>
 
@@ -41,7 +41,7 @@ This checklist provides essential steps for sharing and citing research code. It
 
   </details>
 
-- [ ] **Provide Descriptive Metadata** *Findable*
+- [ ] **Add metadata** *Findable*
   <details>
   <summary>Read more</summary>
 
@@ -53,7 +53,7 @@ This checklist provides essential steps for sharing and citing research code. It
 
   </details>
 
-- [ ] **Host Code in a Public Version-Controlled Repository** *Accessible*
+- [ ] **Put code in a public repository with version control** *Accessible*
   <details>
   <summary>Read more</summary>
 
@@ -65,7 +65,7 @@ This checklist provides essential steps for sharing and citing research code. It
 
   </details>
 
-- [ ] **Write a Structured README** *Reusable*
+- [ ] **Write a README** *Reusable*
   <details>
   <summary>Read more</summary>
 
@@ -79,7 +79,7 @@ This checklist provides essential steps for sharing and citing research code. It
 
 ## Recommended
 
-- [ ] **Cite Your Software in Publications** *Findable*
+- [ ] **Cite your code in publications** *Findable*
   <details>
   <summary>Read more</summary>
 
@@ -91,7 +91,7 @@ This checklist provides essential steps for sharing and citing research code. It
 
   </details>
 
-- [ ] **Use Package Managers and Manage Them Wisely** *Interoperable*
+- [ ] **List your dependencies** *Interoperable*
   <details>
   <summary>Read more</summary>
 
@@ -103,7 +103,7 @@ This checklist provides essential steps for sharing and citing research code. It
 
   </details>
 
-- [ ] **Follow Code Formatting Standards** *Interoperable*
+- [ ] **Format your code according to standards** *Interoperable*
   <details>
   <summary>Read more</summary>
 
@@ -115,7 +115,7 @@ This checklist provides essential steps for sharing and citing research code. It
 
   </details>
 
-- [ ] **Write Clear Documentation** *Reusable*
+- [ ] **Document your code** *Reusable*
   <details>
   <summary>Read more</summary>
 
@@ -127,7 +127,7 @@ This checklist provides essential steps for sharing and citing research code. It
 
   </details>
 
-- [ ] **Include Example Use Cases** *Reusable*
+- [ ] **Add a usage examples** *Reusable*
   <details>
   <summary>Read more</summary>
 
@@ -139,7 +139,7 @@ This checklist provides essential steps for sharing and citing research code. It
 
   </details>
 
-- [ ] **Use Descriptive Names** *Best practice*
+- [ ] **Use clear and consistent names** *Best practice*
   <details>
   <summary>Read more</summary>
 
@@ -153,7 +153,7 @@ This checklist provides essential steps for sharing and citing research code. It
 
 ## Advanced
 
-- [ ] **Declare Software Availability in Publications** *Findable*
+- [ ] **Add a software availability statement** *Findable*
   <details>
   <summary>Read more</summary>
 
@@ -165,7 +165,7 @@ This checklist provides essential steps for sharing and citing research code. It
 
   </details>
 
-- [ ] **Define Input/Output Schemas** *Interoperable*
+- [ ] **Describe your inputs and outputs** *Interoperable*
   <details>
   <summary>Read more</summary>
 
@@ -177,7 +177,7 @@ This checklist provides essential steps for sharing and citing research code. It
 
   </details>
 
-- [ ] **Add Repository Badges** *Reusable*
+- [ ] **Add badges to your README** *Reusable*
   <details>
   <summary>Read more</summary>
 
@@ -189,7 +189,7 @@ This checklist provides essential steps for sharing and citing research code. It
 
   </details>
 
-- [ ] **Use Issue Tracking & Discussions** *Best practice*
+- [ ] **Use issue tracking** *Best practice*
   <details>
   <summary>Read more</summary>
 
@@ -201,7 +201,7 @@ This checklist provides essential steps for sharing and citing research code. It
 
   </details>
 
-- [ ] **Set Up Contributing Guidelines** *Best practice*
+- [ ] **Add contributing guidelines** *Best practice*
   <details>
   <summary>Read more</summary>
 
@@ -213,7 +213,7 @@ This checklist provides essential steps for sharing and citing research code. It
 
   </details>
 
-- [ ] **Write Modular Code** *Best practice*
+- [ ] **Write modular code** *Best practice*
   <details>
   <summary>Read more</summary>
 
@@ -225,7 +225,7 @@ This checklist provides essential steps for sharing and citing research code. It
 
   </details>
 
-- [ ] **Implement and Automate Software Testing** *Best practice*
+- [ ] **Add tests** *Best practice*
   <details>
   <summary>Read more</summary>
 
@@ -237,7 +237,7 @@ This checklist provides essential steps for sharing and citing research code. It
 
   </details>
 
-- [ ] **Define Governance for Long-Term Maintenance** *Best practice*
+- [ ] **State whether and by whom the code will be maintained** *Best practice*
   <details>
   <summary>Read more</summary>
 
@@ -249,7 +249,7 @@ This checklist provides essential steps for sharing and citing research code. It
 
   </details>
 
-- [ ] **Use a Clear Versioning Scheme** *Best practice*
+- [ ] **Use version tags** *Best practice*
   <details>
   <summary>Read more</summary>
 
@@ -261,7 +261,7 @@ This checklist provides essential steps for sharing and citing research code. It
 
   </details>
 
-- [ ] **Establish a Code of Conduct** *Best practice*
+- [ ] **Add a code of conduct** *Best practice*
   <details>
   <summary>Read more</summary>
 
@@ -273,7 +273,7 @@ This checklist provides essential steps for sharing and citing research code. It
 
   </details>
 
-- [ ] **Containerise Your Software** *Best practice*
+- [ ] **Containerise your code** *Best practice*
   <details>
   <summary>Read more</summary>
 
