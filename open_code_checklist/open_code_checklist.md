@@ -435,3 +435,20 @@ This checklist provides essential steps for sharing and citing research code. It
   Split your code into functions, each doing one clear thing. Pass inputs like file paths or settings as arguments rather than hardcoding them.
 
   </details>
+
+---
+
+## Sources
+
+The Turing Way Community. (2022). *The Turing Way: A handbook for reproducible, ethical and collaborative research*. Zenodo. https://doi.org/10.5281/zenodo.3233853 (Retrieved April 11, 2025.)
+
+Software Sustainability Institute. *Guides for researchers*. Software Sustainability Institute. https://www.software.ac.uk/guide/guides-researchers (Retrieved April 11, 2025.)
+
+Spaaks, J. H. and Maassen, J.. (2018). *Netherlands eScience Center Software Sustainability Protocol*. Zenodo. https://doi.org/10.5281/zenodo.1451750 (Retrieved April 11, 2025.)
+
+Social Science Data Editors. *Data and Code Availability Statements - Sample text*. Social Science Data Editors Guidance. https://social-science-data-editors.github.io/guidance/Guidance/Requested_information_dcas.html (Retrieved April 11, 2025.)
+
+FORCE11. (2016). *Software Citation Principles*. FORCE11. https://force11.org/info/software-citation-principles-published-2016/ (Retrieved April 11, 2025.)
+
+American Geophysical Union. *Data and Software for Authors*. AGU. https://www.agu.org/publications/authors/journals/data-software-for-authors (Retrieved April 11, 2025.)
+

@@ -7,6 +7,8 @@ Run as follows:
 
 python3 scripts/generate_checklist.py <<path/to/checklist/folder>>
 
+Note that the checklist folder (must contain checklist_items.json)
+
 """
 import json
 from pathlib import Path
@@ -118,6 +120,27 @@ def generate_markdown(json_path: Path, output_path: Path) -> None:
 
     # Items
     md += generate_itemlist(data["items"])
+
+    # Sources in APA style (? i hope)
+    md += "\n---\n\n## Sources\n\n"
+    for src in data.get("sources", []):
+        authors = src.get("authors", "")
+        year = f"({src['year']}). " if src.get("year") else ""
+        title = src.get("title", "")
+        publisher = src.get("publisher", "")
+        doi = src.get("doi")
+        url = src.get("url")
+        retrieved = src.get("retrieved")
+
+        line = f"{authors}. {year}*{title}*. {publisher}."
+        if doi:
+            line += f" https://doi.org/{doi}"
+        if url and not doi:
+            line += f" {url}"
+        if retrieved:
+            line += f" (Retrieved {retrieved}.)"
+
+        md += f"{line}\n\n"
 
     # Write output
     Path(output_path).write_text(md, encoding="utf-8")

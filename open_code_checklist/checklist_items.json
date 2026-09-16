@@ -249,5 +249,55 @@
       "action": "Organise your repository into named folders by type, for example `src/` for code, `data/` for input data, and `results/` for outputs. Add a short note about the structure to your `README.md`.",
       "project_size": ["small", "big"]
     }
+  ],
+  "sources": [
+    {
+      "authors": "The Turing Way Community",
+      "year": "2022",
+      "title": "The Turing Way: A handbook for reproducible, ethical and collaborative research",
+      "publisher": "Zenodo",
+      "doi": "10.5281/zenodo.3233853",
+      "retrieved": "April 11, 2025"
+    },
+    {
+      "authors": "Software Sustainability Institute",
+      "year": null,
+      "title": "Guides for researchers",
+      "publisher": "Software Sustainability Institute",
+      "url": "https://www.software.ac.uk/guide/guides-researchers",
+      "retrieved": "April 11, 2025"
+    },
+    {
+      "authors": "Spaaks, J. H. and Maassen, J.",
+      "year": "2018",
+      "title": "Netherlands eScience Center Software Sustainability Protocol",
+      "publisher": "Zenodo",
+      "doi": "10.5281/zenodo.1451750",
+      "retrieved": "April 11, 2025"
+    },
+    {
+      "authors": "Social Science Data Editors",
+      "year": null,
+      "title": "Data and Code Availability Statements - Sample text",
+      "publisher": "Social Science Data Editors Guidance",
+      "url": "https://social-science-data-editors.github.io/guidance/Guidance/Requested_information_dcas.html",
+      "retrieved": "April 11, 2025"
+    },
+    {
+      "authors": "FORCE11",
+      "year": "2016",
+      "title": "Software Citation Principles",
+      "publisher": "FORCE11",
+      "url": "https://force11.org/info/software-citation-principles-published-2016/",
+      "retrieved": "April 11, 2025"
+    },
+    {
+      "authors": "American Geophysical Union",
+      "year": null,
+      "title": "Data and Software for Authors",
+      "publisher": "AGU",
+      "url": "https://www.agu.org/publications/authors/journals/data-software-for-authors",
+      "retrieved": "April 11, 2025"
+    }
   ]
 }
