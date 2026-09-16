@@ -5,7 +5,7 @@ Converts a checklist JSON file into a Markdown file with collapsible
 
 Run as follows:
 
-python3 generate_checklist.py <<path/to/checklist/folder>>
+python3 scripts/generate_checklist.py <<path/to/checklist/folder>>
 
 """
 import json
