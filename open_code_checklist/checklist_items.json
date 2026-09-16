@@ -56,7 +56,7 @@
       "priority": "Essential",
       "description": "Metadata is basic information about your code: who wrote it, what version it is, what licence it uses, and how to cite it. The simplest way to add this is a `CITATION.cff` file. For more detail you can also create a `codemeta.json` file using the [CodeMeta generator](https://codemeta.github.io/codemeta-generator/)",
       "explanation": "Without metadata, your code is harder to find, cite, and attribute correctly.",
-      "action": "Add a `CITATION.cff` file to your repository with at least: title, authors, version, licence, and keywords. Add the your persistant identifier (such as a DOI) once you have one.",
+      "action": "Add a `CITATION.cff` file to your repository with at least: title, authors, contributor roles and ORCID iDs, version, licence, and keywords. Add the your persistant identifier (such as a DOI) once you have one.",
       "project_size": ["small", "big"]
     },
     {
