@@ -21,11 +21,11 @@ This checklist provides essential steps for sharing and citing research code. It
   <details>
   <summary>Read more</summary>
 
-  Select an appropriate licence ([MIT License](https://choosealicense.com/licenses/mit/), [Apache License](https://choosealicense.com/licenses/apache-2.0/), or [GPL License](https://choosealicense.com/licenses/gpl-3.0/)), e.g., using [Choose a License](https://choosealicense.com/). If your repository also contains non-software content (e.g., website text or documentation), consider adding a separate licence for that, such as [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Note that code or content without a licence can not legally be reused, even if it is publicly available.
+  Add a licence to your code so others know how they can use, share, and modify it. Without a licence, your code cannot legally be reused, even if it is publicly available. Common options are the [MIT Licence](https://choosealicense.com/licenses/mit/) and [Apache Licence](https://choosealicense.com/licenses/apache-2.0/). If your repository also contains other content like text or figures, add a separate licence for those, such as [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-  **Why:** If your code has no licence (that states how the code can be used, shared, or modified), it's not legally reusable, even if it is accessible.
+  **Why:** Without a licence, others cannot legally reuse your code, even if they can see it.
 
-  **Action:** Add a `LICENSE` file to your repository. Use a permissive licence such as the MIT Licence (SciLifeLab's standard) by either selecting **“Add file → Choose a license template”** on GitHub or copying the official licence legal text from its website and pasting it into your `LICENSE` file. If your repo includes other materials like text or figures, add a separate licence for those, for example, *CC BY 4.0* (4.0 is not available through GitHub so you need to copy and paste the legal text from [CC BY 4.0 legal text](https://creativecommons.org/licenses/by/4.0/legalcode.txt) into your LICENCE file). Name your code license LICENCE-CODE and your content licence LICENCE-CONTENT. If you mix different types (code, data, text), list each licence clearly in your `README` and specify what applies to what.
+  **Action:** Add a `LICENSE` file to your repository. On GitHub, you can do this by selecting **"Add file → Choose a license template"**. SciLifeLab's standard is the MIT Licence. If your repository includes other materials like text or figures, add a separate licence for those, for example *CC BY 4.0* (copy the legal text from [CC BY 4.0 legal text](https://creativecommons.org/licenses/by/4.0/legalcode.txt) since GitHub does not offer 4.0). Name your code licence `LICENCE-CODE` and your content licence `LICENCE-CONTENT`, and list both clearly in your `README`.
 
   </details>
 
@@ -33,11 +33,11 @@ This checklist provides essential steps for sharing and citing research code. It
   <details>
   <summary>Read more</summary>
 
-  Ensure long-term preservation by depositing a snapshot of a specific software release (e.g., v1.0.0) in repositories that assign a PID such as [Zenodo](https://zenodo.org/), [Software Heritage](https://www.softwareheritage.org/), or your local institutional repository (e.g., [SciLifeLab Data Repository](https://figshare.scilifelab.se/)). This complements hosting code in a public development repository by providing a fixed reference that can be cited in publications and matched to data and results.
+  Archive your code in a repository that gives it a persistant identifier (like a DOI), such as [Zenodo](https://zenodo.org/), [Software Heritage](https://www.softwareheritage.org/), or the [SciLifeLab Data Repository](https://figshare.scilifelab.se/). This is separate from your GitHub repository and gives people a stable link to cite in papers.
 
-  **Why:** Without a persistent identifier, references/links to the code may change or break over time. This makes citations unreliable and can prevent others from finding the code ( or correct version). Especially if the code is updated, renamed or moved.
+  **Why:** Links to GitHub repositories can break or change if the repo is renamed or moved. A persistent identifier is permanent and always points to the right version.
 
-  **Action:** Upload your code to Zenodo (by integrating Zenodo with your GitHub repository or by uploading manually) or another archive that gives it a DOI. Follow the steps to upload your code here: https://help.zenodo.org/docs/github/
+  **Action:** Upload your code to [Zenodo](https://zenodo.org/) to get a DOI. One way is to connect your GitHub repository to Zenodo and create a release. Follow the steps here: https://help.zenodo.org/docs/github/
 
   </details>
 
@@ -45,11 +45,11 @@ This checklist provides essential steps for sharing and citing research code. It
   <details>
   <summary>Read more</summary>
 
-  Include essential details such as title, authors, version, licence, DOI and keywords. This can be done in a `CITATION.cff` file. For more extensive metadata, you can also create a `codemeta.json` file using tools like the [CodeMeta generator](https://codemeta.github.io/codemeta-generator/), which can then be added to public and preservation repositories (e.g. GitHub, Zenodo). One such file can be seen [here](https://github.com/cboettig/codemeta/blob/master/codemeta.json). Optionally, include a contributors table in your `README.md` (e.g., [The Turing Way's Contributors Table](https://book.the-turing-way.org/community-handbook/acknowledgement/acknowledgement-record)), or frameworks like [All Contributors](https://allcontributors.org/) to make roles and credit visible.
+  Metadata is basic information about your code: who wrote it, what version it is, what licence it uses, and how to cite it. The simplest way to add this is a `CITATION.cff` file. For more detail you can also create a `codemeta.json` file using the [CodeMeta generator](https://codemeta.github.io/codemeta-generator/)
 
-  **Why:** Without clear metadata, the code is harder to find, cite and connect to related research outputs. Missing author or licence information can also make attribution unclear.
+  **Why:** Without metadata, your code is harder to find, cite, and attribute correctly.
 
-  **Action:** Add a `CITATION.cff` file including title, authors, version, licence, (DOI, if available) and keywords.
+  **Action:** Add a `CITATION.cff` file to your repository with at least: title, authors, version, licence, and keywords. Add the your persistant identifier (such as a DOI) once you have one.
 
   </details>
 
@@ -57,11 +57,11 @@ This checklist provides essential steps for sharing and citing research code. It
   <details>
   <summary>Read more</summary>
 
-  Host your code on platforms like GitHub, GitLab, or CodeBerg to track development history, enable tagged versioned releases, improve reusability, and support collaboration.
+  Upload your code to a platform like GitHub, GitLab, or Codeberg. These platforms track every change you make, let you create versioned releases, and make it easy for others to find and use your code.
 
-  **Why:** If your code isn't in a public repository that records version history, you can't see how it developed or which version produced certain results. It also makes it harder for others, or even your own team, to follow the process and work on the code together
+  **Why:** If your code isn't in a public repository, others can't access it, and you can't easily track how it changed over time or which version was used to produce a specific result.
 
-  **Action:** Upload your code to a public version-controlled platform like GitHub.
+  **Action:** Upload your code to a public version-controlled repository on a platform like GitHub.
 
   </details>
 
@@ -69,11 +69,11 @@ This checklist provides essential steps for sharing and citing research code. It
   <details>
   <summary>Read more</summary>
 
-  Create a machine-readable `README.md` (e.g. using [readme.so](https://readme.so/)) with installation instructions, usage examples, required prerequisites, contribution guidelines, and licence information. Machine-readable means structured in a way that allows automated tools to identify and extract information, for the README for example by using plain text Markdown section titles.
+  A `README.md` explains what the code does, how to install and run it, and how to cite it. Use plain Markdown section headings so the file is easy to read both by humans and automated tools.
 
-  **Why:** Without a structured `README.md`, it is hard to understand what the code does, how to install or use it, or how to contribute.
+  **Why:** Without a README, it is hard for anyone (including you, later) to understand what the code does or how to use it.
 
-  **Action:** Add a `README.md` file to the repository. Include at least a title and description, and the sections 'Installation', 'Licence' and 'Citing this resource'. You can create the file by clicking pre-made sections in [readme.so](https://readme.so/) and filling in the relevant information.
+  **Action:** Add a `README.md` to your repository. At minimum include a title, a short description, and sections for 'Installation', 'Licence', and 'Citing this resource'. You can use [readme.so](https://readme.so/) to build one by filling in pre-made sections.
 
   </details>
 
@@ -83,11 +83,11 @@ This checklist provides essential steps for sharing and citing research code. It
   <details>
   <summary>Read more</summary>
 
-  Include a formal citation in the References section of the publication.
+  When you publish a paper that uses your code, include a formal citation in the references section so readers can find it.
 
-  **Why:** A formal citation ensures people know exactly where to go to find the software when reading the publication.
+  **Why:** A citation in the references section means the reader know exactly where to go to find the software when reading the paper.
 
-  **Action:** Follow the template inspired by AGUs Software Citation Examples: _< Author(s)/contributor(s) or project name(s) >. (< Date published >). < Descriptive title / name of software >. < Software release/version > < Bracketed description type (e.g., [Software], [Collection], [ComputationalNotebook]) >. < Repository name / Publication venue >. < DOI >._
+  **Action:** Add a citation to your references section using this template (inspired by AGU's Software Citation Examples): _< Author(s)/contributor(s) or project name(s) >. (< Date published >). < Descriptive title / name of software >. < Software release/version > < Bracketed description type (e.g., [Software], [Collection], [ComputationalNotebook]) >. < Repository name / Publication venue >. < DOI >._
 
   </details>
 
@@ -95,11 +95,11 @@ This checklist provides essential steps for sharing and citing research code. It
   <details>
   <summary>Read more</summary>
 
-  Specify dependencies via [package managers](https://en.wikipedia.org/wiki/List_of_software_package_management_systems) (e.g., pip, mamba) for better compatibility and reproducibility. Include a dependency file (e.g. `requirements.txt`, `environment.yml`) to allow others to easily install the necessary packages, and specify package versions to ensure the same versions are used across environments. Use well-maintained libraries and avoid obsolete and redundant dependencies so the software continues to work as intended over time.
+  List all the packages your code needs to run, and ideally which versions, in a file like `requirements.txt` or `environment.yml`. This lets others install everything they need in one step and reduces the risk of version conflicts.
 
-  **Why:** Without a defined dependencies others can not easily use your code (and outdated packages may break the software or create security risks).
+  **Why:** If you don't list your dependencies, others may not be able to run your code at all, and outdated packages can cause bugs or security issues.
 
-  **Action:** List all required dependencies in a file such as `requirements.txt` or `environment.yml` (this can be generated automatically with pipreqs, pip freeze or poetry). Preferably also specify version ranges (e.g. `wordfreq>=3.0,<4.0`).
+  **Action:** Create a `requirements.txt`, `environment.yml`, or similar, file listing all required packages. See the [list of package managers](https://en.wikipedia.org/wiki/List_of_software_package_management_systems) for options in your language. Where possible, also specify version ranges (e.g. `wordfreq>=3.0,<4.0`).
 
   </details>
 
@@ -107,11 +107,11 @@ This checklist provides essential steps for sharing and citing research code. It
   <details>
   <summary>Read more</summary>
 
-  Use recognised open standards, style guides, linters, and formatters to keep code clean and consistent. Common examples include Black and Pylint (Python). See the [Netherlands eScience Center Guide](https://guide.esciencecenter.nl/#/) for language-specific examples and [The Turing Way's overview of static analysis tools](https://book.the-turing-way.org/reproducible-research/code-quality) for formatter options.
+  Use a standard style guide or formatter for your programming language to keep your code clean and consistent. Common tools for Python include Black and Pylint. See the [Netherlands eScience Center Guide](https://guide.esciencecenter.nl/#/) for language-specific examples and [The Turing Way's overview of static analysis tools](https://book.the-turing-way.org/reproducible-research/code-quality) for more options.
 
-  **Why:** Inconsistent formatting makes the code harder to read, and increases the chance of small avoidable errors.
+  **Why:** Inconsistent formatting makes code harder to read and make small errors hard to detect.
 
-  **Action:** Look up and follow the standard formatting guide for your programming language, or install a linter to apply it automatically (for example, using the guide linked above).
+  **Action:** Look up the standard style guide for your programming language and follow it, or install a formatter or linter that applies it automatically.
 
   </details>
 
@@ -119,23 +119,23 @@ This checklist provides essential steps for sharing and citing research code. It
   <details>
   <summary>Read more</summary>
 
-  Provide concise instructions, usage examples, and inline comments to help others understand and use the code. See [CodeRefinerys Modular Code Development lesson](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md/#1) for more information.
+  Add inline comments inside your code and write docstrings for your functions so others can understand what each part does. For more guidance, see [CodeRefinery's Modular Code Development lesson](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md/#1).
 
-  **Why:** If the documentation is incomplete or does not exist, or the code lacks comments showing how it should be used, others may be unable to understand or build upon the code. It also makes it harder for you and collaborators to maintain it later.
+  **Why:** Without comments and docstrings, others (and future you) will struggle to understand or build on the code.
 
-  **Action:** Add concise instructions and usage examples in your `README.md`, or for larger projects, create full documentation (e.g. a GitHub Pages or ReadTheDocs site). Write short, but informative, inline comments explaining what each part of the code does. Write docstrings for all functions and files.
+  **Action:** Write a short comment above each logical block of code explaining what it does. Write a docstring for every function describing its inputs, outputs, and purpose. For larger projects, consider a dedicated documentation site using GitHub Pages or ReadTheDocs.
 
   </details>
 
-- [ ] **Add a usage examples** *Reusable*
+- [ ] **Add usage examples** *Reusable*
   <details>
   <summary>Read more</summary>
 
-  Provide example use cases via sample scripts or [Jupyter notebooks](https://jupyter.org/) (see [notebook guidance](https://zenodo.org/records/5651648) on documenting your workflow). Include small example datasets with your software to ensure others can test and reproduce your results. If including data in the repository is not feasible (e.g. due to size limits or policies), share it via platforms like [Zenodo](https://zenodo.org/) or reuse existing publicly available datasets.
+  Include a small example that shows how to run your code on real or example data. This can be a short script, a section in the `README.md`, or a [Jupyter notebook](https://jupyter.org/) (see [notebook guidance](https://zenodo.org/records/5651648)). Include a small example dataset if possible, or link to one on [Zenodo](https://zenodo.org/) if the data is too large to include in the repository.
 
-  **Why:** Without clear examples others may not understand how to run the code, or what format the data needs to be in if applied to another dataset.
+  **Why:** Without an example, others may not know how to run your code or what format the input data should be in.
 
-  **Action:** Add a small example dataset, and a short script, description in the `README.md` or a Jupyter notebook that demonstrates how to use the code, and on what type of data. Include expected results for the user to compare to.
+  **Action:** Add a short script or Jupyter notebook that runs the code on a small example dataset and shows the expected output. Put the example dataset in the repository, or link to it if it is too large.
 
   </details>
 
@@ -143,11 +143,11 @@ This checklist provides essential steps for sharing and citing research code. It
   <details>
   <summary>Read more</summary>
 
-  Choose consistent and descriptive names for variables, functions and files to make code easy to read and understand. See [The Turing Way Guidelines for Code Styling](https://book.the-turing-way.org/project-design/info-management/code-styling/code-styling-guidelines)
+  Give your variables, functions, and files names that clearly describe what they do. Follow a consistent naming style throughout your code. See [The Turing Way Guidelines for Code Styling](https://book.the-turing-way.org/project-design/info-management/code-styling/code-styling-guidelines) for examples.
 
-  **Why:** Unclear or inconsistent naming makes the code harder to read, understand, and maintain. Both for you and for new users.
+  **Why:** Unclear or inconsistent names make code hard to read and maintain, for you and for anyone else working with it.
 
-  **Action:** Use short but descriptive names that reflect what the variable or function does. Follow a consistent naming style (for example, `snake_case` in Python or `camelCase` in JavaScript) throughout the code.
+  **Action:** Use short but descriptive names that reflect what a variable or function does. Pick a naming style (e.g. `snake_case` in Python or `camelCase` in JavaScript) and stick to it throughout.
 
   </details>
 
@@ -157,11 +157,11 @@ This checklist provides essential steps for sharing and citing research code. It
   <details>
   <summary>Read more</summary>
 
-  Include a software availability statement in the body of the publication, describing where and how the software can be accessed.
+  A software availability statement is a short paragraph in the body of your paper that tells readers where to find your code and under what conditions.
 
-  **Why:** A software availability statement ensures people know exactly where to go to find the software when reading the publication.
+  **Why:** Many journals require this, and it helps readers find your code without having to search for it.
 
-  **Action:** Follow the template inspired by AGUs Software Citation Examples: _< Version number > of the < software name > used for < brief context, description of what the software was used for > is preserved at < DOI, persistent identifier link >, available via < licence type, access conditions > and developed openly at < software development platform link >. [< Link to formal citation in References section >]_
+  **Action:** Add a short statement to your paper using this template (inspired by AGU's Software Citation Examples): _< Version number > of the < software name > used for < brief context, description of what the software was used for > is preserved at < DOI, persistent identifier link >, available via < licence type, access conditions > and developed openly at < software development platform link >. [< Link to formal citation in References section >]_
 
   </details>
 
@@ -169,11 +169,11 @@ This checklist provides essential steps for sharing and citing research code. It
   <details>
   <summary>Read more</summary>
 
-  Use formats like [JSON Schema](https://json-schema.org/) to clearly describe the structure of your software's inputs and outputs.
+  Make it clear what data your code expects as input and what it returns as output: what format, what type, what it contains. You can do this in docstrings, in your documentation, or formally using something like [JSON Schema](https://json-schema.org/).
 
-  **Why:** It is unclear what the code expects and returns, and thus unclear how to use and adapt it to new data.
+  **Why:** If it is not clear what the code expects and returns, others cannot easily use or adapt it.
 
-  **Action:** Define expected inputs and outputs (the type, what it is used for and what it contains) in each functions docstring and describe their structure in your documentation. Formally describe input and output data, for example using JSON schema.
+  **Action:** For each function, document the expected inputs and outputs in the docstring (type, purpose, format). For the overall tool, describe the data structure in your documentation. For formal use, consider defining it with JSON Schema.
 
   </details>
 
@@ -181,11 +181,11 @@ This checklist provides essential steps for sharing and citing research code. It
   <details>
   <summary>Read more</summary>
 
-  Include badges for citation (e.g., Zenodo DOI), licence, build status, and community standards. You can create and customise badges via [shields.io](https://shields.io/).
+  Badges are small indicators you can add to your `README.md` to show things like your licence, DOI, and whether your tests are passing. You can create custom badges via [shields.io](https://shields.io/).
 
-  **Why:** Users can see key information quickly which can contribute to, for example, more accurate citation.
+  **Why:** Badges give users a quick overview of key information.
 
-  **Action:** Create and customise badges using shields.io or get them from the platforms they represent (GitHub Actions, Zenodo, or licence metadata). Add them as linked images to your `README.md`.
+  **Action:** Add badges for your licence and persistent identifier (and more) to your `README.md`. Get them from platforms (GitHub, Zenodo) or create custom ones via [shields.io](https://shields.io/).
 
   </details>
 
@@ -193,11 +193,11 @@ This checklist provides essential steps for sharing and citing research code. It
   <details>
   <summary>Read more</summary>
 
-  Enable GitHub Issues, forums, or mailing lists to gather community feedback and improve software. Consider building a backlog with clearly identified “Starter Issues” to help new contributors find small, manageable issues to start on.
+  Use GitHub Issues (or a similar tool) to log bugs, feature requests, and tasks. This makes it easy for others to report problems and for you to keep track of what needs doing. Adding a few "good first issue" labels can help new contributors get started.
 
-  **Why:** Problems may go undetected and unsolved.
+  **Why:** Without issue tracking, problems can get lost and it is hard for others to know how to contribute or report bugs.
 
-  **Action:** Enable GitHub Issues and add a first issue. Use labels like “bug,” “enhancement,” or “good first issue” to organise.
+  **Action:** Enable GitHub Issues in your repository and add your first issue. Use labels like "bug", "enhancement", or "good first issue" to organise.
 
   </details>
 
@@ -205,11 +205,11 @@ This checklist provides essential steps for sharing and citing research code. It
   <details>
   <summary>Read more</summary>
 
-  Create a `CONTRIBUTING.md` file to guide community contributions.
+  A `CONTRIBUTING.md` file tells people how they can contribute to your code; how to report issues, suggest changes, and submit pull requests.
 
-  **Why:** People who want to contribute may not know how to do so.
+  **Why:** Without contributing guidelines, people who want to help may not know how to do so.
 
-  **Action:** Add a `CONTRIBUTING.md` file that covers how to suggest changes, open issues, and submit pull requests. It can also include information on coding style, the review process and how (if) contributors will be credited.
+  **Action:** Add a `CONTRIBUTING.md` file explaining how to open issues, suggest changes, and submit pull requests. You can also include information on coding style, the review process, and how contributors will be credited.
 
   </details>
 
@@ -217,11 +217,11 @@ This checklist provides essential steps for sharing and citing research code. It
   <details>
   <summary>Read more</summary>
 
-  Logically break up code into functions and modules to make it easier to read, avoid repetition, simplify testing, and improve long-term maintainability. Avoid hardcoding details like file paths or settings by passing them as inputs instead. See [The Turing Ways Detailed Recommendations for Code Reuse](https://book.the-turing-way.org/reproducible-research/code-reuse/code-reuse-details#re-runnable-recommendations) for more information.
+  Break your code into small, reusable functions instead of writing everything in one long script. Avoid hardcoding file paths or settings directly in the code - pass them as arguments instead. See [The Turing Way's Recommendations for Code Reuse](https://book.the-turing-way.org/reproducible-research/code-reuse/code-reuse-details#re-runnable-recommendations) for more information.
 
-  **Why:** Long and unstructured code blocks are hard to read, test and rework. They may be repetitive and run less efficiently, and changing one part can easily break others.
+  **Why:** Long scripts that do everything in one place are hard to read, test, and update. Changing one part can easily break something else.
 
-  **Action:** Split the code into smaller, non-repetative, parts and call them as functions. Pass (and define well) inputs like file paths or settings as arguments instead of hardcoding them.
+  **Action:** Split your code into functions, each doing one clear thing. Pass inputs like file paths or settings as arguments rather than hardcoding them.
 
   </details>
 
@@ -229,11 +229,11 @@ This checklist provides essential steps for sharing and citing research code. It
   <details>
   <summary>Read more</summary>
 
-  Include unit tests and integration tests so the software continues to work as intended over time, using frameworks like [PyTest](https://docs.pytest.org/en/stable/), [Jest](https://jestjs.io/), or [Mocha](https://mochajs.org/). Use CI/CD tools like GitHub Actions and GitLab CI to streamline testing and deployment.
+  Write tests that check your code still works correctly when you make changes. Use a testing framework like [PyTest](https://docs.pytest.org/en/stable/), [Jest](https://jestjs.io/), or [Mocha](https://mochajs.org/). You can also set up automated testing with GitHub Actions so tests run every time you push new code.
 
-  **Why:** When changes are made, new errors can go unnoticed and it is hard to confirm that the full software still works as expected.
+  **Why:** Without tests, it is easy to accidentally break something when making changes and not notice until much later.
 
-  **Action:** Add simple unit tests for key functions using a testing framework such as PyTest. Preferably, set up automated testing with GitHub Actions so tests run automatically when the code is updated and notifies you if something is wrong.
+  **Action:** Write simple unit tests for your key functions using a framework like PyTest. Optionally, set up GitHub Actions to run the tests automatically whenever you update the code.
 
   </details>
 
@@ -241,11 +241,11 @@ This checklist provides essential steps for sharing and citing research code. It
   <details>
   <summary>Read more</summary>
 
-  Outline roles, responsibilities, and decision-making processes for sustaining your software project over time.
+  Be clear about whether your code will be actively maintained after publication, and if so, who is responsible. This helps users know what to expect if they find a bug or want to build on your work.
 
-  **Why:** Without maintenance, unpatched bugs or security issues can arise and create risks for those who reuse it.
+  **Why:** Without this information, users don't know whether to expect updates, bug fixes, or support. Unmaintained code can also develop security issues over time that put anyone using it at risk.
 
-  **Action:** Decide and communicate (for example, in the `README.md`) whether the code will be maintained. If it will be, specify who is responsible and how maintenance will be handled.
+  **Action:** Add a short note to your `README.md` saying whether the code will be maintained and who to contact. If it will not be maintained, say that too - it is very useful information.
 
   </details>
 
@@ -253,11 +253,11 @@ This checklist provides essential steps for sharing and citing research code. It
   <details>
   <summary>Read more</summary>
 
-  Label official releases of software using a consistent versioning system, such as [Semantic Versioning (SemVer)](https://semver.org/) (`major.minor.patch`), tagging the exact commit related to each release. This makes each version unambiguously citable and reusable.
+  Tag your releases with a version number so people can refer to and cite a specific version of your code. A common system is [Semantic Versioning](https://semver.org/): `major.minor.patch` (e.g. `v1.2.0`).
 
-  **Why:** Users can not tell which version of the software they are using or citing. This can make it harder to track changes, reproduce results, or identify when updates introduce issues.
+  **Why:** Without version tags, users cannot tell which version they are using or cite a specific version in a paper.
 
-  **Action:** Use a clear versioning system such as Semantic Versioning (major.minor.patch). Tag each release (via command line or the GitHub interface) in your repository. For smaller projects, deposits in archival repositories provide sufficient versioning.
+  **Action:** Tag each release in your repository using a consistent version number. You can do this via the GitHub interface or the command line. For smaller projects, uploading to Zenodo for each new version is enough.
 
   </details>
 
@@ -265,11 +265,11 @@ This checklist provides essential steps for sharing and citing research code. It
   <details>
   <summary>Read more</summary>
 
-  Define expectations for community interactions using a `CODE_OF_CONDUCT.md` file (e.g., [Contributor Covenant](https://www.contributor-covenant.org/)), and include a contact method for reporting violations.
+  A code of conduct communicates how people should interact in your project and what to do if something goes wrong.
 
-  **Why:** Misunderstandings or conflicts may arise, and contributors may feel unsure how to, or if they should, report issues.
+  **Why:** Without a code of conduct, contributors may not know how to report issues or what behaviour is expected.
 
-  **Action:** Add a `CODE_OF_CONDUCT.md` file using a standard template such as the [Contributor Covenant](https://www.contributor-covenant.org/). Include a contact email or form for reporting violations or concerns.
+  **Action:** Add a `CODE_OF_CONDUCT.md` file using a template like the [Contributor Covenant](https://www.contributor-covenant.org/). Include a contact email or form for reporting violations or concerns.
 
   </details>
 
@@ -277,10 +277,10 @@ This checklist provides essential steps for sharing and citing research code. It
   <details>
   <summary>Read more</summary>
 
-  Provide instructions to create consistent, portable environments using [Docker](https://www.docker.com/) or [Singularity](https://github.com/apptainer/singularity), by including a Dockerfile or equivalent build instructions. This improves transparency and ensures your software runs reliably across different systems, thus enhancing reproducibility and simplifying deployment.
+  A container (e.g. using [Docker](https://www.docker.com/) or [Singularity](https://github.com/apptainer/singularity)) packages your code together with everything it needs to run, so it works the same way on any computer.
 
-  **Why:** The software may behave differently across systems.
+  **Why:** Code that works on your machine can behave differently on other systems.
 
-  **Action:** Add a Dockerfile or equivalent environment setup.
+  **Action:** Add a Dockerfile or equivalent to your repository.
 
   </details>
