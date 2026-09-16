@@ -14,9 +14,9 @@
       "title": "Put code in a public repository with version control",
       "fair_category": "Accessible",
       "priority": "Essential",
-      "description": "Host your code on platforms like GitHub, GitLab, or CodeBerg to track development history, enable tagged versioned releases, improve reusability, and support collaboration.",
-      "explanation": "If your code isn't in a public repository that records version history, you can't see how it developed or which version produced certain results. It also makes it harder for others, or even your own team, to follow the process and work on the code together",
-      "action": "Upload your code to a public version-controlled platform like GitHub.",
+      "description": "Upload your code to a platform like GitHub, GitLab, or Codeberg. These platforms track every change you make, let you create versioned releases, and make it easy for others to find and use your code.",
+      "explanation": "If your code isn't in a public repository, others can't access it, and you can't easily track how it changed over time or which version was used to produce a specific result.",
+      "action": "Upload your code to a public version-controlled repository on a platform like GitHub.",
       "project_size": ["small", "big"]
     },
     {
