@@ -1,6 +1,6 @@
 {
   "title": "SciLifeLab Open Code Checklist",
-  "doi": "https://doi.org/10.17044/scilifelab.29086775.v3",
+  "doi": "https://doi.org/10.17044/scilifelab.29086775",
   "version": "v3",
   "description": "This checklist provides essential steps for sharing and citing research code. It covers planning your code, ensuring others can find, understand, reuse, and contribute to it, and enabling your work to be credited. Click each box to read about what should be done, why it matters, and how to implement it.",
   "disclaimer": "For larger software projects, or if you want more comprehensive guidance in documenting your code, use the interactive Software Management Plan (SMP) available through the Data Stewardship Wizard. An SMP helps you plan your project and guides you through documenting how your software is developed, maintained, and sustained.",
