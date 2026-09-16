@@ -33,7 +33,7 @@ This checklist provides essential steps for sharing and citing research code. It
   <details>
   <summary>Read more</summary>
 
-  Archive your code in a repository that gives it a persistant identifier (like a DOI), such as [Zenodo](https://zenodo.org/), [Software Heritage](https://www.softwareheritage.org/), or the [SciLifeLab Data Repository](https://figshare.scilifelab.se/). This is separate from your GitHub repository and gives people a stable link to cite in papers.
+  Archive your code in a repository that gives it a persistent identifier (like a DOI), such as [Zenodo](https://zenodo.org/), [Software Heritage](https://www.softwareheritage.org/), or the [SciLifeLab Data Repository](https://figshare.scilifelab.se/). This is separate from your GitHub repository and gives people a stable link to cite in papers.
 
   **Why:** Links to GitHub repositories can break or change if the repo is renamed or moved. A persistent identifier is permanent and always points to the right version.
 
@@ -49,7 +49,7 @@ This checklist provides essential steps for sharing and citing research code. It
 
   **Why:** Without metadata, your code is harder to find, cite, and attribute correctly.
 
-  **Action:** Add a `CITATION.cff` file to your repository with at least: title, authors, contributor roles and ORCID iDs, version, licence, and keywords. Add the your persistant identifier (such as a DOI) once you have one.
+  **Action:** Add a `CITATION.cff` file to your repository with at least: title, authors, contributor roles and ORCID iDs (where available), version, licence, and keywords. Add the your persistent identifier (such as a DOI) once you have one.
 
   </details>
 
@@ -85,7 +85,7 @@ This checklist provides essential steps for sharing and citing research code. It
 
   When you publish a paper that uses your code, include a formal citation in the references section so readers can find it.
 
-  **Why:** A citation in the references section means the reader know exactly where to go to find the software when reading the paper.
+  **Why:** A citation in the references section means the readers know exactly where to go to find the software when reading the paper.
 
   **Action:** Add a citation to your references section using this template (inspired by AGU's Software Citation Examples): _< Author(s)/contributor(s) or project name(s) >. (< Date published >). < Descriptive title / name of software >. < Software release/version > < Bracketed description type (e.g., [Software], [Collection], [ComputationalNotebook]) >. < Repository name / Publication venue >. < DOI >._
 
@@ -109,7 +109,7 @@ This checklist provides essential steps for sharing and citing research code. It
 
   Use a standard style guide or formatter for your programming language to keep your code clean and consistent. Common tools for Python include Black and Pylint. See the [Netherlands eScience Center Guide](https://guide.esciencecenter.nl/#/) for language-specific examples and [The Turing Way's overview of static analysis tools](https://book.the-turing-way.org/reproducible-research/code-quality) for more options.
 
-  **Why:** Inconsistent formatting makes code harder to read and make small errors hard to detect.
+  **Why:** Inconsistent formatting makes code harder to read and makes small errors hard to detect.
 
   **Action:** Look up the standard style guide for your programming language and follow it, or install a formatter or linter that applies it automatically.
 
