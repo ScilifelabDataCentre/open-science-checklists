@@ -19,7 +19,9 @@ If you're comfortable with Git:
 - Create a new branch
 - Submit a pull request  
 
-We’ll review and approve changes before merging.
+> [!NOTE]
+> Please note that the `open_code_checklist.md` file is generated, not hand-edited, so content changes should go through `checklist_items.json`and `generate_checklist.py`.
+
 
 ## Review Process   
 All changes will be reviewed by the maintainers before being accepted.

@@ -1,0 +1,311 @@
+{
+  "title": "SciLifeLab Open Code Checklist",
+  "doi": "https://doi.org/10.17044/scilifelab.29086775",
+  "version": "v3",
+  "description": "This checklist provides essential steps for sharing and citing research code. It covers planning your code, ensuring others can find, understand, reuse, and contribute to it, and enabling your work to be credited. Click each box to read about what should be done, why it matters, and how to implement it.",
+  "disclaimer": "For larger software projects, or if you want more comprehensive guidance in documenting your code, use the interactive Software Management Plan (SMP) available through the Data Stewardship Wizard. An SMP helps you plan your project and guides you through documenting how your software is developed, maintained, and sustained.",
+  "links": [
+    {"label": "SciLifeLab Data Stewardship Wizard", "url": "https://dsw.scilifelab.se/wizard"},
+    {"label": "Learn more about sharing code and workflows", "url": "/topics/sharing-code-workflows/"}
+    ],
+  "items": [
+    {
+      "id": 1,
+      "title": "Put code in a public repository with version control",
+      "fair_category": "Accessible",
+      "priority": "Essential",
+      "description": "Upload your code to a platform like GitHub, GitLab, or Codeberg. These platforms track every change you make, let you create versioned releases, and make it easy for others to find and use your code.",
+      "explanation": "If your code isn't in a public repository, others can't access it, and you can't easily track how it changed over time or which version was used to produce a specific result.",
+      "action": "Upload your code to a public version-controlled repository on a platform like GitHub.",
+      "project_size": ["small", "big"]
+    },
+    {
+      "id": 2,
+      "title": "Add an open licence",
+      "fair_category": "Findable",
+      "priority": "Essential",
+      "description": "Add a licence to your code so others know how they can use, share, and modify it. Without a licence, your code cannot legally be reused, even if it is publicly available. Common options are the [MIT Licence](https://choosealicense.com/licenses/mit/) and [Apache Licence](https://choosealicense.com/licenses/apache-2.0/). If your repository also contains other content like text or figures, add a separate licence for those, such as [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).",
+      "explanation": "Without a licence, others cannot legally reuse your code, even if they can see it.",
+      "action": "Add a `LICENSE` file to your repository. On GitHub, you can do this by selecting **\"Add file → Choose a license template\"**. SciLifeLab's standard is the MIT Licence. If your repository includes other materials like text or figures, add a separate licence for those, for example *CC BY 4.0* (copy the legal text from [CC BY 4.0 legal text](https://creativecommons.org/licenses/by/4.0/legalcode.txt) since GitHub does not offer 4.0). Name your code licence `LICENCE-CODE` and your content licence `LICENCE-CONTENT`, and list both clearly in your `README`.",
+      "project_size": ["small", "big"]
+    },
+    {
+      "id": 3,
+      "title": "Write a README",
+      "fair_category": "Reusable",
+      "priority": "Essential",
+      "description": "A `README.md` explains what the code does, how to install and run it, and how to cite it. Use plain Markdown section headings so the file is easy to read both by humans and automated tools.",
+      "explanation": "Without a README, it is hard for anyone (including you, later) to understand what the code does or how to use it.",
+      "action": "Add a `README.md` to your repository. At minimum include a title, a short description, and sections for 'Installation', 'Licence', and 'Citing this resource'. You can use [readme.so](https://readme.so/) to build one by filling in pre-made sections.",
+      "project_size": ["small", "big"]
+    },
+    {
+      "id": 4,
+      "title": "Get a persistent identifier",
+      "fair_category": "Findable",
+      "priority": "Essential",
+      "description": "Archive your code in a repository that gives it a persistent identifier (like a DOI), such as [Zenodo](https://zenodo.org/), [Software Heritage](https://www.softwareheritage.org/), or the [SciLifeLab Data Repository](https://figshare.scilifelab.se/). This is separate from your GitHub repository and gives people a stable link to cite in papers.",
+      "explanation": "Links to GitHub repositories can break or change if the repo is renamed or moved. A persistent identifier is permanent and always points to the right version.",
+      "action": "Upload your code to [Zenodo](https://zenodo.org/) to get a DOI. One way is to connect your GitHub repository to Zenodo and create a release. Follow the steps here: https://help.zenodo.org/docs/github/",
+      "project_size": ["small", "big"]
+    },
+    {
+      "id": 5,
+      "title": "Add metadata",
+      "fair_category": "Findable",
+      "priority": "Essential",
+      "description": "Metadata is basic information about your code: who wrote it, what version it is, what licence it uses, and how to cite it. The simplest way to add this is a `CITATION.cff` file. For more detail you can also create a `codemeta.json` file using the [CodeMeta generator](https://codemeta.github.io/codemeta-generator/)",
+      "explanation": "Without metadata, your code is harder to find, cite, and attribute correctly.",
+      "action": "Add a `CITATION.cff` file to your repository with at least: title, authors, contributor roles and ORCID iDs (where available), version, licence, and keywords. Add the your persistent identifier (such as a DOI) once you have one.",
+      "project_size": ["small", "big"]
+    },
+    {
+      "id": 6,
+      "title": "List your dependencies",
+      "fair_category": "Interoperable",
+      "priority": "Recommended",
+      "description": "List all the packages your code needs to run, and ideally which versions, in a file like `requirements.txt` or `environment.yml`. This lets others install everything they need in one step and reduces the risk of version conflicts.",
+      "explanation": "If you don't list your dependencies, others may not be able to run your code at all, and outdated packages can cause bugs or security issues.",
+      "action": "Create a `requirements.txt`, `environment.yml`, or similar, file listing all required packages. See the [list of package managers](https://en.wikipedia.org/wiki/List_of_software_package_management_systems) for options in your language. Where possible, also specify version ranges (e.g. `wordfreq>=3.0,<4.0`).",
+      "project_size": ["big"]
+    },
+    {
+      "id": 7,
+      "title": "Use clear and consistent names",
+      "fair_category": "Best practice",
+      "priority": "Recommended",
+      "description": "Give your variables, functions, and files names that clearly describe what they do. Follow a consistent naming style throughout your code. See [The Turing Way Guidelines for Code Styling](https://book.the-turing-way.org/project-design/info-management/code-styling/code-styling-guidelines) for examples.",
+      "explanation": "Unclear or inconsistent names make code hard to read and maintain, for you and for anyone else working with it.",
+      "action": "Use short but descriptive names that reflect what a variable or function does. Pick a naming style (e.g. `snake_case` in Python or `camelCase` in JavaScript) and stick to it throughout.",
+      "project_size": ["small", "big"]
+    },
+    {
+      "id": 8,
+      "title": "Document your code",
+      "fair_category": "Reusable",
+      "priority": "Recommended",
+      "description": "Add inline comments inside your code and write docstrings for your functions so others can understand what each part does. For more guidance, see [CodeRefinery's Modular Code Development lesson](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md/#1).",
+      "explanation": "Without comments and docstrings, others (and future you) will struggle to understand or build on the code.",
+      "action": "Write a short comment above each logical block of code explaining what it does. Write a docstring for every function describing its inputs, outputs, and purpose. For larger projects, consider a dedicated documentation site using GitHub Pages or ReadTheDocs.",
+      "project_size": ["small", "big"]
+    },
+    {
+      "id": 9,
+      "title": "Add usage examples",
+      "fair_category": "Reusable",
+      "priority": "Recommended",
+      "description": "Include a small example that shows how to run your code on real or example data. This can be a short script, a section in the `README.md`, or a [Jupyter notebook](https://jupyter.org/) (see [notebook guidance](https://zenodo.org/records/5651648)). Include a small example dataset if possible, or link to one on [Zenodo](https://zenodo.org/) if the data is too large to include in the repository.",
+      "explanation": "Without an example, others may not know how to run your code or what format the input data should be in.",
+      "action": "Add a short script or Jupyter notebook that runs the code on a small example dataset and shows the expected output. Put the example dataset in the repository, or link to it if it is too large.",
+      "project_size": ["small", "big"]
+    },
+    {
+      "id": 10,
+      "title": "Format your code according to standards",
+      "fair_category": "Interoperable",
+      "priority": "Recommended",
+      "description": "Use a standard style guide or formatter for your programming language to keep your code clean and consistent. Common tools for Python include Black and Pylint. See the [Netherlands eScience Center Guide](https://guide.esciencecenter.nl/#/) for language-specific examples and [The Turing Way's overview of static analysis tools](https://book.the-turing-way.org/reproducible-research/code-quality) for more options.",
+      "explanation": "Inconsistent formatting makes code harder to read and makes small errors hard to detect.",
+      "action": "Look up the standard style guide for your programming language and follow it, or install a formatter or linter that applies it automatically.",
+      "project_size": ["small", "big"]
+    },
+    {
+      "id": 11,
+      "title": "Use issue tracking",
+      "fair_category": "Best practice",
+      "priority": "Advanced",
+      "description": "Use GitHub Issues (or a similar tool) to log bugs, feature requests, and tasks. This makes it easy for others to report problems and for you to keep track of what needs doing. Adding a few \"good first issue\" labels can help new contributors get started.",
+      "explanation": "Without issue tracking, problems can get lost and it is hard for others to know how to contribute or report bugs.",
+      "action": "Enable GitHub Issues in your repository and add your first issue. Use labels like \"bug\", \"enhancement\", or \"good first issue\" to organise.",
+      "project_size": ["big"]
+    },
+    {
+      "id": 12,
+      "title": "Add contributing guidelines",
+      "fair_category": "Best practice",
+      "priority": "Advanced",
+      "description": "A `CONTRIBUTING.md` file tells people how they can contribute to your code; how to report issues, suggest changes, and submit pull requests.",
+      "explanation": "Without contributing guidelines, people who want to help may not know how to do so.",
+      "action": "Add a `CONTRIBUTING.md` file explaining how to open issues, suggest changes, and submit pull requests. You can also include information on coding style, the review process, and how contributors will be credited.",
+      "project_size": ["big"]
+    },
+    {
+      "id": 13,
+      "title": "Write modular code",
+      "fair_category": "Best practice",
+      "priority": "Advanced",
+      "description": "Break your code into small, reusable functions instead of writing everything in one long script. Avoid hardcoding file paths or settings directly in the code - pass them as arguments instead. See [The Turing Way's Recommendations for Code Reuse](https://book.the-turing-way.org/reproducible-research/code-reuse/code-reuse-details#re-runnable-recommendations) for more information.",
+      "explanation": "Long scripts that do everything in one place are hard to read, test, and update. Changing one part can easily break something else.",
+      "action": "Split your code into functions, each doing one clear thing. Pass inputs like file paths or settings as arguments rather than hardcoding them.",
+      "project_size": ["small", "big"]
+    },
+    {
+      "id": 14,
+      "title": "Describe your inputs and outputs",
+      "fair_category": "Interoperable",
+      "priority": "Advanced",
+      "description": "Make it clear what data your code expects as input and what it returns as output: what format, what type, what it contains. You can do this in docstrings, in your documentation, or formally using something like [JSON Schema](https://json-schema.org/).",
+      "explanation": "If it is not clear what the code expects and returns, others cannot easily use or adapt it.",
+      "action": "For each function, document the expected inputs and outputs in the docstring (type, purpose, format). For the overall tool, describe the data structure in your documentation. For formal use, consider defining it with JSON Schema.",
+      "project_size": ["small", "big"]
+    },
+    {
+      "id": 15,
+      "title": "Add tests",
+      "fair_category": "Best practice",
+      "priority": "Advanced",
+      "description": "Write tests that check your code still works correctly when you make changes. Use a testing framework like [PyTest](https://docs.pytest.org/en/stable/), [Jest](https://jestjs.io/), or [Mocha](https://mochajs.org/). You can also set up automated testing with GitHub Actions so tests run every time you push new code.",
+      "explanation": "Without tests, it is easy to accidentally break something when making changes and not notice until much later.",
+      "action": "Write simple unit tests for your key functions using a framework like PyTest. Optionally, set up GitHub Actions to run the tests automatically whenever you update the code.",
+      "project_size": ["big"]
+    },
+    {
+      "id": 16,
+      "title": "State whether and by whom the code will be maintained",
+      "fair_category": "Best practice",
+      "priority": "Advanced",
+      "description": "Be clear about whether your code will be actively maintained after publication, and if so, who is responsible. This helps users know what to expect if they find a bug or want to build on your work.",
+      "explanation": "Without this information, users don't know whether to expect updates, bug fixes, or support. Unmaintained code can also develop security issues over time that put anyone using it at risk.",      
+      "action": "Add a short note to your `README.md` saying whether the code will be maintained and who to contact. If it will not be maintained, say that too - it is very useful information.",
+      "project_size": ["small", "big"]
+    },
+    {
+      "id": 17,
+      "title": "Use version tags",
+      "fair_category": "Best practice",
+      "priority": "Advanced",
+      "description": "Tag your releases with a version number so people can refer to and cite a specific version of your code. A common system is [Semantic Versioning](https://semver.org/): `major.minor.patch` (e.g. `v1.2.0`).",
+      "explanation": "Without version tags, users cannot tell which version they are using or cite a specific version in a paper.",
+      "action": "Tag each release in your repository using a consistent version number. You can do this via the GitHub interface or the command line. For smaller projects, uploading to Zenodo for each new version is enough.",
+      "project_size": ["big"]
+    },
+    {
+      "id": 18,
+      "title": "Add a code of conduct",
+      "fair_category": "Best practice",
+      "priority": "Advanced",
+      "description": "A code of conduct communicates how people should interact in your project and what to do if something goes wrong.",
+      "explanation": "Without a code of conduct, contributors may not know how to report issues or what behaviour is expected.",
+      "action": "Add a `CODE_OF_CONDUCT.md` file using a template like the [Contributor Covenant](https://www.contributor-covenant.org/). Include a contact email or form for reporting violations or concerns.",
+      "project_size": ["big"]
+    },
+    {
+      "id": 19,
+      "title": "Add badges to your README",
+      "fair_category": "Reusable",
+      "priority": "Advanced",
+      "description": "Badges are small indicators you can add to your `README.md` to show things like your licence, DOI, and whether your tests are passing. You can create custom badges via [shields.io](https://shields.io/).",
+      "explanation": "Badges give users a quick overview of key information.",
+      "action": "Add badges for your licence and persistent identifier (and more) to your `README.md`. Get them from platforms (GitHub, Zenodo) or create custom ones via [shields.io](https://shields.io/).",
+      "project_size": ["small", "big"]
+    },
+    {
+      "id": 20,
+      "title": "Containerise your code",
+      "fair_category": "Best practice",
+      "priority": "Advanced",
+      "description": "A container (e.g. using [Docker](https://www.docker.com/) or [Singularity](https://github.com/apptainer/singularity)) packages your code together with everything it needs to run, so it works the same way on any computer.",
+      "explanation": "Code that works on your machine can behave differently on other systems.",
+      "action": "Add a Dockerfile or equivalent to your repository.",
+      "project_size": ["big"]
+    },
+    {
+      "id": 21,
+      "title": "Cite your code in publications",
+      "fair_category": "Findable",
+      "priority": "Recommended",
+      "description": "When you publish a paper that uses your code, include a formal citation in the references section so readers can find it.",
+      "explanation": "A citation in the references section means the readers know exactly where to go to find the software when reading the paper.",
+      "action": "Add a citation to your references section using this template (inspired by AGU's Software Citation Examples): _< Author(s)/contributor(s) or project name(s) >. (< Date published >). < Descriptive title / name of software >. < Software release/version > < Bracketed description type (e.g., [Software], [Collection], [ComputationalNotebook]) >. < Repository name / Publication venue >. < DOI >._",
+      "project_size": ["small", "big"]
+    },
+    {
+      "id": 22,
+      "title": "Add a software availability statement",
+      "fair_category": "Findable",
+      "priority": "Advanced",
+      "description": "A software availability statement is a short paragraph in the body of your paper that tells readers where to find your code and under what conditions.",
+      "explanation": "Many journals require this, and it helps readers find your code without having to search for it.",
+      "action": "Add a short statement to your paper using this template (inspired by AGU's Software Citation Examples): _< Version number > of the < software name > used for < brief context, description of what the software was used for > is preserved at < DOI, persistent identifier link >, available via < licence type, access conditions > and developed openly at < software development platform link >. [< Link to formal citation in References section >]_",
+      "project_size": ["small", "big"]
+    },
+    {
+      "id": 23,
+      "title": "Use open file formats",
+      "fair_category": "Interoperable",
+      "priority": "Recommended",
+      "description": "Store your data and outputs in open, widely used formats so others can open them without proprietary or specialist software. See [DANS's File Formats Overview](https://dans.knaw.nl/en/file-formats/) for recommended formats for long term access.",
+      "explanation": "Proprietary formats (like .xlsx or .mat) may not be readable by everyone, and can become inaccessible if the software is no longer available.",
+      "action": "Check [DANS's File Formats Overview](https://dans.knaw.nl/en/file-formats/) and convert your files to recommended open formats where possible (e.g. `.csv` instead of `.xlsx`, `.txt` instead of `.docx`).",
+      "project_size": ["small", "big"]
+    },
+    {
+      "id": 24,
+      "title": "Use a clear folder structure",
+      "fair_category": "Best practice",
+      "priority": "Recommended",
+      "description": "Organise your files into clearly named folders so others can find their way around your project. A common approach is to separate source code and data into folders like `src/` and `data/`.",
+      "explanation": "A messy or flat file structure makes it hard to navigate and understand what a project contains.",
+      "action": "Organise your repository into named folders by type, for example `src/` for code, `data/` for input data, and `results/` for outputs. Add a short note about the structure to your `README.md`.",
+      "project_size": ["small", "big"]
+    }
+  ],
+  "sources": [
+    {
+      "authors": "The Turing Way Community",
+      "year": "2022",
+      "title": "The Turing Way: A handbook for reproducible, ethical and collaborative research",
+      "publisher": "Zenodo",
+      "doi": "10.5281/zenodo.3233853",
+      "retrieved": "April 11, 2025"
+    },
+    {
+      "authors": "Software Sustainability Institute",
+      "year": null,
+      "title": "Guides for researchers",
+      "publisher": "Software Sustainability Institute",
+      "url": "https://www.software.ac.uk/guide/guides-researchers",
+      "retrieved": "April 11, 2025"
+    },
+    {
+      "authors": "Spaaks, J. H. and Maassen, J.",
+      "year": "2018",
+      "title": "Netherlands eScience Center Software Sustainability Protocol",
+      "publisher": "Zenodo",
+      "doi": "10.5281/zenodo.1451750",
+      "retrieved": "April 11, 2025"
+    },
+    {
+      "authors": "Social Science Data Editors",
+      "year": null,
+      "title": "Data and Code Availability Statements - Sample text",
+      "publisher": "Social Science Data Editors Guidance",
+      "url": "https://social-science-data-editors.github.io/guidance/Guidance/Requested_information_dcas.html",
+      "retrieved": "April 11, 2025"
+    },
+    {
+      "authors": "FORCE11",
+      "year": "2016",
+      "title": "Software Citation Principles",
+      "publisher": "FORCE11",
+      "url": "https://force11.org/info/software-citation-principles-published-2016/",
+      "retrieved": "April 11, 2025"
+    },
+    {
+      "authors": "American Geophysical Union",
+      "year": null,
+      "title": "Data and Software for Authors",
+      "publisher": "AGU",
+      "url": "https://www.agu.org/publications/authors/journals/data-software-for-authors",
+      "retrieved": "April 11, 2025"
+    },
+    {
+      "authors": "Netherlands eScience Center and DANS",
+      "year": "2020",
+      "title": "Five Recommendations for FAIR Software",
+      "publisher": "fair-software.nl",
+      "url": "https://fair-software.nl/",
+      "retrieved": "September 17, 2026"
+    }
+  ]
+}
