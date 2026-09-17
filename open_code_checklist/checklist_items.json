@@ -298,6 +298,14 @@
       "publisher": "AGU",
       "url": "https://www.agu.org/publications/authors/journals/data-software-for-authors",
       "retrieved": "April 11, 2025"
+    },
+    {
+      "authors": "Netherlands eScience Center and DANS",
+      "year": "2020",
+      "title": "Five Recommendations for FAIR Software",
+      "publisher": "fair-software.nl",
+      "url": "https://fair-software.nl/",
+      "retrieved": "September 17, 2026"
     }
   ]
 }

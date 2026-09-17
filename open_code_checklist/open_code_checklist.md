@@ -1,6 +1,6 @@
 # SciLifeLab Open Code Checklist
 
-[![DOI](https://img.shields.io/badge/DOI-10.17044/scilifelab.29086775.v3-blue)](https://doi.org/10.17044/scilifelab.29086775.v3) ![Version](https://img.shields.io/badge/version-v3-lightgrey) ![Licence](https://img.shields.io/badge/licence-CC%20BY%204.0-green)
+[![DOI](https://img.shields.io/badge/DOI-10.17044/scilifelab.29086775-blue)](https://doi.org/10.17044/scilifelab.29086775) ![Version](https://img.shields.io/badge/version-v3-lightgrey) ![Licence](https://img.shields.io/badge/licence-CC%20BY%204.0-green)
 
 This checklist provides essential steps for sharing and citing research code. It covers planning your code, ensuring others can find, understand, reuse, and contribute to it, and enabling your work to be credited. Click each box to read about what should be done, why it matters, and how to implement it.
 
@@ -451,4 +451,6 @@ Social Science Data Editors. *Data and Code Availability Statements - Sample tex
 FORCE11. (2016). *Software Citation Principles*. FORCE11. https://force11.org/info/software-citation-principles-published-2016/ (Retrieved April 11, 2025.)
 
 American Geophysical Union. *Data and Software for Authors*. AGU. https://www.agu.org/publications/authors/journals/data-software-for-authors (Retrieved April 11, 2025.)
+
+Netherlands eScience Center and DANS. (2020). *Five Recommendations for FAIR Software*. fair-software.nl. https://fair-software.nl/ (Retrieved September 17, 2026.)
 
