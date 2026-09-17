@@ -18,24 +18,7 @@ This checklist provides essential steps for sharing and citing research code. It
 ---
 ## Essential (5 items)
 
-*Start here. These steps are the minimum needed to share your code properly.*
-
-- [ ] **Add an open licence** `Findable`
-
-  <details>
-  <summary>Read more</summary>
-
-  Add a licence to your code so others know how they can use, share, and modify it. Without a licence, your code cannot legally be reused, even if it is publicly available. Common options are the [MIT Licence](https://choosealicense.com/licenses/mit/) and [Apache Licence](https://choosealicense.com/licenses/apache-2.0/). If your repository also contains other content like text or figures, add a separate licence for those, such as [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-
-  #### Why it matters
-
-  Without a licence, others cannot legally reuse your code, even if they can see it.
-
-  #### What to do
-
-  Add a `LICENSE` file to your repository. On GitHub, you can do this by selecting **"Add file → Choose a license template"**. SciLifeLab's standard is the MIT Licence. If your repository includes other materials like text or figures, add a separate licence for those, for example *CC BY 4.0* (copy the legal text from [CC BY 4.0 legal text](https://creativecommons.org/licenses/by/4.0/legalcode.txt) since GitHub does not offer 4.0). Name your code licence `LICENCE-CODE` and your content licence `LICENCE-CONTENT`, and list both clearly in your `README`.
-
-  </details>
+*These steps are the minimum needed to share your code properly.*
 
 - [ ] **Add metadata** `Findable`
 
@@ -85,6 +68,23 @@ This checklist provides essential steps for sharing and citing research code. It
   #### What to do
 
   Upload your code to a public version-controlled repository on a platform like GitHub.
+
+  </details>
+
+- [ ] **Add an open licence** `Reusable`
+
+  <details>
+  <summary>Read more</summary>
+
+  Add a licence to your code so others know how they can use, share, and modify it. Without a licence, your code cannot legally be reused, even if it is publicly available. Common options are the [MIT Licence](https://choosealicense.com/licenses/mit/) and [Apache Licence](https://choosealicense.com/licenses/apache-2.0/). If your repository also contains other content like text or figures, add a separate licence for those, such as [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+  #### Why it matters
+
+  Without a licence, others cannot legally reuse your code, even if they can see it.
+
+  #### What to do
+
+  Add a `LICENSE` file to your repository. On GitHub, you can do this by selecting **"Add file → Choose a license template"**. SciLifeLab's standard is the MIT Licence. If your repository includes other materials like text or figures, add a separate licence for those, for example *CC BY 4.0* (copy the legal text from [CC BY 4.0 legal text](https://creativecommons.org/licenses/by/4.0/legalcode.txt) since GitHub does not offer 4.0). Name your code licence `LICENCE-CODE` and your content licence `LICENCE-CONTENT`, and list both clearly in your `README`.
 
   </details>
 

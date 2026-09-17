@@ -22,7 +22,7 @@
     {
       "id": 2,
       "title": "Add an open licence",
-      "fair_category": "Findable",
+      "fair_category": "Reusable",
       "priority": "Essential",
       "description": "Add a licence to your code so others know how they can use, share, and modify it. Without a licence, your code cannot legally be reused, even if it is publicly available. Common options are the [MIT Licence](https://choosealicense.com/licenses/mit/) and [Apache Licence](https://choosealicense.com/licenses/apache-2.0/). If your repository also contains other content like text or figures, add a separate licence for those, such as [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).",
       "explanation": "Without a licence, others cannot legally reuse your code, even if they can see it.",
