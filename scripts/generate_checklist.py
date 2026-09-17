@@ -20,7 +20,7 @@ priority_order = ["Essential", "Recommended", "Advanced"]
 fair_order = ["Findable", "Accessible", "Interoperable", "Reusable", "Best practice"]
 
 priority_descriptions = {
-    "Essential": "Start here. These steps are the minimum needed to share your code properly.",
+    "Essential": "These steps are the minimum needed to share your code properly.",
     "Recommended": "These steps make your code easier to use, understand, and build on.",
     "Advanced": "Most useful for larger projects, or code that others will actively contribute to or maintain.",
 }
